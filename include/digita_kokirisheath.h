@@ -1,0 +1,20 @@
+#ifndef DIGITA_KOKIRISHEATH_H
+#define DIGITA_KOKIRISHEATH_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaHumanKokiriSheathDL_sheath_kokiri_rgba16[];
+extern u64 gDigitaHumanKokiriSheathDL_kokiri_termina_pommel_rgba16[];
+extern Vtx gDigitaHumanKokiriSheathDL_gDigitaHumanKokiriSheathDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaHumanKokiriSheathDL_gDigitaHumanKokiriSheathDL_mesh_layer_Opaque_vtx_0[26];
+extern Gfx gDigitaHumanKokiriSheathDL_gDigitaHumanKokiriSheathDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaHumanKokiriSheathDL_gDigitaHumanKokiriSheathDL_mesh_layer_Opaque_vtx_1[24];
+extern Gfx gDigitaHumanKokiriSheathDL_gDigitaHumanKokiriSheathDL_mesh_layer_Opaque_tri_1[];
+extern Gfx mat_gDigitaHumanKokiriSheathDL_kokiri_sheath_layerOpaque[];
+extern Gfx mat_revert_gDigitaHumanKokiriSheathDL_kokiri_sheath_layerOpaque[];
+extern Gfx mat_gDigitaHumanKokiriSheathDL_kokiri_pommel_layerOpaque[];
+extern Gfx mat_revert_gDigitaHumanKokiriSheathDL_kokiri_pommel_layerOpaque[];
+extern Gfx gDigitaHumanKokiriSheathDL[];
+
+#endif

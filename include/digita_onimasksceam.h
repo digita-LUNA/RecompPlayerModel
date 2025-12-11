@@ -1,0 +1,60 @@
+#ifndef DIGITA_ONIMASKSCEAM_H
+#define DIGITA_ONIMASKSCEAM_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaOniMaskScreamDL_tunic_hat_rgba16[];
+extern u64 gDigitaOniMaskScreamDL_tunic_waist_rgba16[];
+extern u64 gDigitaOniMaskScreamDL__06007280_ci4[];
+extern u64 gDigitaOniMaskScreamDL__06007280_pal_rgba16[];
+extern u64 gDigitaOniMaskScreamDL_tex_001350_ci8_rgba16[];
+extern u64 gDigitaOniMaskScreamDL_ear_ci8[];
+extern u64 gDigitaOniMaskScreamDL_ear_pal_rgba16[];
+extern u64 gDigitaOniMaskScreamDL_tex_001B50_ci8_ci8[];
+extern u64 gDigitaOniMaskScreamDL_tex_001B50_ci8_pal_rgba16[];
+extern u64 gDigitaOniMaskScreamDL_hair_top_ci4[];
+extern u64 gDigitaOniMaskScreamDL_hair_top_pal_rgba16[];
+extern u64 gDigitaOniMaskScreamDL_hair_bottom_ci4[];
+extern u64 gDigitaOniMaskScreamDL_hair_bottom_pal_rgba16[];
+extern u64 gDigitaOniMaskScreamDL__06006980_rgba32[];
+extern Vtx gDigitaOniMaskScreamDL_gDigitaOniMaskScreamDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaOniMaskScreamDL_gDigitaOniMaskScreamDL_mesh_layer_Opaque_vtx_0[31];
+extern Gfx gDigitaOniMaskScreamDL_gDigitaOniMaskScreamDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaOniMaskScreamDL_gDigitaOniMaskScreamDL_mesh_layer_Opaque_vtx_1[18];
+extern Gfx gDigitaOniMaskScreamDL_gDigitaOniMaskScreamDL_mesh_layer_Opaque_tri_1[];
+extern Vtx gDigitaOniMaskScreamDL_gDigitaOniMaskScreamDL_mesh_layer_Opaque_vtx_2[3];
+extern Gfx gDigitaOniMaskScreamDL_gDigitaOniMaskScreamDL_mesh_layer_Opaque_tri_2[];
+extern Vtx gDigitaOniMaskScreamDL_gDigitaOniMaskScreamDL_mesh_layer_Opaque_vtx_3[75];
+extern Gfx gDigitaOniMaskScreamDL_gDigitaOniMaskScreamDL_mesh_layer_Opaque_tri_3[];
+extern Vtx gDigitaOniMaskScreamDL_gDigitaOniMaskScreamDL_mesh_layer_Opaque_vtx_4[8];
+extern Gfx gDigitaOniMaskScreamDL_gDigitaOniMaskScreamDL_mesh_layer_Opaque_tri_4[];
+extern Vtx gDigitaOniMaskScreamDL_gDigitaOniMaskScreamDL_mesh_layer_Opaque_vtx_5[6];
+extern Gfx gDigitaOniMaskScreamDL_gDigitaOniMaskScreamDL_mesh_layer_Opaque_tri_5[];
+extern Vtx gDigitaOniMaskScreamDL_gDigitaOniMaskScreamDL_mesh_layer_Opaque_vtx_6[67];
+extern Gfx gDigitaOniMaskScreamDL_gDigitaOniMaskScreamDL_mesh_layer_Opaque_tri_6[];
+extern Vtx gDigitaOniMaskScreamDL_gDigitaOniMaskScreamDL_mesh_layer_Opaque_vtx_7[28];
+extern Gfx gDigitaOniMaskScreamDL_gDigitaOniMaskScreamDL_mesh_layer_Opaque_tri_7[];
+extern Vtx gDigitaOniMaskScreamDL_gDigitaOniMaskScreamDL_mesh_layer_Opaque_vtx_8[8];
+extern Gfx gDigitaOniMaskScreamDL_gDigitaOniMaskScreamDL_mesh_layer_Opaque_tri_8[];
+extern Gfx mat_gDigitaOniMaskScreamDL_oni_hat_layerOpaque[];
+extern Gfx mat_revert_gDigitaOniMaskScreamDL_oni_hat_layerOpaque[];
+extern Gfx mat_gDigitaOniMaskScreamDL_oni_skirt_layerOpaque[];
+extern Gfx mat_revert_gDigitaOniMaskScreamDL_oni_skirt_layerOpaque[];
+extern Gfx mat_gDigitaOniMaskScreamDL_nostril_oni_layerOpaque[];
+extern Gfx mat_revert_gDigitaOniMaskScreamDL_nostril_oni_layerOpaque[];
+extern Gfx mat_gDigitaOniMaskScreamDL_oni_eyes_scream_layerOpaque[];
+extern Gfx mat_revert_gDigitaOniMaskScreamDL_oni_eyes_scream_layerOpaque[];
+extern Gfx mat_gDigitaOniMaskScreamDL_ear_oni_layerOpaque[];
+extern Gfx mat_revert_gDigitaOniMaskScreamDL_ear_oni_layerOpaque[];
+extern Gfx mat_gDigitaOniMaskScreamDL_oni_mouth_scream_layerOpaque[];
+extern Gfx mat_revert_gDigitaOniMaskScreamDL_oni_mouth_scream_layerOpaque[];
+extern Gfx mat_gDigitaOniMaskScreamDL_hair_oni_layerOpaque[];
+extern Gfx mat_revert_gDigitaOniMaskScreamDL_hair_oni_layerOpaque[];
+extern Gfx mat_gDigitaOniMaskScreamDL_hair1_oni_layerOpaque[];
+extern Gfx mat_revert_gDigitaOniMaskScreamDL_hair1_oni_layerOpaque[];
+extern Gfx mat_gDigitaOniMaskScreamDL_earring_001_layerOpaque[];
+extern Gfx mat_revert_gDigitaOniMaskScreamDL_earring_001_layerOpaque[];
+extern Gfx gDigitaOniMaskScreamDL[];
+
+#endif

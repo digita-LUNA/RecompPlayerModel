@@ -1,0 +1,33 @@
+#ifndef DIGITA_HERO_H
+#define DIGITA_HERO_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaHerosShieldDL_hero_bottom_ci8[];
+extern u64 gDigitaHerosShieldDL_hero_bottom_pal_rgba16[];
+extern u64 gDigitaHerosShieldDL_hero_top_ci8[];
+extern u64 gDigitaHerosShieldDL_hero_top_pal_rgba16[];
+extern u64 gDigitaHerosShieldDL_shield_back_ci8[];
+extern u64 gDigitaHerosShieldDL_shield_back_pal_rgba16[];
+extern u64 gDigitaHerosShieldDL_leather_strap_rgba16[];
+extern Vtx gDigitaHerosShieldDL_gDigitaHerosShieldDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaHerosShieldDL_gDigitaHerosShieldDL_mesh_layer_Opaque_vtx_0[8];
+extern Gfx gDigitaHerosShieldDL_gDigitaHerosShieldDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaHerosShieldDL_gDigitaHerosShieldDL_mesh_layer_Opaque_vtx_1[11];
+extern Gfx gDigitaHerosShieldDL_gDigitaHerosShieldDL_mesh_layer_Opaque_tri_1[];
+extern Vtx gDigitaHerosShieldDL_gDigitaHerosShieldDL_mesh_layer_Opaque_vtx_2[25];
+extern Gfx gDigitaHerosShieldDL_gDigitaHerosShieldDL_mesh_layer_Opaque_tri_2[];
+extern Vtx gDigitaHerosShieldDL_gDigitaHerosShieldDL_mesh_layer_Opaque_vtx_3[12];
+extern Gfx gDigitaHerosShieldDL_gDigitaHerosShieldDL_mesh_layer_Opaque_tri_3[];
+extern Gfx mat_gDigitaHerosShieldDL_hero_bottom_layerOpaque[];
+extern Gfx mat_revert_gDigitaHerosShieldDL_hero_bottom_layerOpaque[];
+extern Gfx mat_gDigitaHerosShieldDL_hero_top_layerOpaque[];
+extern Gfx mat_revert_gDigitaHerosShieldDL_hero_top_layerOpaque[];
+extern Gfx mat_gDigitaHerosShieldDL_shield_back_layerOpaque[];
+extern Gfx mat_revert_gDigitaHerosShieldDL_shield_back_layerOpaque[];
+extern Gfx mat_gDigitaHerosShieldDL_belt_layerOpaque[];
+extern Gfx mat_revert_gDigitaHerosShieldDL_belt_layerOpaque[];
+extern Gfx gDigitaHerosShieldDL[];
+
+#endif

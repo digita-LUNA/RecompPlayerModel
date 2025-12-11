@@ -1,0 +1,26 @@
+#ifndef DIGITA_KOKIRIHILT_H
+#define DIGITA_KOKIRIHILT_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaHumanKokiriHiltDL_kokiri_termina_crossguard_ci4[];
+extern u64 gDigitaHumanKokiriHiltDL_kokiri_termina_crossguard_pal_rgba16[];
+extern u64 gDigitaHumanKokiriHiltDL_kokiri_termina_pommel_rgba16[];
+extern u64 gDigitaHumanKokiriHiltDL_kokiri_termina_grip_i8[];
+extern Vtx gDigitaHumanKokiriHiltDL_gDigitaHumanKokiriHiltDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaHumanKokiriHiltDL_gDigitaHumanKokiriHiltDL_mesh_layer_Opaque_vtx_0[16];
+extern Gfx gDigitaHumanKokiriHiltDL_gDigitaHumanKokiriHiltDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaHumanKokiriHiltDL_gDigitaHumanKokiriHiltDL_mesh_layer_Opaque_vtx_1[9];
+extern Gfx gDigitaHumanKokiriHiltDL_gDigitaHumanKokiriHiltDL_mesh_layer_Opaque_tri_1[];
+extern Vtx gDigitaHumanKokiriHiltDL_gDigitaHumanKokiriHiltDL_mesh_layer_Opaque_vtx_2[24];
+extern Gfx gDigitaHumanKokiriHiltDL_gDigitaHumanKokiriHiltDL_mesh_layer_Opaque_tri_2[];
+extern Gfx mat_gDigitaHumanKokiriHiltDL_kokiri_crossguard_layerOpaque[];
+extern Gfx mat_revert_gDigitaHumanKokiriHiltDL_kokiri_crossguard_layerOpaque[];
+extern Gfx mat_gDigitaHumanKokiriHiltDL_kokiri_pommel_layerOpaque[];
+extern Gfx mat_revert_gDigitaHumanKokiriHiltDL_kokiri_pommel_layerOpaque[];
+extern Gfx mat_gDigitaHumanKokiriHiltDL_kokiri_grip_layerOpaque[];
+extern Gfx mat_revert_gDigitaHumanKokiriHiltDL_kokiri_grip_layerOpaque[];
+extern Gfx gDigitaHumanKokiriHiltDL[];
+
+#endif

@@ -1,6 +1,6 @@
-#include "digita_link.h"
+#include "digita_link_child.h"
 
-u64 gLinkHumanSkel_leather_strap_rgba16[] = {
+u64 gDigitaChildSkel_leather_strap_rgba16[] = {
 	0x9001900190017001, 0x7801780178018801, 0x8801880180017801, 0x7001700168018001, 0x6001500138015001, 0x4801600140014841, 0x2001200130012841, 0x3001300138012001, 
 	0x3801300138013801, 0x3801380138013001, 0x3801380130013001, 0x3001380338014001, 0x5001480140013801, 0x4001380148014801, 0x5801500150014801, 0x4801480148014801, 
 	0x6001580150015001, 0x4801480148014001, 0x6001600158015001, 0x4801480150014801, 0x6001584160015001, 0x5801500148014801, 0x5801500168016041, 0x5001500148015001, 
@@ -8,7 +8,7 @@ u64 gLinkHumanSkel_leather_strap_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_tunic_waist_rgba16[] = {
+u64 gDigitaChildSkel_tunic_waist_rgba16[] = {
 	0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 
 	0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 
 	0xffffffffffffffff, 0xfffffffff7bdf7bd, 0xf7bdffffffffffff, 0xffffffffffffffff, 0xfffffffff7bdffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 
@@ -44,7 +44,7 @@ u64 gLinkHumanSkel_tunic_waist_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_belt_rgba16[] = {
+u64 gDigitaChildSkel_belt_rgba16[] = {
 	0x90019801484100c1, 0x004108c18ac19341, 0x93418b0182c17ac1, 0x7a81728172817a81, 0x82c1930193419381, 0x9381930182c17a81, 0x7a817a8172410001, 0x0001000118818801, 
 	0x7801880188018001, 0x300100c17ac19381, 0x938193418b0182c1, 0x7ac17a817a817ac1, 0x82c1930193419381, 0x93818b017a817a81, 0x7a8182c162410001, 0x2001480190018001, 
 	0x3801600168017001, 0x680150018ac19bc1, 0x9bc17a8130013803, 0x5001580178019041, 0x9081884180016801, 0x58014801508161c1, 0x83018b0172034001, 0x4801400140013801, 
@@ -64,13 +64,13 @@ u64 gLinkHumanSkel_belt_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_link_skin_rgba16[] = {
+u64 gDigitaChildSkel_link_skin_rgba16[] = {
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3ee9fe619, 0xe619ee9ffee3fee3, 0xfee3ee5dd5d3d5d3, 0xd5d3d5d3ee5dfee3, 0xfee3ddd9d5d3d5d3, 0xd5d3d5d3ddd9fee3, 
 	0xfee3ddd7d5d3d5d3, 0xd5d3d5d3ddd7fee3, 0xfee3e619d5d3d5d3, 0xd5d3d5d3e619fee3, 0xfee3f6a1e619d5d3, 0xd5d3e619f6a1fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	
 };
 
-u64 gLinkHumanSkel_bootcuff_rgba16[] = {
+u64 gDigitaChildSkel_bootcuff_rgba16[] = {
 	0x7247724772477247, 0x7247724772477247, 0x7247724772477247, 0x7247724772477247, 0x7247724772477a87, 0x7a877a8772477247, 0x7247724772477247, 0x7247724772477247, 
 	0x7247724772477247, 0x7247724772477247, 0x724772477a877a87, 0x7a87724772477247, 0x7247724772477247, 0x7247724772477247, 0x7247724772477247, 0x7247724772477247, 
 	0x7a877a877a877a87, 0x7a877a877a877a87, 0x7a877a877a878289, 0x8289828982898289, 0x8289828982898289, 0x8289828982898289, 0x8289828982898289, 0x8289828982898289, 
@@ -138,7 +138,7 @@ u64 gLinkHumanSkel_bootcuff_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_bootshin_rgba16[] = {
+u64 gDigitaChildSkel_bootshin_rgba16[] = {
 	0x28c128c128c128c1, 0x28c128c128c128c1, 0x28c128c128c128c1, 0x28c128c128c128c1, 0x28c128c128c128c1, 0x28c128c128c128c1, 0x28c128c128c128c1, 0x28c128c128c128c1, 
 	0x28c128c128c128c1, 0x28c128c128c128c1, 0x28c128c128c128c1, 0x28c128c128c128c1, 0x28c128c128c128c1, 0x28c128c128c128c1, 0x28c128c128c128c1, 0x28c128c128c128c1, 
 	0x28c128c128c128c1, 0x28c128c128c128c1, 0x28c128c128c128c1, 0x28c128c128c128c1, 0x28c128c128c128c1, 0x28c128c128c128c1, 0x28c128c128c128c1, 0x28c128c128c128c1, 
@@ -174,7 +174,7 @@ u64 gLinkHumanSkel_bootshin_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_BootFoot_rgba16[] = {
+u64 gDigitaChildSkel_BootFoot_rgba16[] = {
 	0x38c138c138c138c1, 0x38c138c138c138c1, 0x38c138c138c138c1, 0x38c138c138c138c1, 0x38c138c138c138c1, 0x38c138c138c138c1, 0x38c130c138c13901, 0x4101390138c138c1, 
 	0x38c138c138c138c1, 0x38c138c138c138c1, 0x38c138c138c138c1, 0x38c138c138c138c1, 0x38c138c138c138c1, 0x38c138c138c138c1, 0x38c138c138c138c1, 0x38c138c138c138c1, 
 	0x38c138c138c138c1, 0x38c138c138c138c1, 0x38c138c138c138c1, 0x38c138c139013901, 0x3901390139013901, 0x4101410141014101, 0x38c130c138c13901, 0x39014101410138c1, 
@@ -242,7 +242,7 @@ u64 gLinkHumanSkel_BootFoot_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_link_hair_rgba16[] = {
+u64 gDigitaChildSkel_link_hair_rgba16[] = {
 	0xab81ab81ab81ab81, 0xab81ab81ab81ab81, 0xab81b3c1ab81b401, 0xab81ab81b3c1ab81, 0xb3c1c481ab81ccc1, 0xab81b3c1bc41ab81, 0xcd01cd01ab81d541, 0xb3c1bc41c4c1ab81, 
 	0xd541d581bc01dd81, 0xbc41cd01d541b3c1, 0xd541ddc1ccc1dd81, 0xc4c1dd81d581bc01, 0xd581e601e601ee41, 0xd581e601dd81ccc1, 0xee41ee41f681ee41, 0xdd81ee41ee41ee41, 
 	0xee41f6c1fec1ee81, 0xddc1ee41ff01ee41, 0xee41f6c1ff01f681, 0xd541ee41ff01ee41, 0xd541e601f6c1ddc1, 0xccc1e601ee41dd81, 0xccc1dd81cd01dd81, 0xbc01d501ccc1d541, 
@@ -250,7 +250,7 @@ u64 gLinkHumanSkel_link_hair_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_gLinkChildEyesOpenTex_rgba16[] = {
+u64 gDigitaChildSkel_gLinkChildEyesOpenTex_rgba16[] = {
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
@@ -318,7 +318,7 @@ u64 gLinkHumanSkel_gLinkChildEyesOpenTex_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_gLinkChildEyesHalfTex_rgba16[] = {
+u64 gDigitaChildSkel_gLinkChildEyesHalfTex_rgba16[] = {
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
@@ -386,7 +386,7 @@ u64 gLinkHumanSkel_gLinkChildEyesHalfTex_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_gLinkChildEyesClosedfTex_rgba16[] = {
+u64 gDigitaChildSkel_gLinkChildEyesClosedfTex_rgba16[] = {
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
@@ -454,7 +454,7 @@ u64 gLinkHumanSkel_gLinkChildEyesClosedfTex_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_gLinkChildEyesRollRightTex_rgba16[] = {
+u64 gDigitaChildSkel_gLinkChildEyesRollRightTex_rgba16[] = {
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
@@ -522,7 +522,7 @@ u64 gLinkHumanSkel_gLinkChildEyesRollRightTex_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_gLinkChildEyesRollLeftTex_rgba16[] = {
+u64 gDigitaChildSkel_gLinkChildEyesRollLeftTex_rgba16[] = {
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
@@ -590,7 +590,7 @@ u64 gLinkHumanSkel_gLinkChildEyesRollLeftTex_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_gLinkChildEyesShockTex_rgba16[] = {
+u64 gDigitaChildSkel_gLinkChildEyesShockTex_rgba16[] = {
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
@@ -658,7 +658,7 @@ u64 gLinkHumanSkel_gLinkChildEyesShockTex_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_gLinkChildEyesUnk1Tex_rgba16[] = {
+u64 gDigitaChildSkel_gLinkChildEyesUnk1Tex_rgba16[] = {
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
@@ -726,7 +726,7 @@ u64 gLinkHumanSkel_gLinkChildEyesUnk1Tex_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_gLinkChildEyesUnk2Tex_rgba16[] = {
+u64 gDigitaChildSkel_gLinkChildEyesUnk2Tex_rgba16[] = {
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
@@ -794,7 +794,7 @@ u64 gLinkHumanSkel_gLinkChildEyesUnk2Tex_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_gLinkChildMouth1Tex_rgba16[] = {
+u64 gDigitaChildSkel_gLinkChildMouth1Tex_rgba16[] = {
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
@@ -830,7 +830,7 @@ u64 gLinkHumanSkel_gLinkChildMouth1Tex_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_gLinkChildMouth2Tex_rgba16[] = {
+u64 gDigitaChildSkel_gLinkChildMouth2Tex_rgba16[] = {
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3f6e3f6e1, 0xeea1eea1ee9fee9f, 0xee9fee9feea1eea1, 0xf6e1f6e3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3eea1, 0xee9fee5fe65de65d, 0xde5dde1bde1bde1b, 0xde1bde1bde1bde5d, 0xe65de65dee5fee9f, 0xeea1f6a1fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xeea1ee9fee5fe65d, 0xe65dde1dde1dde1b, 0xde1bde1dde1de65d, 0xe65dee5fee9feea1, 0xf6a1fee3fee3fee3, 0xfee3fee3fee3fee3, 
@@ -866,7 +866,7 @@ u64 gLinkHumanSkel_gLinkChildMouth2Tex_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_gLinkChildMouth3Tex_rgba16[] = {
+u64 gDigitaChildSkel_gLinkChildMouth3Tex_rgba16[] = {
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
@@ -902,7 +902,7 @@ u64 gLinkHumanSkel_gLinkChildMouth3Tex_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_gLinkChildMouth4Tex_rgba16[] = {
+u64 gDigitaChildSkel_gLinkChildMouth4Tex_rgba16[] = {
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
 	0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 0xfee3fee3fee3fee3, 
@@ -938,7 +938,7 @@ u64 gLinkHumanSkel_gLinkChildMouth4Tex_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_link_nostril_rgba16[] = {
+u64 gDigitaChildSkel_link_nostril_rgba16[] = {
 	0xe661e661e661e661, 0xe661e661e661e61f, 0xe661e661e661e661, 0xe661e661e661e61f, 0xe661e661e661e661, 0xe661e661e661e661, 0xe661e661e661e661, 0xe661e661e661e661, 
 	0xe661e661e661e661, 0xe661e661e661e65f, 0xe661e661e661e661, 0xe661e661e661e661, 0xe661e661e661e661, 0xe661e661e61fe61f, 0xe61fe61fe61fe65f, 0xe661e661e661e661, 
 	0xe661e661e661e661, 0xe65fe61fdddddddd, 0xddddddddde1fe61f, 0xe65fe661e661e661, 0xe661e661e661e661, 0xe61fdddddddddd9b, 0xdd9bddddddddde1d, 0xe61fe661e661e661, 
@@ -950,7 +950,7 @@ u64 gLinkHumanSkel_link_nostril_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_link_hair1_rgba16[] = {
+u64 gDigitaChildSkel_link_hair1_rgba16[] = {
 	0x7203720372037203, 0x7203720372037203, 0x7203720372037243, 0x7203720372037203, 0x72437a4372037a43, 0x720372037a437203, 0x7a837a4372037a83, 0x72437a437a437203, 
 	0x828382837a438283, 0x7a437a4382837203, 0x82838ac37a438283, 0x7a43828382837a43, 0x82838ac38ac38b03, 0x82838ac382837a43, 0x9303930393039303, 0x8283930393039303, 
 	0x93039b439b439303, 0x8ac393039b439303, 0x930393439b439303, 0x828393039b439303, 0x82838ac393438ac3, 0x7a438b0393038283, 0x7a4382837a438283, 0x7a437a837a438283, 
@@ -958,7 +958,7 @@ u64 gLinkHumanSkel_link_hair1_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_link_ear_rgba16[] = {
+u64 gDigitaChildSkel_link_ear_rgba16[] = {
 	0xf6a3f6a3f6a3f6a3, 0xf6a3f6a3f6a3f6a3, 0xf6a3f6a3f6a3f6a3, 0xf6a3f6a3f6a3f6a3, 0xf6a3f6a3f6a3f6a3, 0xf6a3f6a3f6a3f6a3, 0xf6a3f6a3eea1ee5f, 0xeea1f6a3f6a3f6a3, 
 	0xf6a3f6a3f6a3f6a3, 0xf6a3f6a3f6a3eea1, 0xe65fddd9bd11cd93, 0xddd9f6a3f6a3f6a3, 0xf6a3f6a3f6a3f6a3, 0xf6a3f6a3e65fde1b, 0xd597ac8fd595e657, 0xd5d5eea1f6a3f6a3, 
 	0xf6a3f6a3f6a3f6a3, 0xf6a1eea1de1bd597, 0xac8fc511e657f695, 0xd595eea1f6a3f6a3, 0xf6a3f6a3f6a3f6a1, 0xe61bcd55c553ac8f, 0xc511cd93d5d5e657, 0xd595eea1f6a3f6a3, 
@@ -970,7 +970,7 @@ u64 gLinkHumanSkel_link_ear_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_tunic_hat_rgba16[] = {
+u64 gDigitaChildSkel_tunic_hat_rgba16[] = {
 	0x9ce79ce7a529b5ad, 0xce73e739ce73b5ad, 0xe739e739f7bdf7bd, 0xfffffffff7bdbdef, 0xffffffffffffffff, 0xf7bde739bdefa529, 0xf7bdf7bddef7bdef, 0xb5ada529bdefa529, 
 	0xce73a529a5299ce7, 0xa529e739f7bdce73, 0x9ce7a529a529ce73, 0xffffffffffffe739, 0xdef7f7bdf7bdffff, 0xfffff7bde739f7bd, 0xffffffffffffffff, 0xf7bde739def7f7bd, 
 	0xfffffffff7bdf7bd, 0xdef7bdefce73ffff, 0xf7bddef7ce73bdef, 0xa529a529e739def7, 0xce73bdefa529a529, 0xce73f7bdf7bde739, 0xb5adb5ade739f7bd, 0xffffffffffffffff, 
@@ -978,7 +978,7 @@ u64 gLinkHumanSkel_tunic_hat_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_tunic_collar_rgba16[] = {
+u64 gDigitaChildSkel_tunic_collar_rgba16[] = {
 	0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 
 	0xffffffffffffffff, 0xfffffffff7bdffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xfffffffff7bdffff, 0xfffff7bdf7bdef7b, 0xf7bdf7bdffffffff, 0xffffffffffffffff, 
 	0xfffffffff7bdf7bd, 0xfffff7bdf7bddef7, 0xe739e739f7bdf7bd, 0xf7bdf7bdf7bdffff, 0xfffffffff7bdef7b, 0xf7bdef7bef7bd6b5, 0xdef7def7ef7bef7b, 0xef7be739f7bdffff, 
@@ -990,7 +990,7 @@ u64 gLinkHumanSkel_tunic_collar_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_tunic_sleeve_rgba16[] = {
+u64 gDigitaChildSkel_tunic_sleeve_rgba16[] = {
 	0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 
 	0xffffffffffffffff, 0xffffffffffffffff, 0xf7bdef7bef7bf7bd, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffef7b, 0xe739f7bdffffffff, 
 	0xffffffffffffffff, 0xffffffffffffffff, 0xfffff7bdffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xfffffffffffff7bd, 0xf7bdd6b5ce73e739, 0xf7bdffffffffffff, 
@@ -1002,7 +1002,7 @@ u64 gLinkHumanSkel_tunic_sleeve_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_tunic_torso_rgba16[] = {
+u64 gDigitaChildSkel_tunic_torso_rgba16[] = {
 	0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 
 	0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 
 	0xfffffffffffff7bd, 0xf7bdf7bdffffffff, 0xffffffffffffffff, 0xffffffffffffffff, 0xfffffffffffff7bd, 0xf7bde739ef7bf7bd, 0xffffffffffffffff, 0xffffffffffffffff, 
@@ -1022,7 +1022,7 @@ u64 gLinkHumanSkel_tunic_torso_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_link_hand_rgba16[] = {
+u64 gDigitaChildSkel_link_hand_rgba16[] = {
 	0xb44bb44bb44bb44b, 0xb44ddd55ffa7d553, 0xbc8dff63ddd7b44b, 0xb44bb44bb44bb44b, 0xb44bb44bc48fc4cf, 0xbc8df7adfff7ff23, 0xdd53fff3fff5fe5b, 0xb44bb44bb44bb44b, 
 	0xb44bdd95fff3fff1, 0xcd11ffe7ffe9fedf, 0xe595ffe5ffe7f659, 0xb44db44bb44bb44b, 0xc48ffe5dfff3fff3, 0xcd11ffa3ff63fedd, 0xe5d5ff61ff21ee5b, 0xc48fccd1c4cfb44b, 
 	0xc4cff65bff65ffa3, 0xbccfffa3ff63fedd, 0xdd93ff61ff63fee1, 0xd553ffedffabb44b, 0xcccff659ff63ff61, 0xc4cfff1fff21f69d, 0xd555ff21ff21f6e1, 0xd595ffebffefbc8d, 
@@ -1034,7 +1034,7 @@ u64 gLinkHumanSkel_link_hand_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_sheath_kokiri_rgba16[] = {
+u64 gDigitaChildSkel_sheath_kokiri_rgba16[] = {
 	0x20c3314341c55245, 0x62856ac76ac76ac7, 0x6ac76ac762855245, 0x49c53143290320c3, 0x52458347a409ac89, 0xbccbc50bc50bcd0b, 0xcd0bcd0bcd0bcd0b, 0xcd0bcd0bcd0bcd0b, 
 	0x290339835a456ac7, 0x7b4793899c09a409, 0xac49ac89b489bccb, 0xc50bcd0bcd0bcd0b, 0x108120c329033143, 0x290318c318c318c3, 0x20c320c320c320c3, 0x2903290329033143, 
 	0x6ac76ac75a4549c5, 0x41c549c552055a45, 0x62856ac773077b47, 0x834783478b878b87, 0xcd0ba4098b877307, 0x6ac76ac773077b47, 0x8347834783478347, 0x8b8793c993c993c9, 
@@ -1070,13 +1070,13 @@ u64 gLinkHumanSkel_sheath_kokiri_rgba16[] = {
 	
 };
 
-u64 gLinkHumanSkel_kokiri_termina_pommel_rgba16[] = {
+u64 gDigitaChildSkel_kokiri_termina_pommel_rgba16[] = {
 	0x29f32a353a7742fb, 0x4b3b4b7d53bf53ff, 0x29f529f329f529f5, 0x323532353a773a77, 0x29f529b321b1216d, 0x196d197321792177, 0x29f521b3216f1927, 0x10e1214d214d214d, 
 	0x29f521b1196d10e5, 0x214d7387bdc1bdc1, 0x29f521b1192b10a3, 0x214dbdc139c139c1, 0x29f5216d1927089f, 0x214dbdc14a41f7c5, 0x29f5196d10a3085d, 0x214dbdc17bc3f7c5, 
 	
 };
 
-u64 gLinkHumanSkel_baldric_rgba16[] = {
+u64 gDigitaChildSkel_baldric_rgba16[] = {
 	0x8001800178017001, 0x7801780178017801, 0x7001780178017801, 0x8001800180017801, 0xb001a801a0019801, 0x9801980198019801, 0x9801900198019801, 0x9801900178016801, 
 	0xa801b001a8019801, 0x9801980198019801, 0x9801900198019801, 0x9801880168015801, 0x9801a00198018801, 0x9001900188018801, 0x8801880188018801, 0x8801700158015801, 
 	0x9801980188017801, 0x7801780178017801, 0x7801780170017001, 0x7001680158015801, 0x9801980188017801, 0x7801780178017801, 0x7801780178017801, 0x7801680158015801, 
@@ -1088,21 +1088,21 @@ u64 gLinkHumanSkel_baldric_rgba16[] = {
 	
 };
 
-Vtx gLinkHumanSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_vtx_0[10] = {
-	{{ {-18, 50, 393}, 0, {122, 449}, {166, 83, 34, 255} }},
-	{{ {-21, -229, 150}, 0, {-20, 472}, {249, 138, 209, 255} }},
-	{{ {267, -230, 151}, 0, {39, -66}, {249, 139, 48, 255} }},
-	{{ {203, 49, 400}, 0, {168, 34}, {181, 12, 101, 255} }},
-	{{ {-17, 353, 4}, 0, {278, 423}, {135, 2, 39, 255} }},
-	{{ {204, 367, 3}, 0, {331, 7}, {167, 91, 0, 255} }},
-	{{ {200, 49, -394}, 0, {168, 34}, {179, 12, 155, 255} }},
-	{{ {-22, 50, -385}, 0, {122, 449}, {165, 182, 208, 255} }},
-	{{ {265, -230, -147}, 0, {39, -66}, {250, 139, 207, 255} }},
-	{{ {-22, -229, -141}, 0, {-20, 472}, {38, 146, 205, 255} }},
+Vtx gDigitaChildSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_vtx_0[10] = {
+	{{ {-18, 50, 393}, 0, {122, 449}, {253, 225, 123, 255} }},
+	{{ {-21, -229, 150}, 0, {-20, 472}, {255, 134, 35, 255} }},
+	{{ {267, -230, 151}, 0, {39, -66}, {254, 149, 69, 255} }},
+	{{ {203, 49, 400}, 0, {168, 34}, {251, 53, 116, 255} }},
+	{{ {-17, 353, 4}, 0, {278, 423}, {251, 127, 0, 255} }},
+	{{ {204, 367, 3}, 0, {331, 7}, {248, 127, 0, 255} }},
+	{{ {200, 49, -394}, 0, {168, 34}, {250, 53, 141, 255} }},
+	{{ {-22, 50, -385}, 0, {122, 449}, {200, 228, 146, 255} }},
+	{{ {265, -230, -147}, 0, {39, -66}, {254, 140, 204, 255} }},
+	{{ {-22, -229, -141}, 0, {-20, 472}, {161, 179, 221, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_tri_0[] = {
-	gsSPVertex(gLinkHumanSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_vtx_0 + 0, 10, 0),
+Gfx gDigitaChildSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gDigitaChildSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_vtx_0 + 0, 10, 0),
 	gsSP2Triangles(0, 1, 2, 0, 2, 3, 0, 0),
 	gsSP2Triangles(4, 0, 3, 0, 3, 5, 4, 0),
 	gsSP2Triangles(4, 5, 6, 0, 6, 7, 4, 0),
@@ -1110,23 +1110,23 @@ Gfx gLinkHumanSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_vtx_1[23] = {
+Vtx gDigitaChildSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_vtx_1[23] = {
 	{{ {282, 341, 253}, 0, {789, 4}, {187, 85, 65, 255} }},
-	{{ {204, 367, 3}, 0, {533, -112}, {167, 91, 0, 255} }},
-	{{ {203, 49, 400}, 0, {901, -112}, {181, 12, 101, 255} }},
+	{{ {204, 367, 3}, 0, {533, -112}, {168, 91, 1, 255} }},
+	{{ {203, 49, 400}, 0, {901, -112}, {172, 11, 95, 255} }},
 	{{ {356, 446, 50}, 0, {581, 118}, {222, 121, 21, 255} }},
 	{{ {355, 446, -45}, 0, {485, 118}, {221, 121, 236, 255} }},
 	{{ {501, 453, -40}, 0, {491, 344}, {246, 125, 239, 255} }},
 	{{ {501, 453, 43}, 0, {575, 344}, {246, 125, 17, 255} }},
 	{{ {877, 505, 0}, 0, {533, 928}, {243, 126, 0, 255} }},
 	{{ {279, 341, -248}, 0, {277, 4}, {186, 84, 192, 255} }},
-	{{ {200, 49, -394}, 0, {165, -112}, {179, 12, 155, 255} }},
+	{{ {200, 49, -394}, 0, {165, -112}, {171, 11, 162, 255} }},
 	{{ {291, 167, -360}, 0, {163, 26}, {214, 59, 151, 255} }},
 	{{ {331, 3, -455}, 0, {65, 92}, {213, 239, 138, 255} }},
 	{{ {305, -167, -329}, 0, {195, 52}, {200, 169, 183, 255} }},
-	{{ {265, -230, -147}, 0, {395, -10}, {250, 139, 207, 255} }},
+	{{ {265, -230, -147}, 0, {395, -10}, {180, 159, 224, 255} }},
 	{{ {317, -256, -155}, 0, {373, 72}, {219, 138, 227, 255} }},
-	{{ {267, -230, 151}, 0, {671, -10}, {249, 139, 48, 255} }},
+	{{ {267, -230, 151}, 0, {671, -10}, {184, 154, 24, 255} }},
 	{{ {318, -256, 160}, 0, {693, 72}, {219, 138, 30, 255} }},
 	{{ {450, -289, 43}, 0, {575, 278}, {244, 130, 11, 255} }},
 	{{ {449, -289, -39}, 0, {493, 278}, {244, 130, 246, 255} }},
@@ -1136,8 +1136,8 @@ Vtx gLinkHumanSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_vtx_1[23] = {
 	{{ {294, 167, 365}, 0, {903, 26}, {216, 59, 105, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_tri_1[] = {
-	gsSPVertex(gLinkHumanSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_vtx_1 + 0, 23, 0),
+Gfx gDigitaChildSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_tri_1[] = {
+	gsSPVertex(gDigitaChildSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_vtx_1 + 0, 23, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(3, 4, 1, 0, 5, 4, 3, 0),
 	gsSP2Triangles(3, 6, 5, 0, 6, 7, 5, 0),
@@ -1153,25 +1153,26 @@ Gfx gLinkHumanSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_tri_1[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_vtx_2[7] = {
-	{{ {265, -230, -147}, 0, {151, 509}, {250, 139, 207, 255} }},
-	{{ {267, -230, 151}, 0, {883, 513}, {249, 139, 48, 255} }},
-	{{ {-21, -229, 150}, 0, {881, -357}, {249, 138, 209, 255} }},
-	{{ {-22, -229, -141}, 0, {166, -360}, {38, 146, 205, 255} }},
-	{{ {-17, 353, 4}, 0, {523, -350}, {135, 2, 39, 255} }},
-	{{ {-18, 50, 393}, 0, {1479, -351}, {166, 83, 34, 255} }},
-	{{ {-22, 50, -385}, 0, {-431, -360}, {165, 182, 208, 255} }},
+Vtx gDigitaChildSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_vtx_2[8] = {
+	{{ {265, -230, -147}, 0, {151, 509}, {254, 140, 204, 255} }},
+	{{ {267, -230, 151}, 0, {883, 513}, {254, 149, 69, 255} }},
+	{{ {-21, -229, 150}, 0, {881, -357}, {255, 134, 35, 255} }},
+	{{ {-22, -229, -141}, 0, {166, -360}, {161, 179, 221, 255} }},
+	{{ {-21, -229, 150}, 0, {881, -357}, {129, 1, 0, 255} }},
+	{{ {-18, 50, 393}, 0, {1479, -351}, {129, 1, 0, 255} }},
+	{{ {-17, 353, 4}, 0, {523, -350}, {129, 1, 1, 255} }},
+	{{ {-22, 50, -385}, 0, {-431, -360}, {200, 228, 146, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_tri_2[] = {
-	gsSPVertex(gLinkHumanSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_vtx_2 + 0, 7, 0),
+Gfx gDigitaChildSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_tri_2[] = {
+	gsSPVertex(gDigitaChildSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_vtx_2 + 0, 8, 0),
 	gsSP2Triangles(0, 1, 2, 0, 2, 3, 0, 0),
-	gsSP2Triangles(4, 3, 2, 0, 2, 5, 4, 0),
-	gsSP1Triangle(4, 6, 3, 0),
+	gsSP2Triangles(4, 5, 6, 0, 6, 3, 4, 0),
+	gsSP1Triangle(6, 7, 3, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_vtx_0[10] = {
+Vtx gDigitaChildSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_vtx_0[10] = {
 	{{ {309, 59, -218}, 0, {138, 125}, {18, 68, 150, 255} }},
 	{{ {673, 47, -168}, 0, {139, -46}, {225, 49, 143, 255} }},
 	{{ {669, -193, -108}, 0, {75, -48}, {13, 151, 186, 255} }},
@@ -1184,8 +1185,8 @@ Vtx gLinkHumanSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_vtx_0[10] 
 	{{ {353, -202, -159}, 0, {69, 100}, {17, 166, 168, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_tri_0[] = {
-	gsSPVertex(gLinkHumanSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_vtx_0 + 0, 10, 0),
+Gfx gDigitaChildSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gDigitaChildSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_vtx_0 + 0, 10, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(3, 4, 1, 0, 5, 4, 3, 0),
 	gsSP2Triangles(3, 6, 5, 0, 6, 7, 5, 0),
@@ -1194,7 +1195,7 @@ Gfx gLinkHumanSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_tri_0[] = 
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_vtx_1[20] = {
+Vtx gDigitaChildSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_vtx_1[20] = {
 	{{ {507, -364, 187}, 0, {533, 1038}, {247, 129, 252, 255} }},
 	{{ {535, -345, -9}, 0, {731, 1084}, {248, 135, 217, 255} }},
 	{{ {76, -247, -137}, 0, {867, 372}, {245, 156, 179, 255} }},
@@ -1217,10 +1218,10 @@ Vtx gLinkHumanSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_vtx_1[20] 
 	{{ {877, 505, 0}, 0, {533, 928}, {243, 126, 0, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_tri_1[] = {
-	gsSPVertex(gLinkHumanSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_vtx_1 + 0, 10, 0),
+Gfx gDigitaChildSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_tri_1[] = {
+	gsSPVertex(gDigitaChildSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_vtx_1 + 0, 10, 0),
 	gsSPMatrix(0x0d000000, G_MTX_LOAD),
-	gsSPVertex(gLinkHumanSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_vtx_1 + 10, 10, 10),
+	gsSPVertex(gDigitaChildSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_vtx_1 + 10, 10, 10),
 	gsSP2Triangles(10, 0, 11, 0, 0, 10, 12, 0),
 	gsSP2Triangles(12, 1, 0, 0, 2, 1, 12, 0),
 	gsSP2Triangles(12, 13, 2, 0, 3, 2, 13, 0),
@@ -1235,7 +1236,7 @@ Gfx gLinkHumanSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_tri_1[] = 
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_vtx_0[15] = {
+Vtx gDigitaChildSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_vtx_0[15] = {
 	{{ {114, 76, -246}, 0, {133, -86}, {231, 34, 136, 255} }},
 	{{ {182, 226, -14}, 0, {181, -60}, {239, 126, 6, 255} }},
 	{{ {92, 78, 165}, 0, {134, -103}, {239, 42, 119, 255} }},
@@ -1253,10 +1254,10 @@ Vtx gLinkHumanSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_vtx_0[15] =
 	{{ {669, -193, -108}, 0, {48, -151}, {13, 151, 186, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_tri_0[] = {
-	gsSPVertex(gLinkHumanSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_vtx_0 + 0, 10, 0),
+Gfx gDigitaChildSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gDigitaChildSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_vtx_0 + 0, 10, 0),
 	gsSPMatrix(0x0d000040, G_MTX_LOAD),
-	gsSPVertex(gLinkHumanSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_vtx_0 + 10, 5, 10),
+	gsSPVertex(gDigitaChildSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_vtx_0 + 10, 5, 10),
 	gsSP2Triangles(10, 11, 0, 0, 11, 1, 0, 0),
 	gsSP2Triangles(2, 1, 11, 0, 2, 11, 12, 0),
 	gsSP2Triangles(12, 13, 2, 0, 13, 3, 2, 0),
@@ -1270,47 +1271,47 @@ Gfx gLinkHumanSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_vtx_1[35] = {
+Vtx gDigitaChildSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_vtx_1[35] = {
 	{{ {470, -193, -116}, 0, {790, 954}, {32, 145, 204, 255} }},
 	{{ {377, -186, -52}, 0, {1030, 676}, {90, 166, 2, 255} }},
 	{{ {359, -240, -57}, 0, {998, 448}, {55, 142, 1, 255} }},
 	{{ {377, -186, -52}, 0, {1030, 676}, {89, 166, 2, 255} }},
 	{{ {470, -193, 31}, 0, {1361, 954}, {27, 146, 56, 255} }},
 	{{ {359, -240, -57}, 0, {998, 448}, {55, 142, 1, 255} }},
-	{{ {310, 4, 231}, 0, {1446, 84}, {96, 1, 83, 255} }},
-	{{ {295, 260, 118}, 0, {1790, 84}, {213, 214, 112, 255} }},
+	{{ {310, 4, 231}, 0, {1446, 84}, {130, 253, 13, 255} }},
+	{{ {295, 260, 118}, 0, {1790, 84}, {129, 4, 7, 255} }},
 	{{ {279, 48, -49}, 0, {1017, -95}, {129, 254, 0, 255} }},
 	{{ {279, 48, -49}, 0, {1017, -95}, {129, 254, 0, 255} }},
-	{{ {305, -250, 75}, 0, {1180, 80}, {13, 6, 126, 255} }},
+	{{ {305, -250, 75}, 0, {1180, 80}, {129, 248, 6, 255} }},
 	{{ {462, 215, 68}, 0, {2175, 910}, {29, 94, 81, 255} }},
 	{{ {462, 215, -177}, 0, {1227, 910}, {47, 97, 189, 255} }},
-	{{ {295, 260, 118}, 0, {2368, -47}, {213, 214, 112, 255} }},
-	{{ {295, 260, -228}, 0, {1028, -47}, {203, 85, 78, 255} }},
+	{{ {295, 260, 118}, 0, {2368, -47}, {46, 101, 63, 255} }},
+	{{ {295, 260, -228}, 0, {1028, -47}, {47, 95, 186, 255} }},
 	{{ {474, 19, 154}, 0, {1836, 977}, {42, 232, 117, 255} }},
 	{{ {462, 215, 68}, 0, {1503, 910}, {29, 94, 81, 255} }},
-	{{ {295, 260, 118}, 0, {1696, -47}, {213, 214, 112, 255} }},
-	{{ {310, 4, 231}, 0, {2134, 38}, {96, 1, 83, 255} }},
-	{{ {305, -250, 75}, 0, {1531, 12}, {13, 6, 126, 255} }},
+	{{ {295, 260, 118}, 0, {1696, -47}, {46, 101, 63, 255} }},
+	{{ {310, 4, 231}, 0, {2134, 38}, {54, 250, 115, 255} }},
+	{{ {305, -250, 75}, 0, {1531, 12}, {47, 154, 59, 255} }},
 	{{ {470, -193, 31}, 0, {1361, 954}, {254, 138, 46, 255} }},
 	{{ {359, -240, -57}, 0, {998, 448}, {55, 142, 1, 255} }},
-	{{ {305, -250, -177}, 0, {556, 12}, {22, 7, 131, 255} }},
+	{{ {305, -250, -177}, 0, {556, 12}, {47, 155, 196, 255} }},
 	{{ {470, -193, -116}, 0, {790, 954}, {2, 138, 209, 255} }},
-	{{ {474, -1, -237}, 0, {322, 977}, {23, 251, 131, 255} }},
-	{{ {310, -11, -298}, 0, {86, 38}, {211, 109, 208, 255} }},
+	{{ {474, -1, -237}, 0, {322, 977}, {24, 251, 131, 255} }},
+	{{ {310, -11, -298}, 0, {86, 38}, {45, 4, 137, 255} }},
 	{{ {462, 215, -177}, 0, {555, 910}, {47, 97, 189, 255} }},
-	{{ {295, 260, -228}, 0, {356, -47}, {203, 85, 78, 255} }},
-	{{ {295, 260, -228}, 0, {225, 84}, {203, 85, 78, 255} }},
-	{{ {310, -11, -298}, 0, {570, 84}, {211, 109, 208, 255} }},
-	{{ {295, 260, 118}, 0, {143, 23}, {213, 214, 112, 255} }},
-	{{ {310, -11, -298}, 0, {570, 84}, {211, 109, 208, 255} }},
-	{{ {305, -250, -177}, 0, {836, 83}, {22, 7, 131, 255} }},
+	{{ {295, 260, -228}, 0, {356, -47}, {47, 95, 186, 255} }},
+	{{ {295, 260, -228}, 0, {225, 84}, {129, 3, 249, 255} }},
+	{{ {310, -11, -298}, 0, {570, 84}, {130, 252, 242, 255} }},
+	{{ {295, 260, 118}, 0, {143, 23}, {129, 4, 7, 255} }},
+	{{ {310, -11, -298}, 0, {570, 84}, {130, 252, 242, 255} }},
+	{{ {305, -250, -177}, 0, {836, 83}, {129, 248, 249, 255} }},
 	{{ {279, 48, -49}, 0, {1017, -95}, {129, 254, 0, 255} }},
-	{{ {305, -250, 75}, 0, {1180, 80}, {13, 6, 126, 255} }},
+	{{ {305, -250, 75}, 0, {1180, 80}, {129, 248, 6, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_tri_1[] = {
+Gfx gDigitaChildSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_tri_1[] = {
 	gsSPMatrix(0x0d000080, G_MTX_LOAD),
-	gsSPVertex(gLinkHumanSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_vtx_1 + 0, 31, 0),
+	gsSPVertex(gDigitaChildSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_vtx_1 + 0, 31, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 7, 8, 0, 9, 10, 6, 0),
 	gsSP2Triangles(11, 12, 13, 0, 12, 14, 13, 0),
@@ -1321,19 +1322,19 @@ Gfx gLinkHumanSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_tri_1[] = {
 	gsSP2Triangles(24, 22, 25, 0, 26, 24, 25, 0),
 	gsSP2Triangles(26, 25, 27, 0, 28, 29, 8, 0),
 	gsSP1Triangle(30, 28, 8, 0),
-	gsSPVertex(gLinkHumanSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_vtx_1 + 31, 4, 0),
+	gsSPVertex(gDigitaChildSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_vtx_1 + 31, 4, 0),
 	gsSP2Triangles(0, 1, 2, 0, 2, 1, 3, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_vtx_2[26] = {
+Vtx gDigitaChildSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_vtx_2[26] = {
 	{{ {377, -186, -52}, 0, {455, -16}, {90, 166, 2, 255} }},
 	{{ {470, -193, -116}, 0, {317, 167}, {2, 138, 209, 255} }},
 	{{ {470, -193, 31}, 0, {635, 167}, {254, 138, 46, 255} }},
 	{{ {653, -186, 39}, 0, {651, 524}, {230, 151, 66, 255} }},
 	{{ {645, -177, -115}, 0, {320, 507}, {235, 153, 185, 255} }},
 	{{ {639, 34, -223}, 0, {86, 495}, {245, 250, 130, 255} }},
-	{{ {474, -1, -237}, 0, {57, 174}, {23, 251, 131, 255} }},
+	{{ {474, -1, -237}, 0, {57, 174}, {24, 251, 131, 255} }},
 	{{ {462, 215, -177}, 0, {187, 151}, {47, 97, 189, 255} }},
 	{{ {607, 213, -144}, 0, {256, 433}, {245, 109, 191, 255} }},
 	{{ {647, 213, 55}, 0, {686, 512}, {227, 103, 68, 255} }},
@@ -1355,8 +1356,8 @@ Vtx gLinkHumanSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_vtx_2[26] =
 	{{ {893, 85, 128}, 0, {843, 991}, {244, 202, 114, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_tri_2[] = {
-	gsSPVertex(gLinkHumanSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_vtx_2 + 0, 26, 0),
+Gfx gDigitaChildSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_tri_2[] = {
+	gsSPVertex(gDigitaChildSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_vtx_2 + 0, 26, 0),
 	gsSP2Triangles(0, 1, 2, 0, 2, 1, 3, 0),
 	gsSP2Triangles(1, 4, 3, 0, 5, 4, 1, 0),
 	gsSP2Triangles(5, 1, 6, 0, 5, 6, 7, 0),
@@ -1379,69 +1380,90 @@ Gfx gLinkHumanSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_tri_2[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone005_gLinkHumanRightFootLimb_mesh_layer_Opaque_vtx_0[28] = {
-	{{ {-288, 101, 58}, 0, {1986, 461}, {161, 192, 55, 255} }},
-	{{ {-288, 101, -177}, 0, {2000, 461}, {165, 193, 194, 255} }},
-	{{ {-288, 298, -177}, 0, {1992, 970}, {172, 76, 199, 255} }},
-	{{ {-288, 298, 58}, 0, {1997, 970}, {169, 78, 50, 255} }},
-	{{ {-143, 120, 146}, 0, {1697, 512}, {227, 214, 116, 255} }},
-	{{ {135, 132, 106}, 0, {1097, 542}, {12, 207, 117, 255} }},
-	{{ {263, -10, -65}, 0, {802, 175}, {251, 129, 4, 255} }},
-	{{ {148, 53, -187}, 0, {1082, 339}, {241, 159, 175, 255} }},
-	{{ {22, 207, -219}, 0, {1351, 735}, {3, 244, 130, 255} }},
-	{{ {-143, 128, -234}, 0, {1703, 531}, {241, 217, 136, 255} }},
-	{{ {-143, 298, -234}, 0, {1692, 970}, {242, 84, 161, 255} }},
-	{{ {-143, 298, 146}, 0, {1706, 970}, {235, 81, 95, 255} }},
-	{{ {98, 298, 118}, 0, {1184, 970}, {4, 90, 89, 255} }},
-	{{ {480, 298, 149}, 0, {330, 970}, {47, 71, 94, 255} }},
-	{{ {463, 146, 135}, 0, {360, 577}, {47, 199, 103, 255} }},
-	{{ {426, 8, -59}, 0, {451, 223}, {43, 136, 1, 255} }},
-	{{ {463, 146, -254}, 0, {364, 577}, {49, 200, 153, 255} }},
-	{{ {480, 298, -267}, 0, {319, 970}, {47, 71, 161, 255} }},
-	{{ {22, 298, -219}, 0, {1351, 970}, {255, 93, 169, 255} }},
-	{{ {631, 298, -59}, 0, {6, 970}, {110, 64, 0, 255} }},
+Vtx gDigitaChildSkel_bone005_gLinkHumanRightFootLimb_mesh_layer_Opaque_vtx_0[46] = {
+	{{ {-143, 298, -234}, 0, {1692, 970}, {0, 127, 0, 255} }},
+	{{ {-288, 298, -177}, 0, {1992, 970}, {0, 127, 0, 255} }},
+	{{ {-288, 298, 58}, 0, {1997, 970}, {0, 127, 0, 255} }},
+	{{ {-143, 298, 146}, 0, {1706, 970}, {0, 127, 0, 255} }},
+	{{ {22, 298, -219}, 0, {1351, 970}, {0, 127, 0, 255} }},
+	{{ {98, 298, 118}, 0, {1184, 970}, {0, 127, 0, 255} }},
+	{{ {480, 298, -267}, 0, {319, 970}, {0, 127, 0, 255} }},
+	{{ {480, 298, 149}, 0, {330, 970}, {0, 127, 0, 255} }},
+	{{ {631, 298, -59}, 0, {6, 970}, {0, 127, 0, 255} }},
+	{{ {480, 298, 149}, 0, {330, 970}, {53, 237, 114, 255} }},
 	{{ {593, 146, -59}, 0, {71, 577}, {111, 195, 0, 255} }},
+	{{ {631, 298, -59}, 0, {6, 970}, {123, 225, 0, 255} }},
+	{{ {463, 146, 135}, 0, {360, 577}, {47, 199, 103, 255} }},
+	{{ {135, 132, 106}, 0, {1097, 542}, {12, 207, 117, 255} }},
+	{{ {98, 298, 118}, 0, {1184, 970}, {7, 251, 127, 255} }},
+	{{ {-143, 120, 146}, 0, {1697, 512}, {227, 214, 116, 255} }},
+	{{ {-143, 298, 146}, 0, {1706, 970}, {229, 0, 124, 255} }},
+	{{ {-288, 298, 58}, 0, {1997, 970}, {159, 0, 82, 255} }},
+	{{ {-288, 101, 58}, 0, {1986, 461}, {161, 192, 55, 255} }},
+	{{ {-288, 298, -177}, 0, {1992, 970}, {151, 0, 185, 255} }},
+	{{ {-288, 101, -177}, 0, {2000, 461}, {165, 193, 194, 255} }},
+	{{ {-143, 128, -234}, 0, {1703, 531}, {241, 217, 136, 255} }},
+	{{ {-143, 298, -234}, 0, {1692, 970}, {248, 0, 129, 255} }},
+	{{ {22, 207, -219}, 0, {1351, 735}, {3, 244, 130, 255} }},
+	{{ {22, 298, -219}, 0, {1351, 970}, {255, 0, 129, 255} }},
+	{{ {480, 298, -267}, 0, {319, 970}, {52, 240, 141, 255} }},
+	{{ {463, 146, -254}, 0, {364, 577}, {49, 200, 153, 255} }},
+	{{ {426, 8, -59}, 0, {451, 223}, {43, 136, 1, 255} }},
+	{{ {263, -10, -65}, 0, {802, 175}, {251, 129, 4, 255} }},
+	{{ {880, -114, 63}, 0, {1225, 86}, {19, 43, 118, 255} }},
+	{{ {893, 85, 128}, 0, {1561, 130}, {244, 202, 114, 255} }},
+	{{ {901, 203, 69}, 0, {1819, 157}, {228, 121, 28, 255} }},
 	{{ {902, 246, -48}, 0, {1915, 160}, {219, 94, 179, 255} }},
 	{{ {901, 203, 69}, 0, {1819, 157}, {228, 121, 28, 255} }},
-	{{ {893, 85, 128}, 0, {1561, 130}, {244, 202, 114, 255} }},
-	{{ {880, -114, 63}, 0, {1225, 86}, {19, 43, 118, 255} }},
-	{{ {877, -137, -121}, 0, {1175, 76}, {211, 139, 237, 255} }},
-	{{ {902, 34, -191}, 0, {1458, 160}, {8, 182, 153, 255} }},
 	{{ {901, 203, -166}, 0, {1831, 157}, {212, 245, 137, 255} }},
+	{{ {902, 34, -191}, 0, {1458, 160}, {8, 182, 153, 255} }},
+	{{ {877, -137, -121}, 0, {1175, 76}, {211, 139, 237, 255} }},
+	{{ {880, -114, 63}, 0, {1225, 86}, {19, 43, 118, 255} }},
+	{{ {-288, 101, 58}, 0, {1986, 461}, {161, 192, 55, 255} }},
+	{{ {-288, 101, -177}, 0, {2000, 461}, {165, 193, 194, 255} }},
+	{{ {-143, 128, -234}, 0, {1703, 531}, {241, 217, 136, 255} }},
+	{{ {22, 207, -219}, 0, {1351, 735}, {3, 244, 130, 255} }},
+	{{ {148, 53, -187}, 0, {1082, 339}, {241, 159, 175, 255} }},
+	{{ {463, 146, -254}, 0, {364, 577}, {49, 200, 153, 255} }},
+	{{ {263, -10, -65}, 0, {802, 175}, {251, 129, 4, 255} }},
+	{{ {426, 8, -59}, 0, {451, 223}, {43, 136, 1, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone005_gLinkHumanRightFootLimb_mesh_layer_Opaque_tri_0[] = {
-	gsSPVertex(gLinkHumanSkel_bone005_gLinkHumanRightFootLimb_mesh_layer_Opaque_vtx_0 + 0, 21, 0),
+Gfx gDigitaChildSkel_bone005_gLinkHumanRightFootLimb_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gDigitaChildSkel_bone005_gLinkHumanRightFootLimb_mesh_layer_Opaque_vtx_0 + 0, 29, 0),
 	gsSPMatrix(0x0d000080, G_MTX_LOAD),
-	gsSPVertex(gLinkHumanSkel_bone005_gLinkHumanRightFootLimb_mesh_layer_Opaque_vtx_0 + 21, 7, 21),
-	gsSP2Triangles(0, 21, 22, 0, 0, 1, 21, 0),
-	gsSP2Triangles(2, 1, 0, 0, 2, 0, 3, 0),
-	gsSP2Triangles(3, 0, 4, 0, 4, 0, 22, 0),
-	gsSP2Triangles(4, 22, 23, 0, 5, 4, 23, 0),
-	gsSP2Triangles(5, 23, 24, 0, 5, 24, 6, 0),
-	gsSP2Triangles(24, 25, 6, 0, 6, 25, 7, 0),
-	gsSP2Triangles(7, 25, 26, 0, 8, 7, 26, 0),
-	gsSP2Triangles(9, 8, 26, 0, 9, 26, 27, 0),
-	gsSP2Triangles(9, 27, 1, 0, 21, 1, 27, 0),
-	gsSP2Triangles(2, 9, 1, 0, 2, 10, 9, 0),
-	gsSP2Triangles(10, 2, 3, 0, 10, 3, 11, 0),
-	gsSP2Triangles(3, 4, 11, 0, 12, 11, 4, 0),
-	gsSP2Triangles(12, 4, 5, 0, 13, 12, 5, 0),
-	gsSP2Triangles(13, 5, 14, 0, 6, 14, 5, 0),
-	gsSP2Triangles(6, 15, 14, 0, 16, 15, 6, 0),
-	gsSP2Triangles(6, 7, 16, 0, 8, 16, 7, 0),
-	gsSP2Triangles(17, 16, 8, 0, 17, 8, 18, 0),
-	gsSP2Triangles(10, 18, 8, 0, 10, 8, 9, 0),
-	gsSP2Triangles(18, 10, 11, 0, 18, 11, 12, 0),
-	gsSP2Triangles(17, 18, 12, 0, 17, 12, 13, 0),
-	gsSP2Triangles(13, 19, 17, 0, 13, 20, 19, 0),
-	gsSP2Triangles(13, 14, 20, 0, 14, 15, 20, 0),
-	gsSP2Triangles(20, 15, 16, 0, 17, 20, 16, 0),
-	gsSP1Triangle(17, 19, 20, 0),
+	gsSPVertex(gDigitaChildSkel_bone005_gLinkHumanRightFootLimb_mesh_layer_Opaque_vtx_0 + 29, 3, 29),
+	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
+	gsSP2Triangles(4, 0, 3, 0, 4, 3, 5, 0),
+	gsSP2Triangles(6, 4, 5, 0, 6, 5, 7, 0),
+	gsSP2Triangles(7, 8, 6, 0, 9, 10, 11, 0),
+	gsSP2Triangles(9, 12, 10, 0, 9, 13, 12, 0),
+	gsSP2Triangles(9, 14, 13, 0, 14, 15, 13, 0),
+	gsSP2Triangles(14, 16, 15, 0, 17, 15, 16, 0),
+	gsSP2Triangles(17, 18, 15, 0, 19, 18, 17, 0),
+	gsSP2Triangles(19, 20, 18, 0, 19, 21, 20, 0),
+	gsSP2Triangles(19, 22, 21, 0, 22, 23, 21, 0),
+	gsSP2Triangles(22, 24, 23, 0, 25, 23, 24, 0),
+	gsSP2Triangles(25, 26, 23, 0, 25, 10, 26, 0),
+	gsSP2Triangles(25, 11, 10, 0, 10, 27, 26, 0),
+	gsSP2Triangles(12, 27, 10, 0, 28, 27, 12, 0),
+	gsSP2Triangles(28, 12, 13, 0, 13, 29, 28, 0),
+	gsSP2Triangles(13, 30, 29, 0, 13, 15, 30, 0),
+	gsSP2Triangles(15, 31, 30, 0, 15, 18, 31, 0),
+	gsSPVertex(gDigitaChildSkel_bone005_gLinkHumanRightFootLimb_mesh_layer_Opaque_vtx_0 + 32, 6, 0),
+	gsSPMatrix(0x0d0000c0, G_MTX_LOAD),
+	gsSPVertex(gDigitaChildSkel_bone005_gLinkHumanRightFootLimb_mesh_layer_Opaque_vtx_0 + 38, 8, 6),
+	gsSP2Triangles(6, 0, 1, 0, 6, 7, 0, 0),
+	gsSP2Triangles(0, 7, 2, 0, 8, 2, 7, 0),
+	gsSP2Triangles(8, 3, 2, 0, 8, 9, 3, 0),
+	gsSP2Triangles(9, 10, 3, 0, 9, 11, 10, 0),
+	gsSP2Triangles(12, 10, 11, 0, 11, 13, 12, 0),
+	gsSP2Triangles(12, 4, 10, 0, 5, 4, 12, 0),
+	gsSP1Triangle(10, 4, 3, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_vtx_0[10] = {
+Vtx gDigitaChildSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_vtx_0[10] = {
 	{{ {673, 44, 160}, 0, {139, -46}, {226, 49, 113, 255} }},
 	{{ {671, 139, 5}, 0, {164, -43}, {231, 125, 255, 255} }},
 	{{ {233, 158, 5}, 0, {164, 163}, {2, 126, 238, 255} }},
@@ -1454,8 +1476,8 @@ Vtx gLinkHumanSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_vtx_0[10] =
 	{{ {310, 54, 214}, 0, {138, 125}, {19, 68, 106, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_tri_0[] = {
-	gsSPVertex(gLinkHumanSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_vtx_0 + 0, 10, 0),
+Gfx gDigitaChildSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gDigitaChildSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_vtx_0 + 0, 10, 0),
 	gsSP2Triangles(0, 1, 2, 0, 2, 1, 3, 0),
 	gsSP2Triangles(3, 4, 2, 0, 3, 5, 4, 0),
 	gsSP2Triangles(3, 6, 5, 0, 6, 7, 5, 0),
@@ -1464,7 +1486,7 @@ Gfx gLinkHumanSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_vtx_1[20] = {
+Vtx gDigitaChildSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_vtx_1[20] = {
 	{{ {505, -368, -192}, 0, {533, 1038}, {248, 129, 5, 255} }},
 	{{ {535, -350, 3}, 0, {731, 1084}, {249, 135, 39, 255} }},
 	{{ {77, -254, 136}, 0, {867, 372}, {246, 156, 77, 255} }},
@@ -1487,10 +1509,10 @@ Vtx gLinkHumanSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_vtx_1[20] =
 	{{ {308, -167, 334}, 0, {871, 52}, {201, 169, 74, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_tri_1[] = {
-	gsSPVertex(gLinkHumanSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_vtx_1 + 0, 10, 0),
+Gfx gDigitaChildSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_tri_1[] = {
+	gsSPVertex(gDigitaChildSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_vtx_1 + 0, 10, 0),
 	gsSPMatrix(0x0d000000, G_MTX_LOAD),
-	gsSPVertex(gLinkHumanSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_vtx_1 + 10, 10, 10),
+	gsSPVertex(gDigitaChildSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_vtx_1 + 10, 10, 10),
 	gsSP2Triangles(10, 0, 11, 0, 12, 11, 0, 0),
 	gsSP2Triangles(0, 1, 12, 0, 12, 1, 2, 0),
 	gsSP2Triangles(1, 3, 2, 0, 4, 2, 3, 0),
@@ -1505,7 +1527,7 @@ Gfx gLinkHumanSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_tri_1[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_vtx_0[15] = {
+Vtx gDigitaChildSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_vtx_0[15] = {
 	{{ {116, 72, 236}, 0, {133, -86}, {232, 34, 120, 255} }},
 	{{ {181, 223, 4}, 0, {181, -60}, {239, 126, 250, 255} }},
 	{{ {331, 98, 211}, 0, {142, 27}, {11, 54, 114, 255} }},
@@ -1523,10 +1545,10 @@ Vtx gLinkHumanSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_vtx_0[15] = 
 	{{ {676, 45, -150}, 0, {123, -168}, {237, 44, 138, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_tri_0[] = {
-	gsSPVertex(gLinkHumanSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_vtx_0 + 0, 10, 0),
+Gfx gDigitaChildSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gDigitaChildSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_vtx_0 + 0, 10, 0),
 	gsSPMatrix(0x0d000100, G_MTX_LOAD),
-	gsSPVertex(gLinkHumanSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_vtx_0 + 10, 5, 10),
+	gsSPVertex(gDigitaChildSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_vtx_0 + 10, 5, 10),
 	gsSP2Triangles(0, 10, 11, 0, 0, 1, 10, 0),
 	gsSP2Triangles(1, 0, 2, 0, 2, 0, 3, 0),
 	gsSP2Triangles(4, 3, 0, 0, 0, 12, 4, 0),
@@ -1540,9 +1562,9 @@ Gfx gLinkHumanSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_vtx_1[26] = {
+Vtx gDigitaChildSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_vtx_1[26] = {
 	{{ {377, -193, 43}, 0, {455, -16}, {247, 129, 0, 255} }},
-	{{ {470, -200, -40}, 0, {635, 167}, {24, 135, 226, 255} }},
+	{{ {470, -200, -40}, 0, {635, 167}, {24, 135, 225, 255} }},
 	{{ {470, -200, 107}, 0, {317, 167}, {20, 134, 31, 255} }},
 	{{ {653, -193, -47}, 0, {651, 524}, {230, 151, 190, 255} }},
 	{{ {674, 12, -154}, 0, {881, 564}, {232, 247, 132, 255} }},
@@ -1569,9 +1591,9 @@ Vtx gLinkHumanSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_vtx_1[26] = 
 	{{ {902, 27, 182}, 0, {157, 1008}, {211, 246, 118, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_tri_1[] = {
+Gfx gDigitaChildSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_tri_1[] = {
 	gsSPMatrix(0x0d000140, G_MTX_LOAD),
-	gsSPVertex(gLinkHumanSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_vtx_1 + 0, 26, 0),
+	gsSPVertex(gDigitaChildSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_vtx_1 + 0, 26, 0),
 	gsSP2Triangles(0, 1, 2, 0, 1, 3, 2, 0),
 	gsSP2Triangles(1, 4, 3, 0, 1, 5, 4, 0),
 	gsSP2Triangles(5, 6, 4, 0, 5, 7, 6, 0),
@@ -1594,46 +1616,46 @@ Gfx gLinkHumanSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_tri_1[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_vtx_2[35] = {
+Vtx gDigitaChildSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_vtx_2[35] = {
 	{{ {470, -200, 107}, 0, {790, 954}, {69, 164, 54, 255} }},
 	{{ {359, -247, 48}, 0, {998, 448}, {55, 142, 255, 255} }},
 	{{ {377, -193, 43}, 0, {1030, 676}, {121, 216, 253, 255} }},
 	{{ {377, -193, 43}, 0, {1030, 676}, {121, 216, 253, 255} }},
 	{{ {359, -247, 48}, 0, {998, 448}, {55, 142, 255, 255} }},
 	{{ {470, -200, -40}, 0, {1361, 954}, {64, 166, 194, 255} }},
-	{{ {310, -3, -240}, 0, {1446, 84}, {132, 251, 230, 255} }},
+	{{ {310, -3, -240}, 0, {1446, 84}, {130, 253, 243, 255} }},
 	{{ {279, 41, 40}, 0, {1017, -95}, {129, 254, 0, 255} }},
-	{{ {295, 253, -127}, 0, {1790, 84}, {55, 96, 193, 255} }},
+	{{ {295, 253, -127}, 0, {1790, 84}, {129, 4, 249, 255} }},
 	{{ {279, 41, 40}, 0, {1017, -95}, {129, 254, 0, 255} }},
-	{{ {305, -257, -84}, 0, {1180, 80}, {57, 159, 197, 255} }},
+	{{ {305, -257, -84}, 0, {1180, 80}, {129, 248, 250, 255} }},
 	{{ {474, 12, -163}, 0, {1836, 977}, {54, 251, 141, 255} }},
-	{{ {295, 253, -127}, 0, {1696, -47}, {55, 96, 193, 255} }},
+	{{ {295, 253, -127}, 0, {1696, -47}, {46, 101, 193, 255} }},
 	{{ {462, 208, -77}, 0, {1503, 910}, {8, 106, 186, 255} }},
-	{{ {310, -3, -240}, 0, {2134, 38}, {132, 251, 230, 255} }},
-	{{ {305, -257, -84}, 0, {1531, 12}, {57, 159, 197, 255} }},
-	{{ {470, -200, -40}, 0, {1361, 954}, {24, 135, 226, 255} }},
+	{{ {310, -3, -240}, 0, {2134, 38}, {54, 250, 141, 255} }},
+	{{ {305, -257, -84}, 0, {1531, 12}, {47, 154, 197, 255} }},
+	{{ {470, -200, -40}, 0, {1361, 954}, {24, 135, 225, 255} }},
 	{{ {359, -247, 48}, 0, {998, 448}, {55, 142, 255, 255} }},
-	{{ {305, -257, 168}, 0, {556, 12}, {59, 161, 61, 255} }},
+	{{ {305, -257, 168}, 0, {556, 12}, {47, 155, 60, 255} }},
 	{{ {470, -200, 107}, 0, {790, 954}, {20, 134, 31, 255} }},
 	{{ {474, -8, 228}, 0, {322, 977}, {48, 244, 117, 255} }},
-	{{ {310, -18, 289}, 0, {86, 38}, {54, 245, 115, 255} }},
+	{{ {310, -18, 289}, 0, {86, 38}, {45, 4, 119, 255} }},
 	{{ {462, 208, 168}, 0, {555, 910}, {13, 101, 76, 255} }},
-	{{ {295, 253, 219}, 0, {356, -47}, {131, 14, 16, 255} }},
+	{{ {295, 253, 219}, 0, {356, -47}, {47, 95, 70, 255} }},
 	{{ {462, 208, -77}, 0, {2175, 910}, {8, 106, 186, 255} }},
-	{{ {295, 253, -127}, 0, {2368, -47}, {55, 96, 193, 255} }},
+	{{ {295, 253, -127}, 0, {2368, -47}, {46, 101, 193, 255} }},
 	{{ {462, 208, 168}, 0, {1227, 910}, {13, 101, 76, 255} }},
-	{{ {295, 253, 219}, 0, {1028, -47}, {131, 14, 16, 255} }},
-	{{ {295, 253, 219}, 0, {225, 84}, {131, 14, 16, 255} }},
-	{{ {310, -18, 289}, 0, {570, 84}, {54, 245, 115, 255} }},
-	{{ {295, 253, -127}, 0, {143, 23}, {55, 96, 193, 255} }},
-	{{ {310, -18, 289}, 0, {570, 84}, {54, 245, 115, 255} }},
+	{{ {295, 253, 219}, 0, {1028, -47}, {47, 95, 70, 255} }},
+	{{ {295, 253, 219}, 0, {225, 84}, {129, 3, 7, 255} }},
+	{{ {310, -18, 289}, 0, {570, 84}, {130, 252, 14, 255} }},
+	{{ {295, 253, -127}, 0, {143, 23}, {129, 4, 249, 255} }},
+	{{ {310, -18, 289}, 0, {570, 84}, {130, 252, 14, 255} }},
 	{{ {279, 41, 40}, 0, {1017, -95}, {129, 254, 0, 255} }},
-	{{ {305, -257, 168}, 0, {836, 83}, {59, 161, 61, 255} }},
-	{{ {305, -257, -84}, 0, {1180, 80}, {57, 159, 197, 255} }},
+	{{ {305, -257, 168}, 0, {836, 83}, {129, 248, 7, 255} }},
+	{{ {305, -257, -84}, 0, {1180, 80}, {129, 248, 250, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_tri_2[] = {
-	gsSPVertex(gLinkHumanSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_vtx_2 + 0, 31, 0),
+Gfx gDigitaChildSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_tri_2[] = {
+	gsSPVertex(gDigitaChildSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_vtx_2 + 0, 31, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 7, 8, 0, 9, 6, 10, 0),
 	gsSP2Triangles(11, 12, 13, 0, 11, 14, 12, 0),
@@ -1644,85 +1666,102 @@ Gfx gLinkHumanSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_tri_2[] = {
 	gsSP2Triangles(22, 23, 21, 0, 24, 25, 26, 0),
 	gsSP2Triangles(26, 25, 27, 0, 28, 7, 29, 0),
 	gsSP1Triangle(30, 7, 28, 0),
-	gsSPVertex(gLinkHumanSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_vtx_2 + 31, 4, 0),
+	gsSPVertex(gDigitaChildSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_vtx_2 + 31, 4, 0),
 	gsSP2Triangles(0, 1, 2, 0, 1, 3, 2, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone008_gLinkHumanLeftFootLimb_mesh_layer_Opaque_vtx_0[28] = {
-	{{ {-278, 109, -82}, 0, {1986, 461}, {161, 192, 201, 255} }},
-	{{ {-133, 128, -169}, 0, {1697, 512}, {227, 214, 140, 255} }},
-	{{ {-278, 306, -82}, 0, {1997, 970}, {169, 78, 206, 255} }},
-	{{ {-278, 306, 153}, 0, {1992, 970}, {172, 76, 57, 255} }},
-	{{ {-278, 109, 153}, 0, {2000, 461}, {165, 193, 62, 255} }},
+Vtx gDigitaChildSkel_bone008_gLinkHumanLeftFootLimb_mesh_layer_Opaque_vtx_0[42] = {
+	{{ {490, 306, -173}, 0, {330, 970}, {0, 127, 0, 255} }},
+	{{ {490, 306, 244}, 0, {319, 970}, {0, 127, 0, 255} }},
+	{{ {641, 306, 35}, 0, {6, 970}, {0, 127, 0, 255} }},
+	{{ {108, 306, -142}, 0, {1184, 970}, {0, 127, 0, 255} }},
+	{{ {32, 306, 195}, 0, {1351, 970}, {0, 127, 0, 255} }},
+	{{ {-133, 306, -169}, 0, {1706, 970}, {0, 127, 0, 255} }},
+	{{ {-133, 306, 210}, 0, {1692, 970}, {251, 91, 89, 255} }},
+	{{ {-278, 306, -82}, 0, {1997, 970}, {0, 127, 0, 255} }},
+	{{ {-278, 306, 153}, 0, {1992, 970}, {155, 37, 68, 255} }},
 	{{ {-133, 136, 210}, 0, {1703, 531}, {241, 217, 120, 255} }},
-	{{ {32, 215, 195}, 0, {1351, 735}, {3, 244, 126, 255} }},
-	{{ {158, 61, 163}, 0, {1082, 339}, {241, 159, 81, 255} }},
-	{{ {273, -2, 41}, 0, {802, 175}, {251, 129, 252, 255} }},
+	{{ {-278, 109, 153}, 0, {2000, 461}, {165, 193, 62, 255} }},
+	{{ {-278, 109, -82}, 0, {1986, 461}, {161, 192, 201, 255} }},
+	{{ {-278, 306, -82}, 0, {1997, 970}, {159, 0, 174, 255} }},
+	{{ {-133, 128, -169}, 0, {1697, 512}, {227, 214, 140, 255} }},
+	{{ {-133, 306, -169}, 0, {1706, 970}, {229, 0, 132, 255} }},
+	{{ {108, 306, -142}, 0, {1184, 970}, {7, 251, 129, 255} }},
 	{{ {145, 140, -130}, 0, {1097, 542}, {12, 207, 139, 255} }},
-	{{ {108, 306, -142}, 0, {1184, 970}, {4, 90, 167, 255} }},
-	{{ {490, 306, -173}, 0, {330, 970}, {47, 71, 162, 255} }},
-	{{ {490, 306, 244}, 0, {319, 970}, {47, 71, 95, 255} }},
-	{{ {32, 306, 195}, 0, {1351, 970}, {255, 93, 87, 255} }},
-	{{ {-133, 306, -169}, 0, {1706, 970}, {235, 81, 161, 255} }},
-	{{ {-133, 306, 210}, 0, {1692, 970}, {242, 84, 95, 255} }},
-	{{ {473, 154, 230}, 0, {364, 577}, {49, 200, 103, 255} }},
-	{{ {436, 16, 35}, 0, {451, 223}, {43, 136, 255, 255} }},
+	{{ {490, 306, -173}, 0, {330, 970}, {53, 237, 142, 255} }},
 	{{ {473, 154, -159}, 0, {360, 577}, {47, 199, 153, 255} }},
 	{{ {603, 154, 35}, 0, {71, 577}, {111, 195, 0, 255} }},
-	{{ {641, 306, 35}, 0, {6, 970}, {110, 64, 0, 255} }},
-	{{ {901, 196, -78}, 0, {1819, 157}, {143, 29, 207, 255} }},
-	{{ {902, 239, 39}, 0, {1915, 160}, {33, 123, 4, 255} }},
+	{{ {641, 306, 35}, 0, {6, 970}, {123, 225, 0, 255} }},
+	{{ {490, 306, 244}, 0, {319, 970}, {52, 240, 115, 255} }},
+	{{ {473, 154, 230}, 0, {364, 577}, {49, 200, 103, 255} }},
+	{{ {32, 215, 195}, 0, {1351, 735}, {3, 244, 126, 255} }},
+	{{ {32, 306, 195}, 0, {1351, 970}, {255, 0, 127, 255} }},
+	{{ {273, -2, 41}, 0, {802, 175}, {251, 129, 252, 255} }},
+	{{ {902, 27, 182}, 0, {1458, 160}, {211, 246, 118, 255} }},
 	{{ {901, 196, 157}, 0, {1831, 157}, {57, 75, 86, 255} }},
+	{{ {902, 239, 39}, 0, {1915, 160}, {33, 123, 4, 255} }},
+	{{ {901, 196, -78}, 0, {1819, 157}, {143, 29, 207, 255} }},
+	{{ {893, 78, -137}, 0, {1561, 130}, {193, 254, 146, 255} }},
+	{{ {880, -121, -72}, 0, {1225, 86}, {98, 205, 194, 255} }},
 	{{ {902, 27, 182}, 0, {1458, 160}, {211, 246, 118, 255} }},
 	{{ {877, -144, 112}, 0, {1175, 76}, {99, 201, 57, 255} }},
 	{{ {880, -121, -72}, 0, {1225, 86}, {98, 205, 194, 255} }},
-	{{ {893, 78, -137}, 0, {1561, 130}, {193, 254, 146, 255} }},
+	{{ {273, -2, 41}, 0, {802, 175}, {251, 129, 252, 255} }},
+	{{ {473, 154, -159}, 0, {360, 577}, {47, 199, 153, 255} }},
+	{{ {436, 16, 35}, 0, {451, 223}, {43, 136, 255, 255} }},
+	{{ {603, 154, 35}, 0, {71, 577}, {111, 195, 0, 255} }},
+	{{ {473, 154, 230}, 0, {364, 577}, {49, 200, 103, 255} }},
+	{{ {158, 61, 163}, 0, {1082, 339}, {241, 159, 81, 255} }},
+	{{ {32, 215, 195}, 0, {1351, 735}, {3, 244, 126, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone008_gLinkHumanLeftFootLimb_mesh_layer_Opaque_tri_0[] = {
-	gsSPVertex(gLinkHumanSkel_bone008_gLinkHumanLeftFootLimb_mesh_layer_Opaque_vtx_0 + 0, 21, 0),
+Gfx gDigitaChildSkel_bone008_gLinkHumanLeftFootLimb_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gDigitaChildSkel_bone008_gLinkHumanLeftFootLimb_mesh_layer_Opaque_vtx_0 + 0, 26, 0),
 	gsSPMatrix(0x0d000140, G_MTX_LOAD),
-	gsSPVertex(gLinkHumanSkel_bone008_gLinkHumanLeftFootLimb_mesh_layer_Opaque_vtx_0 + 21, 7, 21),
-	gsSP2Triangles(0, 21, 22, 0, 1, 21, 0, 0),
-	gsSP2Triangles(1, 0, 2, 0, 0, 3, 2, 0),
-	gsSP2Triangles(0, 4, 3, 0, 0, 22, 4, 0),
-	gsSP2Triangles(22, 23, 4, 0, 23, 5, 4, 0),
-	gsSP2Triangles(23, 24, 5, 0, 5, 24, 6, 0),
-	gsSP2Triangles(6, 24, 7, 0, 7, 24, 25, 0),
-	gsSP2Triangles(8, 7, 25, 0, 26, 8, 25, 0),
-	gsSP2Triangles(9, 8, 26, 0, 9, 26, 27, 0),
-	gsSP2Triangles(9, 27, 1, 0, 1, 27, 21, 0),
-	gsSP2Triangles(10, 9, 1, 0, 11, 9, 10, 0),
-	gsSP2Triangles(12, 11, 10, 0, 12, 10, 13, 0),
-	gsSP2Triangles(13, 10, 14, 0, 10, 1, 14, 0),
-	gsSP2Triangles(1, 2, 14, 0, 15, 14, 2, 0),
-	gsSP2Triangles(15, 2, 3, 0, 3, 5, 15, 0),
-	gsSP2Triangles(3, 4, 5, 0, 15, 5, 6, 0),
-	gsSP2Triangles(15, 6, 13, 0, 6, 12, 13, 0),
-	gsSP2Triangles(6, 16, 12, 0, 6, 7, 16, 0),
-	gsSP2Triangles(8, 16, 7, 0, 16, 8, 17, 0),
-	gsSP2Triangles(8, 18, 17, 0, 8, 9, 18, 0),
-	gsSP2Triangles(11, 18, 9, 0, 19, 18, 11, 0),
-	gsSP2Triangles(19, 11, 20, 0, 11, 12, 20, 0),
-	gsSP2Triangles(12, 19, 20, 0, 12, 16, 19, 0),
-	gsSP2Triangles(19, 16, 17, 0, 18, 19, 17, 0),
-	gsSP1Triangle(13, 14, 15, 0),
+	gsSPVertex(gDigitaChildSkel_bone008_gLinkHumanLeftFootLimb_mesh_layer_Opaque_vtx_0 + 26, 6, 26),
+	gsSP2Triangles(0, 1, 2, 0, 1, 0, 3, 0),
+	gsSP2Triangles(1, 3, 4, 0, 4, 3, 5, 0),
+	gsSP2Triangles(4, 5, 6, 0, 6, 5, 7, 0),
+	gsSP2Triangles(6, 7, 8, 0, 8, 9, 6, 0),
+	gsSP2Triangles(8, 10, 9, 0, 11, 10, 8, 0),
+	gsSP2Triangles(11, 8, 12, 0, 13, 11, 12, 0),
+	gsSP2Triangles(13, 12, 14, 0, 15, 13, 14, 0),
+	gsSP2Triangles(15, 16, 13, 0, 17, 16, 15, 0),
+	gsSP2Triangles(17, 18, 16, 0, 19, 18, 17, 0),
+	gsSP2Triangles(19, 17, 20, 0, 21, 19, 20, 0),
+	gsSP2Triangles(21, 22, 19, 0, 23, 22, 21, 0),
+	gsSP2Triangles(23, 21, 24, 0, 6, 23, 24, 0),
+	gsSP2Triangles(6, 9, 23, 0, 9, 26, 23, 0),
+	gsSP2Triangles(27, 26, 9, 0, 27, 9, 10, 0),
+	gsSP2Triangles(28, 27, 10, 0, 11, 28, 10, 0),
+	gsSP2Triangles(11, 29, 28, 0, 13, 29, 11, 0),
+	gsSP2Triangles(13, 30, 29, 0, 16, 30, 13, 0),
+	gsSP2Triangles(16, 31, 30, 0, 16, 25, 31, 0),
+	gsSP1Triangle(25, 16, 18, 0),
+	gsSPVertex(gDigitaChildSkel_bone008_gLinkHumanLeftFootLimb_mesh_layer_Opaque_vtx_0 + 32, 3, 0),
+	gsSPMatrix(0x0d000180, G_MTX_LOAD),
+	gsSPVertex(gDigitaChildSkel_bone008_gLinkHumanLeftFootLimb_mesh_layer_Opaque_vtx_0 + 35, 7, 3),
+	gsSP2Triangles(3, 4, 5, 0, 4, 6, 5, 0),
+	gsSP2Triangles(6, 7, 5, 0, 7, 3, 5, 0),
+	gsSP2Triangles(3, 7, 8, 0, 9, 8, 7, 0),
+	gsSP2Triangles(9, 0, 8, 0, 8, 0, 1, 0),
+	gsSP2Triangles(3, 8, 1, 0, 2, 3, 1, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_0[43] = {
+Vtx gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_0[43] = {
 	{{ {-100, -480, 686}, 0, {161, -27}, {89, 227, 170, 255} }},
-	{{ {148, -440, 439}, 0, {120, 127}, {6, 37, 121, 255} }},
+	{{ {148, -440, 439}, 0, {120, 127}, {250, 220, 122, 255} }},
 	{{ {307, -371, 386}, 0, {-31, 3}, {48, 239, 116, 255} }},
-	{{ {148, -440, 439}, 0, {95, 120}, {6, 37, 121, 255} }},
+	{{ {148, -440, 439}, 0, {95, 120}, {250, 220, 122, 255} }},
 	{{ {-100, -480, 686}, 0, {196, -22}, {89, 227, 170, 255} }},
 	{{ {126, -159, 328}, 0, {224, 40}, {12, 79, 99, 255} }},
 	{{ {126, -159, -327}, 0, {224, 40}, {12, 79, 157, 255} }},
 	{{ {-100, -480, -684}, 0, {196, -22}, {119, 253, 43, 255} }},
-	{{ {148, -440, -438}, 0, {95, 120}, {6, 37, 135, 255} }},
+	{{ {148, -440, -438}, 0, {95, 120}, {250, 220, 134, 255} }},
 	{{ {307, -371, -385}, 0, {-31, 3}, {48, 239, 140, 255} }},
-	{{ {148, -440, -438}, 0, {120, 127}, {6, 37, 135, 255} }},
+	{{ {148, -440, -438}, 0, {120, 127}, {250, 220, 134, 255} }},
 	{{ {-100, -480, -684}, 0, {161, -27}, {119, 253, 43, 255} }},
 	{{ {126, -159, 328}, 0, {14, 186}, {12, 79, 99, 255} }},
 	{{ {105, -86, 230}, 0, {46, 229}, {213, 73, 94, 255} }},
@@ -1730,11 +1769,11 @@ Vtx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_0[43] = {
 	{{ {-18, -105, -116}, 0, {139, 171}, {145, 235, 199, 255} }},
 	{{ {105, -86, -229}, 0, {46, 229}, {213, 74, 162, 255} }},
 	{{ {126, -159, -327}, 0, {14, 186}, {12, 79, 157, 255} }},
-	{{ {729, -616, 1}, 0, {175, 180}, {103, 71, 20, 255} }},
-	{{ {671, -650, -150}, 0, {40, 215}, {239, 113, 202, 255} }},
+	{{ {729, -616, 1}, 0, {175, 180}, {127, 253, 0, 255} }},
+	{{ {671, -650, -150}, 0, {40, 215}, {113, 254, 198, 255} }},
 	{{ {733, -431, 1}, 0, {191, 339}, {127, 4, 0, 255} }},
-	{{ {671, -650, 151}, 0, {40, 215}, {69, 53, 92, 255} }},
-	{{ {390, -277, -341}, 0, {-937, 614}, {247, 249, 129, 255} }},
+	{{ {671, -650, 151}, 0, {40, 215}, {113, 254, 58, 255} }},
+	{{ {390, -277, -341}, 0, {-937, 614}, {51, 13, 141, 255} }},
 	{{ {435, -129, -347}, 0, {-948, 736}, {13, 38, 136, 255} }},
 	{{ {612, -118, -292}, 0, {-909, 747}, {76, 21, 156, 255} }},
 	{{ {444, -2, -235}, 0, {-873, 845}, {249, 103, 182, 255} }},
@@ -1749,7 +1788,7 @@ Vtx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_0[43] = {
 	{{ {444, -2, 236}, 0, {-531, 862}, {249, 103, 74, 255} }},
 	{{ {435, -129, 348}, 0, {-445, 761}, {13, 38, 120, 255} }},
 	{{ {612, -118, 293}, 0, {-485, 768}, {76, 21, 100, 255} }},
-	{{ {390, -277, 342}, 0, {-442, 638}, {247, 249, 126, 255} }},
+	{{ {390, -277, 342}, 0, {-442, 638}, {51, 13, 115, 255} }},
 	{{ {606, 20, 176}, 0, {-576, 878}, {60, 89, 68, 255} }},
 	{{ {590, 123, 1}, 0, {-708, 957}, {36, 122, 0, 255} }},
 	{{ {606, 20, -175}, 0, {-830, 866}, {60, 89, 188, 255} }},
@@ -1757,8 +1796,8 @@ Vtx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_0[43] = {
 	{{ {444, -2, -235}, 0, {-873, 845}, {249, 103, 182, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_0[] = {
-	gsSPVertex(gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_0 + 0, 32, 0),
+Gfx gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_0 + 0, 32, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 7, 8, 0, 9, 10, 11, 0),
 	gsSP2Triangles(12, 13, 14, 0, 15, 16, 17, 0),
@@ -1767,7 +1806,7 @@ Gfx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_0[] = {
 	gsSP2Triangles(26, 25, 23, 0, 25, 26, 27, 0),
 	gsSP2Triangles(27, 28, 25, 0, 28, 29, 25, 0),
 	gsSP2Triangles(30, 29, 28, 0, 30, 28, 31, 0),
-	gsSPVertex(gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_0 + 32, 11, 0),
+	gsSPVertex(gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_0 + 32, 11, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 2, 1, 0),
 	gsSP2Triangles(3, 4, 2, 0, 4, 3, 5, 0),
 	gsSP2Triangles(2, 4, 6, 0, 2, 6, 7, 0),
@@ -1775,44 +1814,44 @@ Gfx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_1[72] = {
-	{{ {-85, -126, 1}, 0, {337, 378}, {6, 127, 0, 255} }},
+Vtx gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_1[72] = {
+	{{ {-85, -126, 1}, 0, {337, 378}, {185, 105, 0, 255} }},
 	{{ {-18, -105, 117}, 0, {216, 445}, {145, 234, 57, 255} }},
 	{{ {-18, -105, -116}, 0, {446, 449}, {145, 235, 199, 255} }},
-	{{ {-36, -213, 377}, 0, {453, 274}, {246, 90, 89, 255} }},
+	{{ {-36, -213, 377}, 0, {453, 274}, {222, 97, 74, 255} }},
 	{{ {-18, -105, 117}, 0, {600, 429}, {145, 234, 57, 255} }},
-	{{ {-85, -126, 1}, 0, {680, 391}, {6, 127, 0, 255} }},
+	{{ {-85, -126, 1}, 0, {680, 391}, {185, 105, 0, 255} }},
 	{{ {126, -159, 328}, 0, {337, 477}, {12, 79, 99, 255} }},
-	{{ {148, -440, 439}, 0, {5, 339}, {6, 37, 121, 255} }},
+	{{ {148, -440, 439}, 0, {5, 339}, {250, 220, 122, 255} }},
 	{{ {379, -544, -453}, 0, {51, 456}, {229, 233, 134, 255} }},
 	{{ {358, 9, -375}, 0, {-17, 267}, {250, 127, 1, 255} }},
-	{{ {448, -434, -365}, 0, {-133, 492}, {237, 123, 26, 255} }},
+	{{ {448, -434, -365}, 0, {-133, 492}, {16, 48, 116, 255} }},
 	{{ {307, -371, -385}, 0, {202, 447}, {48, 239, 140, 255} }},
-	{{ {390, -277, -341}, 0, {279, 449}, {247, 249, 129, 255} }},
-	{{ {448, -434, -365}, 0, {370, 541}, {237, 123, 26, 255} }},
+	{{ {390, -277, -341}, 0, {279, 449}, {51, 13, 141, 255} }},
+	{{ {448, -434, -365}, 0, {370, 541}, {16, 48, 116, 255} }},
 	{{ {358, 9, -375}, 0, {224, 247}, {250, 127, 1, 255} }},
 	{{ {307, -371, -385}, 0, {121, 574}, {48, 239, 140, 255} }},
 	{{ {358, 9, 377}, 0, {-17, 267}, {250, 127, 255, 255} }},
 	{{ {307, -371, 386}, 0, {202, 447}, {48, 239, 116, 255} }},
 	{{ {379, -544, 454}, 0, {51, 456}, {225, 236, 121, 255} }},
-	{{ {448, -434, 367}, 0, {-133, 492}, {101, 250, 179, 255} }},
-	{{ {390, -277, 342}, 0, {279, 449}, {247, 249, 126, 255} }},
+	{{ {448, -434, 367}, 0, {-133, 492}, {18, 47, 139, 255} }},
+	{{ {390, -277, 342}, 0, {279, 449}, {51, 13, 115, 255} }},
 	{{ {307, -371, 386}, 0, {121, 574}, {48, 239, 116, 255} }},
 	{{ {358, 9, 377}, 0, {224, 247}, {250, 127, 255, 255} }},
-	{{ {448, -434, 367}, 0, {370, 541}, {101, 250, 179, 255} }},
+	{{ {448, -434, 367}, 0, {370, 541}, {18, 47, 139, 255} }},
 	{{ {379, -544, 454}, 0, {148, -76}, {225, 236, 121, 255} }},
 	{{ {307, -371, 386}, 0, {62, -101}, {48, 239, 116, 255} }},
-	{{ {148, -440, 439}, 0, {-19, -80}, {6, 37, 121, 255} }},
-	{{ {444, -802, 371}, 0, {-53, 207}, {21, 190, 106, 255} }},
+	{{ {148, -440, 439}, 0, {-19, -80}, {250, 220, 122, 255} }},
+	{{ {444, -802, 371}, 0, {-53, 207}, {230, 174, 94, 255} }},
 	{{ {588, -636, 489}, 0, {184, 168}, {38, 242, 120, 255} }},
 	{{ {678, -792, 397}, 0, {170, 288}, {62, 202, 97, 255} }},
 	{{ {710, -914, 241}, 0, {123, 400}, {39, 142, 41, 255} }},
-	{{ {571, -894, 95}, 0, {-31, 463}, {124, 28, 9, 255} }},
+	{{ {571, -894, 95}, 0, {-31, 463}, {229, 132, 8, 255} }},
 	{{ {710, -914, 241}, 0, {123, 400}, {39, 142, 41, 255} }},
-	{{ {571, -894, 95}, 0, {-31, 463}, {124, 28, 9, 255} }},
-	{{ {582, -890, -18}, 0, {-53, 554}, {7, 130, 11, 255} }},
+	{{ {571, -894, 95}, 0, {-31, 463}, {229, 132, 8, 255} }},
+	{{ {582, -890, -18}, 0, {-53, 554}, {16, 143, 200, 255} }},
 	{{ {703, -892, 32}, 0, {81, 531}, {51, 167, 181, 255} }},
-	{{ {729, -616, 1}, 0, {179, 733}, {103, 71, 20, 255} }},
+	{{ {729, -616, 1}, 0, {179, 733}, {99, 18, 178, 255} }},
 	{{ {838, -830, 119}, 0, {260, 487}, {122, 226, 236, 255} }},
 	{{ {678, -792, 397}, 0, {170, 288}, {62, 202, 97, 255} }},
 	{{ {776, -549, 210}, 0, {404, 307}, {84, 71, 193, 255} }},
@@ -1820,15 +1859,15 @@ Vtx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_1[72] = {
 	{{ {593, -330, 386}, 0, {383, -1}, {57, 113, 251, 255} }},
 	{{ {327, -288, 466}, 0, {149, -71}, {171, 90, 28, 255} }},
 	{{ {379, -544, 454}, 0, {148, -76}, {225, 236, 121, 255} }},
-	{{ {-36, -213, -376}, 0, {453, 274}, {246, 90, 167, 255} }},
+	{{ {-36, -213, -376}, 0, {453, 274}, {222, 97, 182, 255} }},
 	{{ {126, -159, -327}, 0, {337, 477}, {12, 79, 157, 255} }},
-	{{ {148, -440, -438}, 0, {5, 339}, {6, 37, 135, 255} }},
+	{{ {148, -440, -438}, 0, {5, 339}, {250, 220, 134, 255} }},
 	{{ {-18, -105, -116}, 0, {600, 429}, {145, 235, 199, 255} }},
-	{{ {-85, -126, 1}, 0, {680, 391}, {6, 127, 0, 255} }},
-	{{ {148, -440, -438}, 0, {421, -49}, {6, 37, 135, 255} }},
+	{{ {-85, -126, 1}, 0, {680, 391}, {185, 105, 0, 255} }},
+	{{ {148, -440, -438}, 0, {421, -49}, {250, 220, 134, 255} }},
 	{{ {307, -371, -385}, 0, {370, -100}, {48, 239, 140, 255} }},
 	{{ {379, -544, -453}, 0, {263, -99}, {229, 233, 134, 255} }},
-	{{ {444, -802, -370}, 0, {313, 236}, {18, 187, 151, 255} }},
+	{{ {444, -802, -370}, 0, {313, 236}, {228, 186, 154, 255} }},
 	{{ {652, -636, -484}, 0, {65, 127}, {51, 243, 140, 255} }},
 	{{ {274, -288, -461}, 0, {260, -96}, {158, 78, 236, 255} }},
 	{{ {627, -330, -410}, 0, {-22, -89}, {56, 113, 244, 255} }},
@@ -1839,19 +1878,19 @@ Vtx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_1[72] = {
 	{{ {922, -563, -141}, 0, {-300, 256}, {98, 65, 47, 255} }},
 	{{ {803, -445, -262}, 0, {-308, 73}, {218, 107, 199, 255} }},
 	{{ {780, -938, -43}, 0, {-87, 443}, {38, 157, 69, 255} }},
-	{{ {729, -616, 1}, 0, {-308, 624}, {103, 71, 20, 255} }},
+	{{ {729, -616, 1}, 0, {-308, 624}, {52, 41, 108, 255} }},
 	{{ {780, -938, -43}, 0, {-87, 443}, {38, 157, 69, 255} }},
-	{{ {729, -616, 1}, 0, {-308, 624}, {103, 71, 20, 255} }},
-	{{ {582, -890, -18}, 0, {40, 563}, {7, 130, 11, 255} }},
-	{{ {571, -894, -156}, 0, {147, 452}, {225, 134, 239, 255} }},
+	{{ {729, -616, 1}, 0, {-308, 624}, {52, 41, 108, 255} }},
+	{{ {582, -890, -18}, 0, {40, 563}, {245, 164, 87, 255} }},
+	{{ {571, -894, -156}, 0, {147, 452}, {227, 134, 238, 255} }},
 	{{ {783, -932, -232}, 0, {-32, 354}, {58, 156, 203, 255} }},
 	{{ {678, -852, -392}, 0, {54, 259}, {37, 176, 165, 255} }},
-	{{ {444, -802, -370}, 0, {313, 236}, {18, 187, 151, 255} }},
+	{{ {444, -802, -370}, 0, {313, 236}, {228, 186, 154, 255} }},
 	{{ {652, -636, -484}, 0, {65, 127}, {51, 243, 140, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_1[] = {
-	gsSPVertex(gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_1 + 0, 32, 0),
+Gfx gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_1[] = {
+	gsSPVertex(gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_1 + 0, 32, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(4, 3, 6, 0, 7, 6, 3, 0),
 	gsSP2Triangles(8, 9, 10, 0, 8, 11, 9, 0),
@@ -1861,7 +1900,7 @@ Gfx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_1[] = {
 	gsSP2Triangles(24, 25, 26, 0, 24, 26, 27, 0),
 	gsSP2Triangles(24, 27, 28, 0, 27, 29, 28, 0),
 	gsSP2Triangles(27, 30, 29, 0, 27, 31, 30, 0),
-	gsSPVertex(gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_1 + 32, 32, 0),
+	gsSPVertex(gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_1 + 32, 32, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(3, 2, 4, 0, 3, 4, 5, 0),
 	gsSP2Triangles(0, 3, 5, 0, 0, 5, 6, 0),
@@ -1876,23 +1915,23 @@ Gfx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_1[] = {
 	gsSP2Triangles(24, 27, 26, 0, 28, 27, 24, 0),
 	gsSP2Triangles(24, 29, 28, 0, 27, 30, 26, 0),
 	gsSP1Triangle(30, 27, 31, 0),
-	gsSPVertex(gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_1 + 64, 8, 0),
+	gsSPVertex(gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_1 + 64, 8, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(4, 0, 3, 0, 5, 4, 3, 0),
 	gsSP2Triangles(3, 6, 5, 0, 7, 5, 6, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_2[24] = {
-	{{ {448, -434, -365}, 0, {42, 354}, {237, 123, 26, 255} }},
+Vtx gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_2[24] = {
+	{{ {448, -434, -365}, 0, {42, 354}, {65, 17, 149, 255} }},
 	{{ {596, -425, -260}, 0, {321, 381}, {83, 6, 160, 255} }},
-	{{ {599, -606, -271}, 0, {169, -154}, {18, 125, 247, 255} }},
-	{{ {671, -650, -150}, 0, {610, -258}, {239, 113, 202, 255} }},
+	{{ {599, -606, -271}, 0, {169, -154}, {94, 7, 171, 255} }},
+	{{ {671, -650, -150}, 0, {610, -258}, {113, 254, 198, 255} }},
 	{{ {682, -410, -155}, 0, {598, 422}, {113, 11, 199, 255} }},
 	{{ {655, -243, -148}, 0, {616, 895}, {113, 247, 199, 255} }},
 	{{ {597, -257, -244}, 0, {361, 855}, {90, 243, 167, 255} }},
-	{{ {448, -434, -365}, 0, {43, 354}, {237, 123, 26, 255} }},
-	{{ {390, -277, -341}, 0, {106, 799}, {247, 249, 129, 255} }},
+	{{ {448, -434, -365}, 0, {43, 354}, {65, 17, 149, 255} }},
+	{{ {390, -277, -341}, 0, {106, 799}, {51, 13, 141, 255} }},
 	{{ {612, -118, -292}, 0, {236, 1250}, {76, 21, 156, 255} }},
 	{{ {725, -100, -82}, 0, {790, 1301}, {112, 29, 203, 255} }},
 	{{ {713, -259, 1}, 0, {1009, 850}, {125, 236, 0, 255} }},
@@ -1901,17 +1940,17 @@ Vtx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_2[24] = {
 	{{ {655, -243, 149}, 0, {1400, 895}, {113, 247, 57, 255} }},
 	{{ {612, -118, 293}, 0, {1780, 1250}, {76, 21, 100, 255} }},
 	{{ {597, -257, 246}, 0, {1655, 855}, {90, 243, 89, 255} }},
-	{{ {390, -277, 342}, 0, {1909, 799}, {247, 249, 126, 255} }},
-	{{ {448, -434, 367}, 0, {1975, 354}, {101, 250, 179, 255} }},
+	{{ {390, -277, 342}, 0, {1909, 799}, {51, 13, 115, 255} }},
+	{{ {448, -434, 367}, 0, {1975, 354}, {66, 18, 107, 255} }},
 	{{ {596, -425, 261}, 0, {1696, 381}, {89, 17, 89, 255} }},
-	{{ {599, -606, 272}, 0, {1847, -154}, {80, 81, 199, 255} }},
-	{{ {671, -650, 151}, 0, {1405, -258}, {69, 53, 92, 255} }},
+	{{ {599, -606, 272}, 0, {1847, -154}, {94, 6, 85, 255} }},
+	{{ {671, -650, 151}, 0, {1405, -258}, {113, 254, 58, 255} }},
 	{{ {682, -410, 156}, 0, {1417, 422}, {114, 6, 56, 255} }},
 	{{ {733, -431, 1}, 0, {1009, 363}, {127, 4, 0, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_2[] = {
-	gsSPVertex(gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_2 + 0, 24, 0),
+Gfx gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_2[] = {
+	gsSPVertex(gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_2 + 0, 24, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 2, 1, 0),
 	gsSP2Triangles(1, 4, 3, 0, 1, 5, 4, 0),
 	gsSP2Triangles(1, 6, 5, 0, 7, 6, 1, 0),
@@ -1930,7 +1969,7 @@ Gfx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_2[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_3[8] = {
+Vtx gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_3[8] = {
 	{{ {612, -118, -292}, 0, {-865, 118}, {76, 21, 156, 255} }},
 	{{ {606, 20, -175}, 0, {-321, 829}, {60, 89, 188, 255} }},
 	{{ {725, -100, -82}, 0, {112, 6}, {112, 29, 203, 255} }},
@@ -1941,8 +1980,8 @@ Vtx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_3[8] = {
 	{{ {612, -118, 293}, 0, {1857, 118}, {76, 21, 100, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_3[] = {
-	gsSPVertex(gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_3 + 0, 8, 0),
+Gfx gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_3[] = {
+	gsSPVertex(gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_3 + 0, 8, 0),
 	gsSP2Triangles(0, 1, 2, 0, 2, 1, 3, 0),
 	gsSP2Triangles(1, 4, 3, 0, 3, 4, 5, 0),
 	gsSP2Triangles(3, 5, 6, 0, 6, 5, 7, 0),
@@ -1950,44 +1989,44 @@ Gfx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_3[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_4[3] = {
+Vtx gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_4[3] = {
 	{{ {725, -100, -82}, 0, {-111, 468}, {112, 29, 203, 255} }},
 	{{ {725, -100, 83}, 0, {591, 468}, {112, 29, 53, 255} }},
 	{{ {837, -163, 1}, 0, {240, 170}, {127, 245, 0, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_4[] = {
-	gsSPVertex(gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_4 + 0, 3, 0),
+Gfx gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_4[] = {
+	gsSPVertex(gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_4 + 0, 3, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_5[21] = {
-	{{ {729, -616, 1}, 0, {-298, 361}, {103, 71, 20, 255} }},
+Vtx gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_5[21] = {
+	{{ {729, -616, 1}, 0, {-298, 361}, {52, 41, 108, 255} }},
 	{{ {934, -754, -61}, 0, {-60, 496}, {119, 8, 44, 255} }},
-	{{ {671, -650, -150}, 0, {-49, 288}, {239, 113, 202, 255} }},
+	{{ {671, -650, -150}, 0, {-49, 288}, {3, 122, 36, 255} }},
 	{{ {847, -605, -168}, 0, {58, 401}, {201, 65, 95, 255} }},
 	{{ {922, -563, -141}, 0, {78, 480}, {98, 65, 47, 255} }},
 	{{ {803, -445, -262}, 0, {407, 493}, {218, 107, 199, 255} }},
 	{{ {808, -608, -229}, 0, {112, 368}, {81, 85, 207, 255} }},
-	{{ {599, -606, -271}, 0, {29, 201}, {18, 125, 247, 255} }},
-	{{ {448, -434, -365}, 0, {107, 114}, {237, 123, 26, 255} }},
+	{{ {599, -606, -271}, 0, {29, 201}, {239, 88, 90, 255} }},
+	{{ {448, -434, -365}, 0, {107, 114}, {16, 48, 116, 255} }},
 	{{ {627, -330, -410}, 0, {407, 150}, {56, 113, 244, 255} }},
 	{{ {274, -288, -461}, 0, {184, -16}, {158, 78, 236, 255} }},
 	{{ {379, -544, -453}, 0, {62, 36}, {229, 233, 134, 255} }},
-	{{ {671, -650, 151}, 0, {173, 375}, {69, 53, 92, 255} }},
+	{{ {671, -650, 151}, 0, {173, 375}, {92, 78, 39, 255} }},
 	{{ {838, -830, 119}, 0, {4, 496}, {122, 226, 236, 255} }},
-	{{ {729, -616, 1}, 0, {380, 445}, {103, 71, 20, 255} }},
-	{{ {599, -606, 272}, 0, {224, 275}, {80, 81, 199, 255} }},
+	{{ {729, -616, 1}, 0, {380, 445}, {99, 18, 178, 255} }},
+	{{ {599, -606, 272}, 0, {224, 275}, {247, 68, 149, 255} }},
 	{{ {776, -549, 210}, 0, {-45, 356}, {84, 71, 193, 255} }},
 	{{ {593, -330, 386}, 0, {4, 143}, {57, 113, 251, 255} }},
-	{{ {448, -434, 367}, 0, {274, 175}, {101, 250, 179, 255} }},
+	{{ {448, -434, 367}, 0, {274, 175}, {18, 47, 139, 255} }},
 	{{ {327, -288, 466}, 0, {309, 49}, {171, 90, 28, 255} }},
 	{{ {379, -544, 454}, 0, {380, 102}, {225, 236, 121, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_5[] = {
-	gsSPVertex(gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_5 + 0, 21, 0),
+Gfx gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_5[] = {
+	gsSPVertex(gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_5 + 0, 21, 0),
 	gsSP2Triangles(0, 1, 2, 0, 1, 3, 2, 0),
 	gsSP2Triangles(1, 4, 3, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 3, 5, 0, 6, 2, 3, 0),
@@ -2000,36 +2039,36 @@ Gfx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_5[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_6[10] = {
+Vtx gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_6[10] = {
 	{{ {126, -159, 328}, 0, {386, 502}, {12, 79, 99, 255} }},
 	{{ {-100, -480, 686}, 0, {492, -51}, {89, 227, 170, 255} }},
 	{{ {307, -371, 386}, 0, {5, 121}, {48, 239, 116, 255} }},
-	{{ {390, -277, 342}, 0, {-140, 245}, {247, 249, 126, 255} }},
+	{{ {390, -277, 342}, 0, {-140, 245}, {51, 13, 115, 255} }},
 	{{ {435, -129, 348}, 0, {-197, 433}, {13, 38, 120, 255} }},
 	{{ {307, -371, -385}, 0, {5, 121}, {48, 239, 140, 255} }},
 	{{ {-100, -480, -684}, 0, {492, -51}, {119, 253, 43, 255} }},
 	{{ {126, -159, -327}, 0, {386, 502}, {12, 79, 157, 255} }},
-	{{ {390, -277, -341}, 0, {-140, 245}, {247, 249, 129, 255} }},
+	{{ {390, -277, -341}, 0, {-140, 245}, {51, 13, 141, 255} }},
 	{{ {435, -129, -347}, 0, {-197, 433}, {13, 38, 136, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_6[] = {
-	gsSPVertex(gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_6 + 0, 10, 0),
+Gfx gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_6[] = {
+	gsSPVertex(gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_6 + 0, 10, 0),
 	gsSP2Triangles(0, 1, 2, 0, 2, 3, 0, 0),
 	gsSP2Triangles(3, 4, 0, 0, 5, 6, 7, 0),
 	gsSP2Triangles(7, 8, 5, 0, 7, 9, 8, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_7[29] = {
-	{{ {-85, -126, 1}, 0, {325, 104}, {6, 127, 0, 255} }},
+Vtx gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_7[30] = {
+	{{ {-85, -126, 1}, 0, {325, 104}, {211, 119, 0, 255} }},
 	{{ {-68, -326, 411}, 0, {313, -20}, {242, 54, 114, 255} }},
-	{{ {-36, -213, 377}, 0, {233, 104}, {246, 90, 89, 255} }},
-	{{ {148, -440, 439}, 0, {164, 104}, {6, 37, 121, 255} }},
+	{{ {-36, -213, 377}, 0, {233, 104}, {183, 47, 93, 255} }},
+	{{ {148, -440, 439}, 0, {164, 104}, {7, 9, 127, 255} }},
 	{{ {-36, -475, 442}, 0, {266, -20}, {1, 15, 126, 255} }},
 	{{ {12, -578, 445}, 0, {208, -20}, {8, 252, 127, 255} }},
 	{{ {145, -771, 411}, 0, {136, -20}, {14, 216, 120, 255} }},
-	{{ {444, -802, 371}, 0, {58, 104}, {21, 190, 106, 255} }},
+	{{ {444, -802, 371}, 0, {58, 104}, {37, 198, 107, 255} }},
 	{{ {237, -865, 333}, 0, {80, -20}, {25, 172, 92, 255} }},
 	{{ {283, -909, 254}, 0, {47, -20}, {25, 153, 70, 255} }},
 	{{ {577, -959, 213}, 0, {12, 104}, {94, 193, 58, 255} }},
@@ -2040,21 +2079,22 @@ Vtx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_7[29] = {
 	{{ {577, -959, -212}, 0, {-72, 104}, {90, 187, 198, 255} }},
 	{{ {336, -961, -146}, 0, {-64, -20}, {14, 140, 205, 255} }},
 	{{ {283, -909, -252}, 0, {-109, -20}, {25, 153, 187, 255} }},
-	{{ {444, -802, -370}, 0, {-117, 104}, {18, 187, 151, 255} }},
+	{{ {444, -802, -370}, 0, {-117, 104}, {36, 197, 150, 255} }},
 	{{ {237, -865, -331}, 0, {-140, -20}, {25, 172, 164, 255} }},
 	{{ {145, -771, -410}, 0, {-189, -20}, {14, 216, 136, 255} }},
-	{{ {148, -440, -438}, 0, {-211, 104}, {6, 37, 135, 255} }},
+	{{ {148, -440, -438}, 0, {-211, 104}, {7, 9, 129, 255} }},
 	{{ {12, -578, -444}, 0, {-254, -20}, {8, 252, 129, 255} }},
 	{{ {-36, -475, -440}, 0, {-307, -20}, {1, 15, 130, 255} }},
 	{{ {-68, -326, -409}, 0, {-348, -20}, {242, 54, 142, 255} }},
-	{{ {-36, -213, -376}, 0, {-271, 104}, {246, 90, 167, 255} }},
-	{{ {-85, -126, 1}, 0, {-350, 104}, {6, 127, 0, 255} }},
-	{{ {571, -894, -156}, 0, {-56, 150}, {225, 134, 239, 255} }},
-	{{ {571, -894, 95}, 0, {-14, 150}, {124, 28, 9, 255} }},
+	{{ {-36, -213, -376}, 0, {-271, 104}, {183, 47, 164, 255} }},
+	{{ {-85, -126, 1}, 0, {-350, 104}, {211, 119, 0, 255} }},
+	{{ {571, -894, -156}, 0, {-56, 150}, {124, 21, 237, 255} }},
+	{{ {582, -890, -18}, 0, {-35, 150}, {127, 0, 1, 255} }},
+	{{ {571, -894, 95}, 0, {-14, 150}, {123, 26, 14, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_7[] = {
-	gsSPVertex(gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_7 + 0, 29, 0),
+Gfx gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_7[] = {
+	gsSPVertex(gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_7 + 0, 30, 0),
 	gsSP2Triangles(0, 1, 2, 0, 1, 3, 2, 0),
 	gsSP2Triangles(1, 4, 3, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 3, 5, 0, 6, 7, 3, 0),
@@ -2068,12 +2108,13 @@ Gfx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_7[] = {
 	gsSP2Triangles(21, 20, 22, 0, 22, 23, 21, 0),
 	gsSP2Triangles(21, 23, 24, 0, 21, 24, 25, 0),
 	gsSP2Triangles(24, 26, 25, 0, 15, 18, 27, 0),
-	gsSP2Triangles(13, 15, 27, 0, 28, 13, 27, 0),
-	gsSP2Triangles(28, 10, 13, 0, 28, 7, 10, 0),
+	gsSP2Triangles(13, 15, 27, 0, 13, 27, 28, 0),
+	gsSP2Triangles(13, 28, 29, 0, 29, 10, 13, 0),
+	gsSP1Triangle(29, 7, 10, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_8[27] = {
+Vtx gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_8[27] = {
 	{{ {192, -1091, 1}, 0, {-16, 144}, {24, 131, 0, 255} }},
 	{{ {381, -979, -64}, 0, {68, 56}, {26, 133, 238, 255} }},
 	{{ {381, -979, 35}, 0, {-100, 56}, {30, 133, 14, 255} }},
@@ -2103,8 +2144,8 @@ Vtx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_8[27] = {
 	{{ {-68, -326, -409}, 0, {251, 786}, {242, 54, 142, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_8[] = {
-	gsSPVertex(gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_8 + 0, 27, 0),
+Gfx gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_8[] = {
+	gsSPVertex(gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_vtx_8 + 0, 27, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(5, 6, 3, 0, 5, 7, 6, 0),
 	gsSP2Triangles(8, 7, 5, 0, 5, 9, 8, 0),
@@ -2121,7 +2162,7 @@ Gfx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_8[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone011_gLinkHumanHatLimb_mesh_layer_Opaque_vtx_0[24] = {
+Vtx gDigitaChildSkel_bone011_gLinkHumanHatLimb_mesh_layer_Opaque_vtx_0[24] = {
 	{{ {371, -398, -271}, 0, {600, 692}, {60, 169, 185, 255} }},
 	{{ {371, -398, 272}, 0, {-632, 692}, {60, 169, 71, 255} }},
 	{{ {646, -263, 1}, 0, {-16, 840}, {80, 158, 0, 255} }},
@@ -2137,8 +2178,8 @@ Vtx gLinkHumanSkel_bone011_gLinkHumanHatLimb_mesh_layer_Opaque_vtx_0[24] = {
 	{{ {1058, 69, 1}, 0, {2188, 315}, {120, 40, 4, 255} }},
 	{{ {646, -263, 1}, 0, {1448, 550}, {80, 158, 0, 255} }},
 	{{ {702, -32, -277}, 0, {1519, 225}, {70, 25, 153, 255} }},
-	{{ {-85, -126, 1}, 0, {-16, 350}, {6, 127, 0, 255} }},
-	{{ {-85, -126, 1}, 0, {456, 1046}, {6, 127, 0, 255} }},
+	{{ {-85, -126, 1}, 0, {-16, 350}, {211, 119, 0, 255} }},
+	{{ {-85, -126, 1}, 0, {456, 1046}, {211, 119, 0, 255} }},
 	{{ {-68, -326, -409}, 0, {251, 786}, {242, 54, 142, 255} }},
 	{{ {-191, -456, -443}, 0, {219, 585}, {245, 23, 132, 255} }},
 	{{ {-228, -753, -450}, 0, {-350, 35}, {224, 202, 146, 255} }},
@@ -2148,10 +2189,10 @@ Vtx gLinkHumanSkel_bone011_gLinkHumanHatLimb_mesh_layer_Opaque_vtx_0[24] = {
 	{{ {-68, -326, 411}, 0, {251, 786}, {242, 54, 114, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone011_gLinkHumanHatLimb_mesh_layer_Opaque_tri_0[] = {
-	gsSPVertex(gLinkHumanSkel_bone011_gLinkHumanHatLimb_mesh_layer_Opaque_vtx_0 + 0, 15, 0),
+Gfx gDigitaChildSkel_bone011_gLinkHumanHatLimb_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gDigitaChildSkel_bone011_gLinkHumanHatLimb_mesh_layer_Opaque_vtx_0 + 0, 15, 0),
 	gsSPMatrix(0x0d0001c0, G_MTX_LOAD),
-	gsSPVertex(gLinkHumanSkel_bone011_gLinkHumanHatLimb_mesh_layer_Opaque_vtx_0 + 15, 9, 15),
+	gsSPVertex(gDigitaChildSkel_bone011_gLinkHumanHatLimb_mesh_layer_Opaque_vtx_0 + 15, 9, 15),
 	gsSP2Triangles(0, 1, 15, 0, 0, 2, 1, 0),
 	gsSP2Triangles(3, 16, 17, 0, 3, 17, 18, 0),
 	gsSP2Triangles(4, 3, 18, 0, 18, 19, 4, 0),
@@ -2170,7 +2211,7 @@ Gfx gLinkHumanSkel_bone011_gLinkHumanHatLimb_mesh_layer_Opaque_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone012_gLinkHumanCollarLimb_mesh_layer_Opaque_vtx_0[9] = {
+Vtx gDigitaChildSkel_bone012_gLinkHumanCollarLimb_mesh_layer_Opaque_vtx_0[9] = {
 	{{ {962, -292, 217}, 0, {452, 86}, {51, 165, 72, 255} }},
 	{{ {1067, -316, -241}, 0, {19, -13}, {199, 156, 203, 255} }},
 	{{ {1067, -316, 241}, 0, {475, -13}, {199, 156, 53, 255} }},
@@ -2182,15 +2223,15 @@ Vtx gLinkHumanSkel_bone012_gLinkHumanCollarLimb_mesh_layer_Opaque_vtx_0[9] = {
 	{{ {902, 238, -172}, 0, {84, 143}, {138, 252, 208, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone012_gLinkHumanCollarLimb_mesh_layer_Opaque_tri_0[] = {
-	gsSPVertex(gLinkHumanSkel_bone012_gLinkHumanCollarLimb_mesh_layer_Opaque_vtx_0 + 0, 9, 0),
+Gfx gDigitaChildSkel_bone012_gLinkHumanCollarLimb_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gDigitaChildSkel_bone012_gLinkHumanCollarLimb_mesh_layer_Opaque_vtx_0 + 0, 9, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 0, 2, 0),
 	gsSP2Triangles(3, 2, 4, 0, 5, 3, 4, 0),
 	gsSP2Triangles(1, 6, 7, 0, 6, 8, 7, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_vtx_0[11] = {
+Vtx gDigitaChildSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_vtx_0[11] = {
 	{{ {334, 114, 171}, 0, {205, 35}, {56, 87, 73, 255} }},
 	{{ {595, 8, 155}, 0, {275, 41}, {253, 253, 127, 255} }},
 	{{ {595, 128, 75}, 0, {270, 73}, {4, 116, 51, 255} }},
@@ -2204,8 +2245,8 @@ Vtx gLinkHumanSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_vtx_0[11
 	{{ {356, 182, -7}, 0, {180, 108}, {28, 120, 224, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_tri_0[] = {
-	gsSPVertex(gLinkHumanSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_vtx_0 + 0, 11, 0),
+Gfx gDigitaChildSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gDigitaChildSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_vtx_0 + 0, 11, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(4, 1, 3, 0, 3, 5, 4, 0),
 	gsSP2Triangles(6, 4, 5, 0, 5, 7, 6, 0),
@@ -2215,7 +2256,7 @@ Gfx gLinkHumanSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_tri_0[] 
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_vtx_1[8] = {
+Vtx gDigitaChildSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_vtx_1[8] = {
 	{{ {341, -192, 42}, 0, {114, 237}, {51, 144, 31, 255} }},
 	{{ {335, -74, 171}, 0, {-10, 104}, {50, 162, 69, 255} }},
 	{{ {247, -84, 221}, 0, {119, 51}, {5, 186, 106, 255} }},
@@ -2226,27 +2267,27 @@ Vtx gLinkHumanSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_vtx_1[8]
 	{{ {46, -49, 208}, 0, {417, 64}, {200, 246, 114, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_tri_1[] = {
-	gsSPVertex(gLinkHumanSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_vtx_1 + 0, 8, 0),
+Gfx gDigitaChildSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_tri_1[] = {
+	gsSPVertex(gDigitaChildSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_vtx_1 + 0, 8, 0),
 	gsSP2Triangles(0, 1, 2, 0, 2, 1, 3, 0),
 	gsSP2Triangles(4, 2, 3, 0, 3, 5, 4, 0),
 	gsSP2Triangles(6, 4, 5, 0, 2, 4, 7, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_vtx_2[3] = {
+Vtx gDigitaChildSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_vtx_2[3] = {
 	{{ {334, 114, 171}, 0, {820, 738}, {56, 87, 73, 255} }},
 	{{ {390, 14, 285}, 0, {541, 414}, {114, 1, 200, 255} }},
 	{{ {335, -74, 171}, 0, {140, 778}, {66, 193, 88, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_tri_2[] = {
-	gsSPVertex(gLinkHumanSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_vtx_2 + 0, 3, 0),
+Gfx gDigitaChildSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_tri_2[] = {
+	gsSPVertex(gDigitaChildSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_vtx_2 + 0, 3, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone014_gLinkHumanLeftForearmLimb_mesh_layer_Opaque_vtx_0[18] = {
+Vtx gDigitaChildSkel_bone014_gLinkHumanLeftForearmLimb_mesh_layer_Opaque_vtx_0[18] = {
 	{{ {29, 132, 74}, 0, {65, 1083}, {224, 116, 42, 255} }},
 	{{ {25, 96, -68}, 0, {56, 1201}, {229, 83, 164, 255} }},
 	{{ {168, 109, -109}, 0, {157, 1241}, {245, 73, 153, 255} }},
@@ -2267,10 +2308,10 @@ Vtx gLinkHumanSkel_bone014_gLinkHumanLeftForearmLimb_mesh_layer_Opaque_vtx_0[18]
 	{{ {593, 94, -67}, 0, {46, 1199}, {6, 76, 154, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone014_gLinkHumanLeftForearmLimb_mesh_layer_Opaque_tri_0[] = {
-	gsSPVertex(gLinkHumanSkel_bone014_gLinkHumanLeftForearmLimb_mesh_layer_Opaque_vtx_0 + 0, 13, 0),
+Gfx gDigitaChildSkel_bone014_gLinkHumanLeftForearmLimb_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gDigitaChildSkel_bone014_gLinkHumanLeftForearmLimb_mesh_layer_Opaque_vtx_0 + 0, 13, 0),
 	gsSPMatrix(0x0d000280, G_MTX_LOAD),
-	gsSPVertex(gLinkHumanSkel_bone014_gLinkHumanLeftForearmLimb_mesh_layer_Opaque_vtx_0 + 13, 5, 13),
+	gsSPVertex(gDigitaChildSkel_bone014_gLinkHumanLeftForearmLimb_mesh_layer_Opaque_vtx_0 + 13, 5, 13),
 	gsSP2Triangles(0, 13, 14, 0, 13, 0, 1, 0),
 	gsSP2Triangles(2, 1, 0, 0, 0, 3, 2, 0),
 	gsSP2Triangles(4, 3, 0, 0, 0, 14, 4, 0),
@@ -2289,7 +2330,7 @@ Gfx gLinkHumanSkel_bone014_gLinkHumanLeftForearmLimb_mesh_layer_Opaque_tri_0[] =
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone015_gLinkHumanLeftHandLimb_mesh_layer_Opaque_vtx_0[31] = {
+Vtx gDigitaChildSkel_bone015_gLinkHumanLeftHandLimb_mesh_layer_Opaque_vtx_0[31] = {
 	{{ {114, -10, 62}, 0, {149, 606}, {56, 153, 48, 255} }},
 	{{ {-110, -5, -57}, 0, {364, 583}, {175, 179, 195, 255} }},
 	{{ {82, -8, -99}, 0, {136, 592}, {14, 147, 192, 255} }},
@@ -2323,8 +2364,8 @@ Vtx gLinkHumanSkel_bone015_gLinkHumanLeftHandLimb_mesh_layer_Opaque_vtx_0[31] = 
 	{{ {280, 329, -111}, 0, {148, 231}, {102, 76, 3, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone015_gLinkHumanLeftHandLimb_mesh_layer_Opaque_tri_0[] = {
-	gsSPVertex(gLinkHumanSkel_bone015_gLinkHumanLeftHandLimb_mesh_layer_Opaque_vtx_0 + 0, 31, 0),
+Gfx gDigitaChildSkel_bone015_gLinkHumanLeftHandLimb_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gDigitaChildSkel_bone015_gLinkHumanLeftHandLimb_mesh_layer_Opaque_vtx_0 + 0, 31, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(4, 3, 0, 0, 4, 0, 5, 0),
 	gsSP2Triangles(6, 5, 0, 0, 7, 5, 6, 0),
@@ -2348,7 +2389,7 @@ Gfx gLinkHumanSkel_bone015_gLinkHumanLeftHandLimb_mesh_layer_Opaque_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_vtx_0[11] = {
+Vtx gDigitaChildSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_vtx_0[11] = {
 	{{ {595, 128, -76}, 0, {270, 73}, {4, 116, 205, 255} }},
 	{{ {595, 8, -156}, 0, {275, 41}, {253, 253, 129, 255} }},
 	{{ {334, 114, -171}, 0, {205, 35}, {56, 87, 183, 255} }},
@@ -2362,8 +2403,8 @@ Vtx gLinkHumanSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_vtx_0[1
 	{{ {356, 182, 6}, 0, {180, 108}, {27, 120, 32, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_tri_0[] = {
-	gsSPVertex(gLinkHumanSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_vtx_0 + 0, 11, 0),
+Gfx gDigitaChildSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gDigitaChildSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_vtx_0 + 0, 11, 0),
 	gsSP2Triangles(0, 1, 2, 0, 1, 3, 2, 0),
 	gsSP2Triangles(3, 1, 4, 0, 4, 5, 3, 0),
 	gsSP2Triangles(5, 4, 6, 0, 6, 7, 5, 0),
@@ -2373,7 +2414,7 @@ Gfx gLinkHumanSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_tri_0[]
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_vtx_1[8] = {
+Vtx gDigitaChildSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_vtx_1[8] = {
 	{{ {334, 114, -171}, 0, {-8, 104}, {15, 110, 195, 255} }},
 	{{ {245, 98, -221}, 0, {122, 53}, {245, 76, 155, 255} }},
 	{{ {356, 182, 6}, 0, {72, 288}, {22, 122, 29, 255} }},
@@ -2384,27 +2425,27 @@ Vtx gLinkHumanSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_vtx_1[8
 	{{ {46, -49, -209}, 0, {417, 64}, {200, 246, 143, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_tri_1[] = {
-	gsSPVertex(gLinkHumanSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_vtx_1 + 0, 8, 0),
+Gfx gDigitaChildSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_tri_1[] = {
+	gsSPVertex(gDigitaChildSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_vtx_1 + 0, 8, 0),
 	gsSP2Triangles(0, 1, 2, 0, 1, 0, 3, 0),
 	gsSP2Triangles(3, 4, 1, 0, 3, 5, 4, 0),
 	gsSP2Triangles(4, 5, 6, 0, 7, 1, 4, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_vtx_2[3] = {
+Vtx gDigitaChildSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_vtx_2[3] = {
 	{{ {335, -74, -172}, 0, {140, 778}, {66, 193, 168, 255} }},
 	{{ {390, 14, -285}, 0, {541, 414}, {114, 0, 56, 255} }},
 	{{ {334, 114, -171}, 0, {820, 738}, {56, 87, 183, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_tri_2[] = {
-	gsSPVertex(gLinkHumanSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_vtx_2 + 0, 3, 0),
+Gfx gDigitaChildSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_tri_2[] = {
+	gsSPVertex(gDigitaChildSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_vtx_2 + 0, 3, 0),
 	gsSP1Triangle(0, 1, 2, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone017_gLinkHumanRightForearmLimb_mesh_layer_Opaque_vtx_0[18] = {
+Vtx gDigitaChildSkel_bone017_gLinkHumanRightForearmLimb_mesh_layer_Opaque_vtx_0[18] = {
 	{{ {30, 96, 67}, 0, {56, 1201}, {229, 83, 92, 255} }},
 	{{ {172, -84, 113}, 0, {157, 1244}, {250, 192, 109, 255} }},
 	{{ {170, -172, -69}, 0, {164, 1094}, {1, 134, 221, 255} }},
@@ -2425,10 +2466,10 @@ Vtx gLinkHumanSkel_bone017_gLinkHumanRightForearmLimb_mesh_layer_Opaque_vtx_0[18
 	{{ {595, 8, -156}, 0, {58, 1016}, {253, 253, 129, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone017_gLinkHumanRightForearmLimb_mesh_layer_Opaque_tri_0[] = {
-	gsSPVertex(gLinkHumanSkel_bone017_gLinkHumanRightForearmLimb_mesh_layer_Opaque_vtx_0 + 0, 13, 0),
+Gfx gDigitaChildSkel_bone017_gLinkHumanRightForearmLimb_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gDigitaChildSkel_bone017_gLinkHumanRightForearmLimb_mesh_layer_Opaque_vtx_0 + 0, 13, 0),
 	gsSPMatrix(0x0d000340, G_MTX_LOAD),
-	gsSPVertex(gLinkHumanSkel_bone017_gLinkHumanRightForearmLimb_mesh_layer_Opaque_vtx_0 + 13, 5, 13),
+	gsSPVertex(gDigitaChildSkel_bone017_gLinkHumanRightForearmLimb_mesh_layer_Opaque_vtx_0 + 13, 5, 13),
 	gsSP2Triangles(13, 14, 0, 0, 0, 14, 15, 0),
 	gsSP2Triangles(0, 15, 1, 0, 2, 1, 15, 0),
 	gsSP2Triangles(15, 16, 2, 0, 2, 16, 17, 0),
@@ -2447,7 +2488,7 @@ Gfx gLinkHumanSkel_bone017_gLinkHumanRightForearmLimb_mesh_layer_Opaque_tri_0[] 
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone018_gLinkHumanRightHandLimb_mesh_layer_Opaque_vtx_0[31] = {
+Vtx gDigitaChildSkel_bone018_gLinkHumanRightHandLimb_mesh_layer_Opaque_vtx_0[31] = {
 	{{ {82, -15, 98}, 0, {136, 592}, {14, 147, 64, 255} }},
 	{{ {-110, -12, 57}, 0, {364, 583}, {175, 179, 61, 255} }},
 	{{ {114, -16, -63}, 0, {149, 606}, {56, 153, 208, 255} }},
@@ -2481,8 +2522,8 @@ Vtx gLinkHumanSkel_bone018_gLinkHumanRightHandLimb_mesh_layer_Opaque_vtx_0[31] =
 	{{ {240, 332, 142}, 0, {159, 243}, {5, 95, 84, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone018_gLinkHumanRightHandLimb_mesh_layer_Opaque_tri_0[] = {
-	gsSPVertex(gLinkHumanSkel_bone018_gLinkHumanRightHandLimb_mesh_layer_Opaque_vtx_0 + 0, 31, 0),
+Gfx gDigitaChildSkel_bone018_gLinkHumanRightHandLimb_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gDigitaChildSkel_bone018_gLinkHumanRightHandLimb_mesh_layer_Opaque_vtx_0 + 0, 31, 0),
 	gsSP2Triangles(0, 1, 2, 0, 1, 3, 2, 0),
 	gsSP2Triangles(3, 1, 4, 0, 1, 5, 4, 0),
 	gsSP2Triangles(4, 5, 6, 0, 7, 4, 6, 0),
@@ -2506,7 +2547,7 @@ Gfx gLinkHumanSkel_bone018_gLinkHumanRightHandLimb_mesh_layer_Opaque_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_vtx_0[26] = {
+Vtx gDigitaChildSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_vtx_0[26] = {
 	{{ {-147, -15, 42}, 0, {507, 3}, {129, 0, 0, 255} }},
 	{{ {-147, -24, -85}, 0, {483, 3}, {129, 0, 0, 255} }},
 	{{ {-147, -191, -11}, 0, {18, 3}, {129, 0, 0, 255} }},
@@ -2535,8 +2576,8 @@ Vtx gLinkHumanSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_vtx_0[26] = {
 	{{ {727, -23, -98}, 0, {486, 2111}, {254, 39, 135, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_tri_0[] = {
-	gsSPVertex(gLinkHumanSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_vtx_0 + 0, 26, 0),
+Gfx gDigitaChildSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gDigitaChildSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_vtx_0 + 0, 26, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 7, 8, 0, 9, 6, 8, 0),
 	gsSP2Triangles(10, 6, 9, 0, 11, 12, 13, 0),
@@ -2547,7 +2588,7 @@ Gfx gLinkHumanSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_vtx_1[24] = {
+Vtx gDigitaChildSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_vtx_1[24] = {
 	{{ {729, -176, -24}, 0, {-129, -11}, {7, 204, 141, 255} }},
 	{{ {728, -99, -61}, 0, {56, -14}, {4, 199, 143, 255} }},
 	{{ {1064, -144, -26}, 0, {268, 429}, {20, 193, 148, 255} }},
@@ -2574,8 +2615,8 @@ Vtx gLinkHumanSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_vtx_1[24] = {
 	{{ {727, -23, -98}, 0, {240, -16}, {0, 39, 135, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_tri_1[] = {
-	gsSPVertex(gLinkHumanSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_vtx_1 + 0, 24, 0),
+Gfx gDigitaChildSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_tri_1[] = {
+	gsSPVertex(gDigitaChildSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_vtx_1 + 0, 24, 0),
 	gsSP2Triangles(0, 1, 2, 0, 2, 1, 3, 0),
 	gsSP2Triangles(1, 4, 3, 0, 2, 3, 5, 0),
 	gsSP2Triangles(6, 7, 8, 0, 6, 9, 7, 0),
@@ -2587,7 +2628,7 @@ Gfx gLinkHumanSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_tri_1[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_0[23] = {
+Vtx gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_0[23] = {
 	{{ {962, -292, -217}, 0, {-861, 880}, {121, 7, 219, 255} }},
 	{{ {985, -256, -118}, 0, {-788, 864}, {91, 177, 216, 255} }},
 	{{ {985, -256, 118}, 0, {-618, 872}, {91, 177, 40, 255} }},
@@ -2613,12 +2654,12 @@ Vtx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_0[23] = {
 	{{ {105, -86, 230}, 0, {-43, 26}, {213, 73, 94, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_0[] = {
-	gsSPVertex(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_0 + 0, 13, 0),
+Gfx gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_0 + 0, 13, 0),
 	gsSPMatrix(0x0d000240, G_MTX_LOAD),
-	gsSPVertex(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_0 + 13, 3, 13),
+	gsSPVertex(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_0 + 13, 3, 13),
 	gsSPMatrix(0x0d0001c0, G_MTX_LOAD),
-	gsSPVertex(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_0 + 16, 7, 16),
+	gsSPVertex(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_0 + 16, 7, 16),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 13, 0),
 	gsSP2Triangles(16, 17, 3, 0, 3, 17, 18, 0),
 	gsSP2Triangles(18, 4, 3, 0, 4, 18, 19, 0),
@@ -2632,7 +2673,7 @@ Gfx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_1[57] = {
+Vtx gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_1[57] = {
 	{{ {765, 70, 435}, 0, {961, 87}, {74, 97, 34, 255} }},
 	{{ {848, 59, 190}, 0, {706, 4}, {33, 61, 107, 255} }},
 	{{ {680, 265, 0}, 0, {511, 175}, {42, 120, 0, 255} }},
@@ -2692,11 +2733,11 @@ Vtx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_1[57] = {
 	{{ {-61, 14, -458}, 0, {66, 910}, {232, 17, 132, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_1[] = {
+Gfx gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_1[] = {
 	gsSPMatrix(0x0d000440, G_MTX_LOAD),
-	gsSPVertex(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_1 + 0, 30, 0),
+	gsSPVertex(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_1 + 0, 30, 0),
 	gsSPMatrix(0x0d000240, G_MTX_LOAD),
-	gsSPVertex(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_1 + 30, 2, 30),
+	gsSPVertex(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_1 + 30, 2, 30),
 	gsSP2Triangles(0, 1, 2, 0, 1, 0, 3, 0),
 	gsSP2Triangles(3, 30, 1, 0, 30, 3, 4, 0),
 	gsSP2Triangles(4, 5, 30, 0, 6, 5, 4, 0),
@@ -2718,7 +2759,7 @@ Gfx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_1[] = {
 	gsSP2Triangles(27, 12, 28, 0, 28, 12, 13, 0),
 	gsSP2Triangles(28, 13, 29, 0, 14, 29, 13, 0),
 	gsSPMatrix(0x0d000440, G_MTX_LOAD),
-	gsSPVertex(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_1 + 32, 25, 0),
+	gsSPVertex(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_1 + 32, 25, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 1, 0, 0),
 	gsSP2Triangles(4, 1, 3, 0, 4, 3, 5, 0),
 	gsSP2Triangles(5, 6, 4, 0, 6, 5, 7, 0),
@@ -2739,7 +2780,7 @@ Gfx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_1[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_2[11] = {
+Vtx gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_2[11] = {
 	{{ {680, 265, 0}, 0, {247, 353}, {42, 120, 0, 255} }},
 	{{ {848, 59, 190}, 0, {426, 194}, {33, 61, 107, 255} }},
 	{{ {680, 265, 0}, 0, {247, 353}, {42, 120, 0, 255} }},
@@ -2753,10 +2794,10 @@ Vtx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_2[11] = {
 	{{ {1067, -316, -241}, 0, {19, -13}, {199, 156, 203, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_2[] = {
-	gsSPVertex(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_2 + 0, 4, 0),
+Gfx gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_2[] = {
+	gsSPVertex(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_2 + 0, 4, 0),
 	gsSPMatrix(0x0d000240, G_MTX_LOAD),
-	gsSPVertex(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_2 + 4, 7, 4),
+	gsSPVertex(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_2 + 4, 7, 4),
 	gsSP2Triangles(0, 4, 5, 0, 4, 0, 1, 0),
 	gsSP2Triangles(6, 4, 1, 0, 7, 2, 8, 0),
 	gsSP2Triangles(2, 7, 9, 0, 7, 3, 9, 0),
@@ -2764,69 +2805,69 @@ Gfx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_2[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_3[4] = {
-	{{ {241, 380, -316}, 0, {187, -10}, {218, 121, 246, 255} }},
-	{{ {46, 388, -190}, 0, {187, 496}, {150, 64, 26, 255} }},
-	{{ {377, 415, -102}, 0, {841, -19}, {235, 41, 138, 255} }},
-	{{ {184, 398, 41}, 0, {841, 494}, {171, 43, 84, 255} }},
+Vtx gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_3[4] = {
+	{{ {241, 380, -316}, 0, {187, -10}, {252, 114, 201, 255} }},
+	{{ {46, 388, -190}, 0, {187, 496}, {244, 122, 224, 255} }},
+	{{ {377, 415, -102}, 0, {841, -19}, {2, 127, 7, 255} }},
+	{{ {184, 398, 41}, 0, {841, 494}, {254, 126, 13, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_3[] = {
+Gfx gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_3[] = {
 	gsSPMatrix(0x0d000440, G_MTX_LOAD),
-	gsSPVertex(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_3 + 0, 4, 0),
+	gsSPVertex(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_3 + 0, 4, 0),
 	gsSP2Triangles(0, 1, 2, 0, 1, 3, 2, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_4[44] = {
-	{{ {200, 216, -496}, 0, {230, 235}, {86, 194, 186, 255} }},
+Vtx gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_4[44] = {
+	{{ {200, 216, -496}, 0, {230, 235}, {3, 32, 133, 255} }},
 	{{ {82, 248, -497}, 0, {99, 264}, {249, 62, 145, 255} }},
-	{{ {241, 380, -316}, 0, {240, 496}, {218, 121, 246, 255} }},
-	{{ {46, 388, -190}, 0, {106, 494}, {150, 64, 26, 255} }},
-	{{ {-41, 258, -471}, 0, {-21, 297}, {156, 63, 209, 255} }},
-	{{ {-41, 258, -471}, 0, {-115, 130}, {156, 63, 209, 255} }},
-	{{ {184, 398, 41}, 0, {-30, 122}, {171, 43, 84, 255} }},
-	{{ {46, 388, -190}, 0, {-97, 125}, {150, 64, 26, 255} }},
-	{{ {489, 334, 280}, 0, {21, 124}, {142, 42, 219, 255} }},
-	{{ {787, 105, 435}, 0, {72, 127}, {154, 76, 8, 255} }},
-	{{ {880, -128, 449}, 0, {112, 130}, {226, 118, 35, 255} }},
-	{{ {788, -415, 397}, 0, {112, 144}, {148, 227, 60, 255} }},
-	{{ {389, -465, 213}, 0, {48, 148}, {156, 191, 213, 255} }},
-	{{ {54, -515, -91}, 0, {-17, 153}, {135, 38, 254, 255} }},
-	{{ {-38, -427, -479}, 0, {-66, 153}, {185, 156, 33, 255} }},
-	{{ {844, 112, 193}, 0, {-42, 107}, {112, 202, 230, 255} }},
-	{{ {787, 105, 435}, 0, {243, 96}, {154, 76, 8, 255} }},
-	{{ {880, -128, 449}, 0, {230, 411}, {226, 118, 35, 255} }},
-	{{ {971, -292, 247}, 0, {-26, 495}, {42, 146, 209, 255} }},
-	{{ {844, 112, 193}, 0, {77, 106}, {112, 202, 230, 255} }},
-	{{ {971, -292, 247}, 0, {121, 114}, {42, 146, 209, 255} }},
-	{{ {863, -445, 215}, 0, {121, 123}, {99, 31, 182, 255} }},
-	{{ {490, -476, 51}, 0, {56, 128}, {255, 134, 37, 255} }},
-	{{ {207, -507, -199}, 0, {-9, 132}, {109, 213, 49, 255} }},
-	{{ {624, 347, 90}, 0, {32, 103}, {54, 3, 141, 255} }},
-	{{ {377, 415, -102}, 0, {-13, 100}, {235, 41, 138, 255} }},
-	{{ {241, 380, -316}, 0, {-85, 105}, {218, 121, 246, 255} }},
-	{{ {200, 216, -496}, 0, {-111, 112}, {86, 194, 186, 255} }},
-	{{ {171, -393, -505}, 0, {-66, 131}, {73, 44, 162, 255} }},
-	{{ {971, -292, 247}, 0, {240, 339}, {42, 146, 209, 255} }},
-	{{ {788, -415, 397}, 0, {-28, 112}, {148, 227, 60, 255} }},
-	{{ {863, -445, 215}, 0, {213, 122}, {99, 31, 182, 255} }},
-	{{ {880, -128, 449}, 0, {9, 425}, {226, 118, 35, 255} }},
-	{{ {788, -415, 397}, 0, {-28, 112}, {148, 227, 60, 255} }},
-	{{ {971, -292, 247}, 0, {240, 339}, {42, 146, 209, 255} }},
-	{{ {207, -507, -199}, 0, {197, 470}, {109, 213, 49, 255} }},
-	{{ {54, -515, -91}, 0, {22, 445}, {135, 38, 254, 255} }},
-	{{ {-38, -427, -479}, 0, {53, 114}, {185, 156, 33, 255} }},
-	{{ {171, -393, -505}, 0, {241, 88}, {73, 44, 162, 255} }},
-	{{ {171, -393, -505}, 0, {-26, 96}, {73, 44, 162, 255} }},
-	{{ {-38, -427, -479}, 0, {212, 84}, {185, 156, 33, 255} }},
-	{{ {200, 216, -496}, 0, {2, 386}, {86, 194, 186, 255} }},
+	{{ {241, 380, -316}, 0, {240, 496}, {252, 114, 201, 255} }},
+	{{ {46, 388, -190}, 0, {106, 494}, {244, 122, 224, 255} }},
+	{{ {-41, 258, -471}, 0, {-21, 297}, {240, 69, 151, 255} }},
+	{{ {-41, 258, -471}, 0, {-115, 130}, {160, 234, 80, 255} }},
+	{{ {184, 398, 41}, 0, {-30, 122}, {177, 174, 57, 255} }},
+	{{ {46, 388, -190}, 0, {-97, 125}, {163, 192, 58, 255} }},
+	{{ {489, 334, 280}, 0, {21, 124}, {181, 174, 61, 255} }},
+	{{ {787, 105, 435}, 0, {72, 127}, {166, 206, 74, 255} }},
+	{{ {880, -128, 449}, 0, {112, 130}, {164, 245, 87, 255} }},
+	{{ {788, -415, 397}, 0, {112, 144}, {184, 37, 98, 255} }},
+	{{ {389, -465, 213}, 0, {48, 148}, {186, 48, 95, 255} }},
+	{{ {54, -515, -91}, 0, {-17, 153}, {146, 17, 62, 255} }},
+	{{ {-38, -427, -479}, 0, {-66, 153}, {132, 255, 29, 255} }},
+	{{ {844, 112, 193}, 0, {-42, 107}, {109, 61, 25, 255} }},
+	{{ {787, 105, 435}, 0, {243, 96}, {89, 84, 34, 255} }},
+	{{ {880, -128, 449}, 0, {230, 411}, {118, 16, 45, 255} }},
+	{{ {971, -292, 247}, 0, {-26, 495}, {111, 227, 54, 255} }},
+	{{ {844, 112, 193}, 0, {77, 106}, {60, 249, 144, 255} }},
+	{{ {971, -292, 247}, 0, {121, 114}, {40, 253, 136, 255} }},
+	{{ {863, -445, 215}, 0, {121, 123}, {46, 253, 138, 255} }},
+	{{ {490, -476, 51}, 0, {56, 128}, {69, 240, 150, 255} }},
+	{{ {207, -507, -199}, 0, {-9, 132}, {104, 247, 183, 255} }},
+	{{ {624, 347, 90}, 0, {32, 103}, {69, 2, 150, 255} }},
+	{{ {377, 415, -102}, 0, {-13, 100}, {94, 248, 171, 255} }},
+	{{ {241, 380, -316}, 0, {-85, 105}, {118, 246, 211, 255} }},
+	{{ {200, 216, -496}, 0, {-111, 112}, {125, 249, 237, 255} }},
+	{{ {171, -393, -505}, 0, {-66, 131}, {126, 250, 239, 255} }},
+	{{ {971, -292, 247}, 0, {240, 339}, {111, 227, 54, 255} }},
+	{{ {788, -415, 397}, 0, {-28, 112}, {55, 151, 46, 255} }},
+	{{ {863, -445, 215}, 0, {213, 122}, {51, 146, 39, 255} }},
+	{{ {880, -128, 449}, 0, {9, 425}, {118, 16, 45, 255} }},
+	{{ {788, -415, 397}, 0, {-28, 112}, {55, 151, 46, 255} }},
+	{{ {971, -292, 247}, 0, {240, 339}, {111, 227, 54, 255} }},
+	{{ {207, -507, -199}, 0, {197, 470}, {4, 130, 243, 255} }},
+	{{ {54, -515, -91}, 0, {22, 445}, {0, 129, 247, 255} }},
+	{{ {-38, -427, -479}, 0, {53, 114}, {246, 196, 145, 255} }},
+	{{ {171, -393, -505}, 0, {241, 88}, {254, 185, 151, 255} }},
+	{{ {171, -393, -505}, 0, {-26, 96}, {254, 185, 151, 255} }},
+	{{ {-38, -427, -479}, 0, {212, 84}, {246, 196, 145, 255} }},
+	{{ {200, 216, -496}, 0, {2, 386}, {3, 32, 133, 255} }},
 	{{ {82, 248, -497}, 0, {125, 412}, {249, 62, 145, 255} }},
-	{{ {-41, 258, -471}, 0, {252, 423}, {156, 63, 209, 255} }},
+	{{ {-41, 258, -471}, 0, {252, 423}, {240, 69, 151, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_4[] = {
-	gsSPVertex(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_4 + 0, 32, 0),
+Gfx gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_4[] = {
+	gsSPVertex(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_4 + 0, 32, 0),
 	gsSP2Triangles(0, 1, 2, 0, 2, 1, 3, 0),
 	gsSP2Triangles(1, 4, 3, 0, 5, 6, 7, 0),
 	gsSP2Triangles(5, 8, 6, 0, 5, 9, 8, 0),
@@ -2838,30 +2879,30 @@ Gfx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_4[] = {
 	gsSP2Triangles(24, 19, 23, 0, 24, 23, 25, 0),
 	gsSP2Triangles(26, 25, 23, 0, 26, 23, 27, 0),
 	gsSP2Triangles(23, 28, 27, 0, 29, 30, 31, 0),
-	gsSPVertex(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_4 + 32, 12, 0),
+	gsSPVertex(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_4 + 32, 12, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(3, 5, 6, 0, 7, 8, 9, 0),
 	gsSP2Triangles(8, 10, 9, 0, 8, 11, 10, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_5[12] = {
-	{{ {377, 415, -102}, 0, {-16, -16}, {235, 41, 138, 255} }},
-	{{ {184, 398, 41}, 0, {-16, 496}, {171, 43, 84, 255} }},
-	{{ {489, 334, 280}, 0, {1008, 496}, {142, 42, 219, 255} }},
-	{{ {624, 347, 90}, 0, {1008, -16}, {54, 3, 141, 255} }},
-	{{ {787, 105, 435}, 0, {2032, 496}, {154, 76, 8, 255} }},
-	{{ {844, 112, 193}, 0, {2032, -16}, {112, 202, 230, 255} }},
-	{{ {788, -415, 397}, 0, {3069, 497}, {148, 227, 60, 255} }},
-	{{ {490, -476, 51}, 0, {1433, -3}, {255, 134, 37, 255} }},
-	{{ {863, -445, 215}, 0, {3069, -7}, {99, 31, 182, 255} }},
-	{{ {389, -465, 213}, 0, {1433, 500}, {156, 191, 213, 255} }},
-	{{ {207, -507, -199}, 0, {9, 45}, {109, 213, 49, 255} }},
-	{{ {54, -515, -91}, 0, {-133, 460}, {135, 38, 254, 255} }},
+Vtx gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_5[12] = {
+	{{ {377, 415, -102}, 0, {-16, -16}, {2, 127, 7, 255} }},
+	{{ {184, 398, 41}, 0, {-16, 496}, {254, 126, 13, 255} }},
+	{{ {489, 334, 280}, 0, {1008, 496}, {27, 120, 31, 255} }},
+	{{ {624, 347, 90}, 0, {1008, -16}, {55, 110, 31, 255} }},
+	{{ {787, 105, 435}, 0, {2032, 496}, {89, 84, 34, 255} }},
+	{{ {844, 112, 193}, 0, {2032, -16}, {109, 61, 25, 255} }},
+	{{ {788, -415, 397}, 0, {3069, 497}, {55, 151, 46, 255} }},
+	{{ {490, -476, 51}, 0, {1433, -3}, {5, 130, 15, 255} }},
+	{{ {863, -445, 215}, 0, {3069, -7}, {51, 146, 39, 255} }},
+	{{ {389, -465, 213}, 0, {1433, 500}, {8, 130, 11, 255} }},
+	{{ {207, -507, -199}, 0, {9, 45}, {4, 130, 243, 255} }},
+	{{ {54, -515, -91}, 0, {-133, 460}, {0, 129, 247, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_5[] = {
-	gsSPVertex(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_5 + 0, 12, 0),
+Gfx gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_5[] = {
+	gsSPVertex(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_5 + 0, 12, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(3, 2, 4, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 7, 8, 0, 6, 9, 7, 0),
@@ -2869,7 +2910,7 @@ Gfx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_5[] = {
 	gsSPEndDisplayList(),
 };
 
-Vtx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_6[24] = {
+Vtx gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_6[24] = {
 	{{ {492, 145, -444}, 0, {517, 495}, {250, 96, 173, 255} }},
 	{{ {765, 70, -435}, 0, {528, 209}, {74, 97, 222, 255} }},
 	{{ {841, -121, -462}, 0, {488, 132}, {120, 12, 41, 255} }},
@@ -2896,12 +2937,12 @@ Vtx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_6[24] = {
 	{{ {341, -192, 42}, 0, {114, 237}, {51, 144, 31, 255} }},
 };
 
-Gfx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_6[] = {
-	gsSPVertex(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_6 + 0, 12, 0),
+Gfx gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_6[] = {
+	gsSPVertex(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_6 + 0, 12, 0),
 	gsSPMatrix(0x0d000340, G_MTX_LOAD),
-	gsSPVertex(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_6 + 12, 6, 12),
+	gsSPVertex(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_6 + 12, 6, 12),
 	gsSPMatrix(0x0d000280, G_MTX_LOAD),
-	gsSPVertex(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_6 + 18, 6, 18),
+	gsSPVertex(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_6 + 18, 6, 18),
 	gsSP2Triangles(0, 1, 12, 0, 12, 1, 13, 0),
 	gsSP2Triangles(2, 13, 1, 0, 13, 2, 3, 0),
 	gsSP2Triangles(3, 14, 13, 0, 3, 15, 14, 0),
@@ -2917,15 +2958,15 @@ Gfx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_6[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanSkel_belt_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_LIGHTING | G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER | G_CULL_BACK),
+Gfx mat_gDigitaChildSkel_belt_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_CD_MAGICSQ | G_TT_NONE | G_TC_FILT | G_TP_PERSP | G_TD_CLAMP | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanSkel_leather_strap_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaChildSkel_leather_strap_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 127, 1024),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 2, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0, G_TX_WRAP | G_TX_NOMIRROR, 3, 0),
@@ -2933,21 +2974,20 @@ Gfx mat_gLinkHumanSkel_belt_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gLinkHumanSkel_belt_layerOpaque[] = {
+Gfx mat_revert_gDigitaChildSkel_belt_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanSkel_tunic_skirt_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_LIGHTING | G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER | G_CULL_BACK),
+Gfx mat_gDigitaChildSkel_human_skirt_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
-	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_CD_MAGICSQ | G_TT_NONE | G_TC_FILT | G_TP_PERSP | G_TD_CLAMP | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, ENVIRONMENT, 0, 0, 0, 0, COMBINED),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanSkel_tunic_waist_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaChildSkel_tunic_waist_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 1023, 256),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
@@ -2955,21 +2995,21 @@ Gfx mat_gLinkHumanSkel_tunic_skirt_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gLinkHumanSkel_tunic_skirt_layerOpaque[] = {
+Gfx mat_revert_gDigitaChildSkel_human_skirt_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanSkel_buckle_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_LIGHTING | G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER | G_CULL_BACK),
+Gfx mat_gDigitaChildSkel_buckle_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_CD_MAGICSQ | G_TT_NONE | G_TC_FILT | G_TP_PERSP | G_TD_CLAMP | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanSkel_belt_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaChildSkel_belt_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 256),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -2977,21 +3017,21 @@ Gfx mat_gLinkHumanSkel_buckle_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gLinkHumanSkel_buckle_layerOpaque[] = {
+Gfx mat_revert_gDigitaChildSkel_buckle_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanSkel_skin_human_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_LIGHTING | G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER | G_CULL_BACK),
+Gfx mat_gDigitaChildSkel_skin_human_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_CD_MAGICSQ | G_TT_NONE | G_TC_FILT | G_TP_PERSP | G_TD_CLAMP | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanSkel_link_skin_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaChildSkel_link_skin_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 63, 1024),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 2, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 3, 0, G_TX_CLAMP | G_TX_NOMIRROR, 3, 0),
@@ -2999,21 +3039,21 @@ Gfx mat_gLinkHumanSkel_skin_human_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gLinkHumanSkel_skin_human_layerOpaque[] = {
+Gfx mat_revert_gDigitaChildSkel_skin_human_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanSkel_boot_cuff_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_LIGHTING | G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER | G_CULL_BACK),
+Gfx mat_gDigitaChildSkel_boot_cuff_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_CD_MAGICSQ | G_TT_NONE | G_TC_FILT | G_TP_PERSP | G_TD_CLAMP | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanSkel_bootcuff_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaChildSkel_bootcuff_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -3021,21 +3061,21 @@ Gfx mat_gLinkHumanSkel_boot_cuff_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gLinkHumanSkel_boot_cuff_layerOpaque[] = {
+Gfx mat_revert_gDigitaChildSkel_boot_cuff_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanSkel_boot_shin_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_LIGHTING | G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER | G_CULL_BACK),
+Gfx mat_gDigitaChildSkel_boot_shin_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_CD_MAGICSQ | G_TT_NONE | G_TC_FILT | G_TP_PERSP | G_TD_CLAMP | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanSkel_bootshin_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaChildSkel_bootshin_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 1023, 256),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -3043,21 +3083,21 @@ Gfx mat_gLinkHumanSkel_boot_shin_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gLinkHumanSkel_boot_shin_layerOpaque[] = {
+Gfx mat_revert_gDigitaChildSkel_boot_shin_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanSkel_boot_foot_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_LIGHTING | G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER | G_CULL_BACK),
+Gfx mat_gDigitaChildSkel_boot_foot_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_CD_MAGICSQ | G_TT_NONE | G_TC_FILT | G_TP_PERSP | G_TD_CLAMP | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanSkel_BootFoot_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaChildSkel_BootFoot_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 2047, 128),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 16, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -3065,21 +3105,21 @@ Gfx mat_gLinkHumanSkel_boot_foot_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gLinkHumanSkel_boot_foot_layerOpaque[] = {
+Gfx mat_revert_gDigitaChildSkel_boot_foot_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanSkel_hair_human_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_LIGHTING | G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER | G_CULL_BACK),
+Gfx mat_gDigitaChildSkel_hair_human_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_CD_MAGICSQ | G_TT_NONE | G_TC_FILT | G_TP_PERSP | G_TD_CLAMP | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanSkel_link_hair_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaChildSkel_link_hair_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 127, 1024),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 2, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0, G_TX_WRAP | G_TX_NOMIRROR, 3, 0),
@@ -3087,18 +3127,18 @@ Gfx mat_gLinkHumanSkel_hair_human_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gLinkHumanSkel_hair_human_layerOpaque[] = {
+Gfx mat_revert_gDigitaChildSkel_hair_human_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanSkel_eyes_human_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_LIGHTING | G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER | G_CULL_BACK),
+Gfx mat_gDigitaChildSkel_eyes_human_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_CD_MAGICSQ | G_TT_NONE | G_TC_FILT | G_TP_PERSP | G_TD_CLAMP | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
 	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, 0x08000000),
@@ -3109,18 +3149,18 @@ Gfx mat_gLinkHumanSkel_eyes_human_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gLinkHumanSkel_eyes_human_layerOpaque[] = {
+Gfx mat_revert_gDigitaChildSkel_eyes_human_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanSkel_mouth_human_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_LIGHTING | G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER | G_CULL_BACK),
+Gfx mat_gDigitaChildSkel_mouth_human_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_CD_MAGICSQ | G_TT_NONE | G_TC_FILT | G_TP_PERSP | G_TD_CLAMP | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
 	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, 0x09000000),
@@ -3131,21 +3171,21 @@ Gfx mat_gLinkHumanSkel_mouth_human_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gLinkHumanSkel_mouth_human_layerOpaque[] = {
+Gfx mat_revert_gDigitaChildSkel_mouth_human_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanSkel_nostril_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_LIGHTING | G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER | G_CULL_BACK),
+Gfx mat_gDigitaChildSkel_nostril_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_CD_MAGICSQ | G_TT_NONE | G_TC_FILT | G_TP_PERSP | G_TD_CLAMP | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanSkel_link_nostril_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaChildSkel_link_nostril_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 512),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0),
@@ -3153,21 +3193,21 @@ Gfx mat_gLinkHumanSkel_nostril_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gLinkHumanSkel_nostril_layerOpaque[] = {
+Gfx mat_revert_gDigitaChildSkel_nostril_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanSkel_hair1_human_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_LIGHTING | G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER | G_CULL_BACK),
+Gfx mat_gDigitaChildSkel_hair1_human_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_CD_MAGICSQ | G_TT_NONE | G_TC_FILT | G_TP_PERSP | G_TD_CLAMP | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanSkel_link_hair1_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaChildSkel_link_hair1_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 127, 1024),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 2, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0, G_TX_WRAP | G_TX_NOMIRROR, 3, 0),
@@ -3175,21 +3215,21 @@ Gfx mat_gLinkHumanSkel_hair1_human_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gLinkHumanSkel_hair1_human_layerOpaque[] = {
+Gfx mat_revert_gDigitaChildSkel_hair1_human_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanSkel_ear_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_LIGHTING | G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER | G_CULL_BACK),
+Gfx mat_gDigitaChildSkel_ear_human_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_CD_MAGICSQ | G_TT_NONE | G_TC_FILT | G_TP_PERSP | G_TD_CLAMP | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanSkel_link_ear_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaChildSkel_link_ear_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 512),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0),
@@ -3197,21 +3237,20 @@ Gfx mat_gLinkHumanSkel_ear_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gLinkHumanSkel_ear_layerOpaque[] = {
+Gfx mat_revert_gDigitaChildSkel_ear_human_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanSkel_hat_cuff_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_LIGHTING | G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER | G_CULL_BACK),
+Gfx mat_gDigitaChildSkel_human_hat_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
-	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_CD_MAGICSQ | G_TT_NONE | G_TC_FILT | G_TP_PERSP | G_TD_CLAMP | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, ENVIRONMENT, 0, 0, 0, 0, COMBINED),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanSkel_tunic_hat_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaChildSkel_tunic_hat_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 127, 1024),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 2, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0, G_TX_WRAP | G_TX_NOMIRROR, 3, 0),
@@ -3219,21 +3258,20 @@ Gfx mat_gLinkHumanSkel_hat_cuff_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gLinkHumanSkel_hat_cuff_layerOpaque[] = {
+Gfx mat_revert_gDigitaChildSkel_human_hat_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanSkel_tunic_collar_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_LIGHTING | G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER),
+Gfx mat_gDigitaChildSkel_tunic_collar_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
-	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_CD_MAGICSQ | G_TT_NONE | G_TC_FILT | G_TP_PERSP | G_TD_CLAMP | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, ENVIRONMENT, 0, 0, 0, 0, COMBINED),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanSkel_tunic_collar_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaChildSkel_tunic_collar_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 512),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0),
@@ -3241,21 +3279,20 @@ Gfx mat_gLinkHumanSkel_tunic_collar_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gLinkHumanSkel_tunic_collar_layerOpaque[] = {
+Gfx mat_revert_gDigitaChildSkel_tunic_collar_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanSkel_tunic_shoulder_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_LIGHTING | G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER | G_CULL_BACK),
+Gfx mat_gDigitaChildSkel_human_shoulder_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
-	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_CD_MAGICSQ | G_TT_NONE | G_TC_FILT | G_TP_PERSP | G_TD_CLAMP | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, ENVIRONMENT, 0, 0, 0, 0, COMBINED),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanSkel_tunic_sleeve_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaChildSkel_tunic_sleeve_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 512),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0),
@@ -3263,21 +3300,20 @@ Gfx mat_gLinkHumanSkel_tunic_shoulder_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gLinkHumanSkel_tunic_shoulder_layerOpaque[] = {
+Gfx mat_revert_gDigitaChildSkel_human_shoulder_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanSkel_tunic_torso_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_LIGHTING | G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER | G_CULL_BACK),
+Gfx mat_gDigitaChildSkel_tunic_torso_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
-	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_CD_MAGICSQ | G_TT_NONE | G_TC_FILT | G_TP_PERSP | G_TD_CLAMP | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, ENVIRONMENT, 0, 0, 0, 0, COMBINED),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanSkel_tunic_torso_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaChildSkel_tunic_torso_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_MIRROR, 4, 0),
@@ -3285,21 +3321,21 @@ Gfx mat_gLinkHumanSkel_tunic_torso_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gLinkHumanSkel_tunic_torso_layerOpaque[] = {
+Gfx mat_revert_gDigitaChildSkel_tunic_torso_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanSkel_hand_human_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_LIGHTING | G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER | G_CULL_BACK),
+Gfx mat_gDigitaChildSkel_hand_human_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_CD_MAGICSQ | G_TT_NONE | G_TC_FILT | G_TP_PERSP | G_TD_CLAMP | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanSkel_link_hand_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaChildSkel_link_hand_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 512),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 4, 0, G_TX_CLAMP | G_TX_NOMIRROR, 4, 0),
@@ -3307,43 +3343,43 @@ Gfx mat_gLinkHumanSkel_hand_human_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gLinkHumanSkel_hand_human_layerOpaque[] = {
+Gfx mat_revert_gDigitaChildSkel_hand_human_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanSkel_kokiri_sheath_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_LIGHTING | G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER | G_CULL_BACK),
+Gfx mat_gDigitaChildSkel_kokiri_sheath_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_CD_MAGICSQ | G_TT_NONE | G_TC_FILT | G_TP_PERSP | G_TD_CLAMP | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanSkel_sheath_kokiri_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaChildSkel_sheath_kokiri_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 1023, 512),
-	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_MIRROR, 4, 0),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_MIRROR, 4, 0),
 	gsDPSetTileSize(0, 0, 0, 60, 252),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gLinkHumanSkel_kokiri_sheath_layerOpaque[] = {
+Gfx mat_revert_gDigitaChildSkel_kokiri_sheath_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanSkel_kokiri_pommel_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_LIGHTING | G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER | G_CULL_BACK),
+Gfx mat_gDigitaChildSkel_kokiri_pommel_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_CD_MAGICSQ | G_TT_NONE | G_TC_FILT | G_TP_PERSP | G_TD_CLAMP | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanSkel_kokiri_termina_pommel_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaChildSkel_kokiri_termina_pommel_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 63, 1024),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 2, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 3, 0, G_TX_CLAMP | G_TX_NOMIRROR, 3, 0),
@@ -3351,21 +3387,21 @@ Gfx mat_gLinkHumanSkel_kokiri_pommel_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gLinkHumanSkel_kokiri_pommel_layerOpaque[] = {
+Gfx mat_revert_gDigitaChildSkel_kokiri_pommel_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gLinkHumanSkel_baldric_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_LIGHTING | G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER | G_CULL_BACK),
+Gfx mat_gDigitaChildSkel_baldric_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_CD_MAGICSQ | G_TT_NONE | G_TC_FILT | G_TP_PERSP | G_TD_CLAMP | G_PM_NPRIMITIVE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gLinkHumanSkel_baldric_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaChildSkel_baldric_rgba16),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 512),
 	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0),
@@ -3373,280 +3409,280 @@ Gfx mat_gLinkHumanSkel_baldric_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gLinkHumanSkel_baldric_layerOpaque[] = {
+Gfx mat_revert_gDigitaChildSkel_baldric_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx gLinkHumanSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque[] = {
-	gsSPDisplayList(mat_gLinkHumanSkel_belt_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_belt_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_tunic_skirt_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_tri_1),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_tunic_skirt_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_buckle_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_tri_2),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_buckle_layerOpaque),
+Gfx gDigitaChildSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque[] = {
+	gsSPDisplayList(mat_gDigitaChildSkel_belt_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_belt_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_human_skirt_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_tri_1),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_human_skirt_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_buckle_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque_tri_2),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_buckle_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
-Gfx gLinkHumanSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque[] = {
-	gsSPDisplayList(mat_gLinkHumanSkel_skin_human_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_skin_human_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_tunic_skirt_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_tri_1),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_tunic_skirt_layerOpaque),
+Gfx gDigitaChildSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque[] = {
+	gsSPDisplayList(mat_gDigitaChildSkel_skin_human_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_skin_human_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_human_skirt_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque_tri_1),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_human_skirt_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
-Gfx gLinkHumanSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque[] = {
-	gsSPDisplayList(mat_gLinkHumanSkel_skin_human_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_skin_human_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_boot_cuff_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_tri_1),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_boot_cuff_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_boot_shin_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_tri_2),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_boot_shin_layerOpaque),
+Gfx gDigitaChildSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque[] = {
+	gsSPDisplayList(mat_gDigitaChildSkel_skin_human_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_skin_human_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_boot_cuff_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_tri_1),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_boot_cuff_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_boot_shin_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_tri_2),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_boot_shin_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
-Gfx gLinkHumanSkel_bone005_gLinkHumanRightFootLimb_mesh_layer_Opaque[] = {
-	gsSPDisplayList(mat_gLinkHumanSkel_boot_foot_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone005_gLinkHumanRightFootLimb_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_boot_foot_layerOpaque),
+Gfx gDigitaChildSkel_bone005_gLinkHumanRightFootLimb_mesh_layer_Opaque[] = {
+	gsSPDisplayList(mat_gDigitaChildSkel_boot_foot_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone005_gLinkHumanRightFootLimb_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_boot_foot_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
-Gfx gLinkHumanSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque[] = {
-	gsSPDisplayList(mat_gLinkHumanSkel_skin_human_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_skin_human_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_tunic_skirt_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_tri_1),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_tunic_skirt_layerOpaque),
+Gfx gDigitaChildSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque[] = {
+	gsSPDisplayList(mat_gDigitaChildSkel_skin_human_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_skin_human_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_human_skirt_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_tri_1),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_human_skirt_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
-Gfx gLinkHumanSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque[] = {
-	gsSPDisplayList(mat_gLinkHumanSkel_skin_human_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_skin_human_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_boot_shin_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_tri_1),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_boot_shin_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_boot_cuff_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_tri_2),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_boot_cuff_layerOpaque),
+Gfx gDigitaChildSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque[] = {
+	gsSPDisplayList(mat_gDigitaChildSkel_skin_human_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_skin_human_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_boot_shin_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_tri_1),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_boot_shin_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_boot_cuff_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_tri_2),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_boot_cuff_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
-Gfx gLinkHumanSkel_bone008_gLinkHumanLeftFootLimb_mesh_layer_Opaque[] = {
-	gsSPDisplayList(mat_gLinkHumanSkel_boot_foot_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone008_gLinkHumanLeftFootLimb_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_boot_foot_layerOpaque),
+Gfx gDigitaChildSkel_bone008_gLinkHumanLeftFootLimb_mesh_layer_Opaque[] = {
+	gsSPDisplayList(mat_gDigitaChildSkel_boot_foot_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone008_gLinkHumanLeftFootLimb_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_boot_foot_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
-Gfx gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque[] = {
-	gsSPDisplayList(mat_gLinkHumanSkel_skin_human_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_skin_human_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_hair_human_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_1),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_hair_human_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_eyes_human_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_2),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_eyes_human_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_mouth_human_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_3),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_mouth_human_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_nostril_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_4),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_nostril_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_hair1_human_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_5),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_hair1_human_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_ear_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_6),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_ear_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_hat_cuff_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_7),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_hat_cuff_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_tunic_skirt_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_8),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_tunic_skirt_layerOpaque),
+Gfx gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque[] = {
+	gsSPDisplayList(mat_gDigitaChildSkel_skin_human_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_skin_human_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_hair_human_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_1),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_hair_human_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_eyes_human_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_2),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_eyes_human_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_mouth_human_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_3),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_mouth_human_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_nostril_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_4),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_nostril_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_hair1_human_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_5),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_hair1_human_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_ear_human_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_6),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_ear_human_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_human_hat_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_7),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_human_hat_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_human_skirt_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque_tri_8),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_human_skirt_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
-Gfx gLinkHumanSkel_bone011_gLinkHumanHatLimb_mesh_layer_Opaque[] = {
-	gsSPDisplayList(mat_gLinkHumanSkel_tunic_skirt_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone011_gLinkHumanHatLimb_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_tunic_skirt_layerOpaque),
+Gfx gDigitaChildSkel_bone011_gLinkHumanHatLimb_mesh_layer_Opaque[] = {
+	gsSPDisplayList(mat_gDigitaChildSkel_human_skirt_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone011_gLinkHumanHatLimb_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_human_skirt_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
-Gfx gLinkHumanSkel_bone012_gLinkHumanCollarLimb_mesh_layer_Opaque[] = {
-	gsSPDisplayList(mat_gLinkHumanSkel_tunic_collar_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone012_gLinkHumanCollarLimb_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_tunic_collar_layerOpaque),
+Gfx gDigitaChildSkel_bone012_gLinkHumanCollarLimb_mesh_layer_Opaque[] = {
+	gsSPDisplayList(mat_gDigitaChildSkel_tunic_collar_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone012_gLinkHumanCollarLimb_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_tunic_collar_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
-Gfx gLinkHumanSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque[] = {
-	gsSPDisplayList(mat_gLinkHumanSkel_skin_human_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_skin_human_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_tunic_shoulder_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_tri_1),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_tunic_shoulder_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_tunic_torso_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_tri_2),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_tunic_torso_layerOpaque),
+Gfx gDigitaChildSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque[] = {
+	gsSPDisplayList(mat_gDigitaChildSkel_skin_human_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_skin_human_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_human_shoulder_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_tri_1),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_human_shoulder_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_tunic_torso_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque_tri_2),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_tunic_torso_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
-Gfx gLinkHumanSkel_bone014_gLinkHumanLeftForearmLimb_mesh_layer_Opaque[] = {
-	gsSPDisplayList(mat_gLinkHumanSkel_skin_human_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone014_gLinkHumanLeftForearmLimb_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_skin_human_layerOpaque),
+Gfx gDigitaChildSkel_bone014_gLinkHumanLeftForearmLimb_mesh_layer_Opaque[] = {
+	gsSPDisplayList(mat_gDigitaChildSkel_skin_human_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone014_gLinkHumanLeftForearmLimb_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_skin_human_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
-Gfx gLinkHumanSkel_bone015_gLinkHumanLeftHandLimb_mesh_layer_Opaque[] = {
-	gsSPDisplayList(mat_gLinkHumanSkel_hand_human_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone015_gLinkHumanLeftHandLimb_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_hand_human_layerOpaque),
+Gfx gDigitaChildSkel_bone015_gLinkHumanLeftHandLimb_mesh_layer_Opaque[] = {
+	gsSPDisplayList(mat_gDigitaChildSkel_hand_human_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone015_gLinkHumanLeftHandLimb_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_hand_human_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
-Gfx gLinkHumanSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque[] = {
-	gsSPDisplayList(mat_gLinkHumanSkel_skin_human_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_skin_human_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_tunic_shoulder_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_tri_1),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_tunic_shoulder_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_tunic_torso_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_tri_2),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_tunic_torso_layerOpaque),
+Gfx gDigitaChildSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque[] = {
+	gsSPDisplayList(mat_gDigitaChildSkel_skin_human_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_skin_human_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_human_shoulder_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_tri_1),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_human_shoulder_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_tunic_torso_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque_tri_2),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_tunic_torso_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
-Gfx gLinkHumanSkel_bone017_gLinkHumanRightForearmLimb_mesh_layer_Opaque[] = {
-	gsSPDisplayList(mat_gLinkHumanSkel_skin_human_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone017_gLinkHumanRightForearmLimb_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_skin_human_layerOpaque),
+Gfx gDigitaChildSkel_bone017_gLinkHumanRightForearmLimb_mesh_layer_Opaque[] = {
+	gsSPDisplayList(mat_gDigitaChildSkel_skin_human_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone017_gLinkHumanRightForearmLimb_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_skin_human_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
-Gfx gLinkHumanSkel_bone018_gLinkHumanRightHandLimb_mesh_layer_Opaque[] = {
-	gsSPDisplayList(mat_gLinkHumanSkel_hand_human_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone018_gLinkHumanRightHandLimb_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_hand_human_layerOpaque),
+Gfx gDigitaChildSkel_bone018_gLinkHumanRightHandLimb_mesh_layer_Opaque[] = {
+	gsSPDisplayList(mat_gDigitaChildSkel_hand_human_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone018_gLinkHumanRightHandLimb_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_hand_human_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
-Gfx gLinkHumanSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque[] = {
-	gsSPDisplayList(mat_gLinkHumanSkel_kokiri_sheath_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_kokiri_sheath_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_kokiri_pommel_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_tri_1),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_kokiri_pommel_layerOpaque),
+Gfx gDigitaChildSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque[] = {
+	gsSPDisplayList(mat_gDigitaChildSkel_kokiri_sheath_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_kokiri_sheath_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_kokiri_pommel_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_tri_1),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_kokiri_pommel_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
-Gfx gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque[] = {
-	gsSPDisplayList(mat_gLinkHumanSkel_skin_human_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_skin_human_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_tunic_torso_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_1),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_tunic_torso_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_tunic_collar_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_2),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_tunic_collar_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_buckle_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_3),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_buckle_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_belt_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_4),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_belt_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_baldric_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_5),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_baldric_layerOpaque),
-	gsSPDisplayList(mat_gLinkHumanSkel_tunic_shoulder_layerOpaque),
-	gsSPDisplayList(gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_6),
-	gsSPDisplayList(mat_revert_gLinkHumanSkel_tunic_shoulder_layerOpaque),
+Gfx gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque[] = {
+	gsSPDisplayList(mat_gDigitaChildSkel_skin_human_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_skin_human_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_tunic_torso_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_1),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_tunic_torso_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_tunic_collar_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_2),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_tunic_collar_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_buckle_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_3),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_buckle_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_belt_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_4),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_belt_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_baldric_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_5),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_baldric_layerOpaque),
+	gsSPDisplayList(mat_gDigitaChildSkel_human_shoulder_layerOpaque),
+	gsSPDisplayList(gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_6),
+	gsSPDisplayList(mat_revert_gDigitaChildSkel_human_shoulder_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
-StandardLimb gLinkHumanSkelLimb_000 = { { 0, 0, 0 }, 1, 255, NULL };
-StandardLimb gLinkHumanSkelLimb_001 = { { -4, -104, 0 }, 2, 9, gLinkHumanSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque };
-StandardLimb gLinkHumanSkelLimb_002 = { { 607, 0, 0 }, 3, 255, NULL };
-StandardLimb gLinkHumanSkelLimb_003 = { { -172, 50, -190 }, 4, 6, gLinkHumanSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque };
-StandardLimb gLinkHumanSkelLimb_004 = { { 697, 0, 0 }, 5, 255, gLinkHumanSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque };
-StandardLimb gLinkHumanSkelLimb_005 = { { 825, 5, 11 }, 255, 255, gLinkHumanSkel_bone005_gLinkHumanRightFootLimb_mesh_layer_Opaque };
-StandardLimb gLinkHumanSkelLimb_006 = { { -170, 57, 192 }, 7, 255, gLinkHumanSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque };
-StandardLimb gLinkHumanSkelLimb_007 = { { 695, 0, 0 }, 8, 255, gLinkHumanSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque };
-StandardLimb gLinkHumanSkelLimb_008 = { { 817, 8, 4 }, 255, 255, gLinkHumanSkel_bone008_gLinkHumanLeftFootLimb_mesh_layer_Opaque };
-StandardLimb gLinkHumanSkelLimb_009 = { { 0, -103, -7 }, 10, 255, NULL };
-StandardLimb gLinkHumanSkelLimb_010 = { { 996, -201, -1 }, 11, 12, gLinkHumanSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque };
-StandardLimb gLinkHumanSkelLimb_011 = { { -365, -670, 0 }, 255, 255, gLinkHumanSkel_bone011_gLinkHumanHatLimb_mesh_layer_Opaque };
-StandardLimb gLinkHumanSkelLimb_012 = { { 0, 0, 0 }, 255, 13, gLinkHumanSkel_bone012_gLinkHumanCollarLimb_mesh_layer_Opaque };
-StandardLimb gLinkHumanSkelLimb_013 = { { 696, -175, 466 }, 14, 16, gLinkHumanSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque };
-StandardLimb gLinkHumanSkelLimb_014 = { { 581, 0, 0 }, 15, 255, gLinkHumanSkel_bone014_gLinkHumanLeftForearmLimb_mesh_layer_Opaque };
-StandardLimb gLinkHumanSkelLimb_015 = { { 514, 0, 0 }, 255, 255, gLinkHumanSkel_bone015_gLinkHumanLeftHandLimb_mesh_layer_Opaque };
-StandardLimb gLinkHumanSkelLimb_016 = { { 696, -175, -466 }, 17, 19, gLinkHumanSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque };
-StandardLimb gLinkHumanSkelLimb_017 = { { 577, 0, 0 }, 18, 255, gLinkHumanSkel_bone017_gLinkHumanRightForearmLimb_mesh_layer_Opaque };
-StandardLimb gLinkHumanSkelLimb_018 = { { 525, 0, 0 }, 255, 255, gLinkHumanSkel_bone018_gLinkHumanRightHandLimb_mesh_layer_Opaque };
-StandardLimb gLinkHumanSkelLimb_019 = { { 657, -523, 367 }, 255, 20, gLinkHumanSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque };
-StandardLimb gLinkHumanSkelLimb_020 = { { 0, 0, 0 }, 255, 255, gLinkHumanSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque };
+StandardLimb gDigitaChildSkelLimb_000 = { { 0, 0, 0 }, 1, 255, NULL };
+StandardLimb gDigitaChildSkelLimb_001 = { { -4, -104, 0 }, 2, 9, gDigitaChildSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque };
+StandardLimb gDigitaChildSkelLimb_002 = { { 607, 0, 0 }, 3, 255, NULL };
+StandardLimb gDigitaChildSkelLimb_003 = { { -172, 50, -190 }, 4, 6, gDigitaChildSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque };
+StandardLimb gDigitaChildSkelLimb_004 = { { 697, 0, 0 }, 5, 255, gDigitaChildSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque };
+StandardLimb gDigitaChildSkelLimb_005 = { { 825, 5, 11 }, 255, 255, gDigitaChildSkel_bone005_gLinkHumanRightFootLimb_mesh_layer_Opaque };
+StandardLimb gDigitaChildSkelLimb_006 = { { -170, 57, 192 }, 7, 255, gDigitaChildSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque };
+StandardLimb gDigitaChildSkelLimb_007 = { { 695, 0, 0 }, 8, 255, gDigitaChildSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque };
+StandardLimb gDigitaChildSkelLimb_008 = { { 817, 8, 4 }, 255, 255, gDigitaChildSkel_bone008_gLinkHumanLeftFootLimb_mesh_layer_Opaque };
+StandardLimb gDigitaChildSkelLimb_009 = { { 0, -103, -7 }, 10, 255, NULL };
+StandardLimb gDigitaChildSkelLimb_010 = { { 996, -201, -1 }, 11, 12, gDigitaChildSkel_bone010_gLinkHumanHeadLimb_mesh_layer_Opaque };
+StandardLimb gDigitaChildSkelLimb_011 = { { -365, -670, 0 }, 255, 255, gDigitaChildSkel_bone011_gLinkHumanHatLimb_mesh_layer_Opaque };
+StandardLimb gDigitaChildSkelLimb_012 = { { 0, 0, 0 }, 255, 13, gDigitaChildSkel_bone012_gLinkHumanCollarLimb_mesh_layer_Opaque };
+StandardLimb gDigitaChildSkelLimb_013 = { { 696, -175, 466 }, 14, 16, gDigitaChildSkel_bone013_gLinkHumanLeftShoulderLimb_mesh_layer_Opaque };
+StandardLimb gDigitaChildSkelLimb_014 = { { 581, 0, 0 }, 15, 255, gDigitaChildSkel_bone014_gLinkHumanLeftForearmLimb_mesh_layer_Opaque };
+StandardLimb gDigitaChildSkelLimb_015 = { { 514, 0, 0 }, 255, 255, gDigitaChildSkel_bone015_gLinkHumanLeftHandLimb_mesh_layer_Opaque };
+StandardLimb gDigitaChildSkelLimb_016 = { { 696, -175, -466 }, 17, 19, gDigitaChildSkel_bone016_gLinkHumanRightShoulderLimb_mesh_layer_Opaque };
+StandardLimb gDigitaChildSkelLimb_017 = { { 577, 0, 0 }, 18, 255, gDigitaChildSkel_bone017_gLinkHumanRightForearmLimb_mesh_layer_Opaque };
+StandardLimb gDigitaChildSkelLimb_018 = { { 525, 0, 0 }, 255, 255, gDigitaChildSkel_bone018_gLinkHumanRightHandLimb_mesh_layer_Opaque };
+StandardLimb gDigitaChildSkelLimb_019 = { { 657, -523, 367 }, 255, 20, gDigitaChildSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque };
+StandardLimb gDigitaChildSkelLimb_020 = { { 0, 0, 0 }, 255, 255, gDigitaChildSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque };
 
-void* gLinkHumanSkelLimbs[21] = {
-	&gLinkHumanSkelLimb_000,
-	&gLinkHumanSkelLimb_001,
-	&gLinkHumanSkelLimb_002,
-	&gLinkHumanSkelLimb_003,
-	&gLinkHumanSkelLimb_004,
-	&gLinkHumanSkelLimb_005,
-	&gLinkHumanSkelLimb_006,
-	&gLinkHumanSkelLimb_007,
-	&gLinkHumanSkelLimb_008,
-	&gLinkHumanSkelLimb_009,
-	&gLinkHumanSkelLimb_010,
-	&gLinkHumanSkelLimb_011,
-	&gLinkHumanSkelLimb_012,
-	&gLinkHumanSkelLimb_013,
-	&gLinkHumanSkelLimb_014,
-	&gLinkHumanSkelLimb_015,
-	&gLinkHumanSkelLimb_016,
-	&gLinkHumanSkelLimb_017,
-	&gLinkHumanSkelLimb_018,
-	&gLinkHumanSkelLimb_019,
-	&gLinkHumanSkelLimb_020,
+void* gDigitaChildSkelLimbs[21] = {
+	&gDigitaChildSkelLimb_000,
+	&gDigitaChildSkelLimb_001,
+	&gDigitaChildSkelLimb_002,
+	&gDigitaChildSkelLimb_003,
+	&gDigitaChildSkelLimb_004,
+	&gDigitaChildSkelLimb_005,
+	&gDigitaChildSkelLimb_006,
+	&gDigitaChildSkelLimb_007,
+	&gDigitaChildSkelLimb_008,
+	&gDigitaChildSkelLimb_009,
+	&gDigitaChildSkelLimb_010,
+	&gDigitaChildSkelLimb_011,
+	&gDigitaChildSkelLimb_012,
+	&gDigitaChildSkelLimb_013,
+	&gDigitaChildSkelLimb_014,
+	&gDigitaChildSkelLimb_015,
+	&gDigitaChildSkelLimb_016,
+	&gDigitaChildSkelLimb_017,
+	&gDigitaChildSkelLimb_018,
+	&gDigitaChildSkelLimb_019,
+	&gDigitaChildSkelLimb_020,
 };
 
-FlexSkeletonHeader gLinkHumanSkel = { gLinkHumanSkelLimbs, 21, 18 };
+FlexSkeletonHeader gDigitaChildSkel = { gDigitaChildSkelLimbs, 21, 18 };
 
-void* gLinkHumanEyeTextures[] = {
-    gLinkHumanSkel_gLinkChildEyesOpenTex_rgba16,
-    gLinkHumanSkel_gLinkChildEyesHalfTex_rgba16,
-    gLinkHumanSkel_gLinkChildEyesClosedfTex_rgba16,
-    gLinkHumanSkel_gLinkChildEyesRollRightTex_rgba16,
-    gLinkHumanSkel_gLinkChildEyesRollLeftTex_rgba16,
-    gLinkHumanSkel_gLinkChildEyesShockTex_rgba16,
-    gLinkHumanSkel_gLinkChildEyesUnk1Tex_rgba16,
-    gLinkHumanSkel_gLinkChildEyesUnk2Tex_rgba16,
+void* gLinkChildEyeTextures[] = {
+    gDigitaChildSkel_gLinkChildEyesOpenTex_rgba16,
+    gDigitaChildSkel_gLinkChildEyesHalfTex_rgba16,
+    gDigitaChildSkel_gLinkChildEyesClosedfTex_rgba16,
+    gDigitaChildSkel_gLinkChildEyesRollRightTex_rgba16,
+    gDigitaChildSkel_gLinkChildEyesRollLeftTex_rgba16,
+    gDigitaChildSkel_gLinkChildEyesShockTex_rgba16,
+    gDigitaChildSkel_gLinkChildEyesUnk1Tex_rgba16,
+    gDigitaChildSkel_gLinkChildEyesUnk2Tex_rgba16,
 };
-void* gLinkHumanMouthTextures[] = {
-    gLinkHumanSkel_gLinkChildMouth1Tex_rgba16,
-    gLinkHumanSkel_gLinkChildMouth2Tex_rgba16,
-    gLinkHumanSkel_gLinkChildMouth3Tex_rgba16,
-    gLinkHumanSkel_gLinkChildMouth4Tex_rgba16,
+void* gLinkChildMouthTextures[] = {
+    gDigitaChildSkel_gLinkChildMouth1Tex_rgba16,
+    gDigitaChildSkel_gLinkChildMouth2Tex_rgba16,
+    gDigitaChildSkel_gLinkChildMouth3Tex_rgba16,
+    gDigitaChildSkel_gLinkChildMouth4Tex_rgba16,
 };

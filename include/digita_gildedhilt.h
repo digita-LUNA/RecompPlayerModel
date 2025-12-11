@@ -1,0 +1,32 @@
+#ifndef DIGITA_GILDEDHILT_H
+#define DIGITA_GILDEDHILT_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaHumanGildedHiltDL_sheath_ci8[];
+extern u64 gDigitaHumanGildedHiltDL_sheath_pal_rgba16[];
+extern u64 gDigitaHumanGildedHiltDL_metal_gilded_ci8[];
+extern u64 gDigitaHumanGildedHiltDL_metal_gilded_pal_rgba16[];
+extern u64 gDigitaHumanGildedHiltDL_metal_i8[];
+extern u64 gDigitaHumanGildedHiltDL_oot_improved_eq_metal_bombchu_rgba16[];
+extern Vtx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_0[51];
+extern Gfx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_1[12];
+extern Gfx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_tri_1[];
+extern Vtx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_2[192];
+extern Gfx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_tri_2[];
+extern Vtx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_3[16];
+extern Gfx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_tri_3[];
+extern Gfx mat_gDigitaHumanGildedHiltDL_razor_pommel_layerOpaque[];
+extern Gfx mat_revert_gDigitaHumanGildedHiltDL_razor_pommel_layerOpaque[];
+extern Gfx mat_gDigitaHumanGildedHiltDL_metal_gilded_layerOpaque[];
+extern Gfx mat_revert_gDigitaHumanGildedHiltDL_metal_gilded_layerOpaque[];
+extern Gfx mat_gDigitaHumanGildedHiltDL_metal_layerOpaque[];
+extern Gfx mat_revert_gDigitaHumanGildedHiltDL_metal_layerOpaque[];
+extern Gfx mat_gDigitaHumanGildedHiltDL_metal_blue_layerOpaque[];
+extern Gfx mat_revert_gDigitaHumanGildedHiltDL_metal_blue_layerOpaque[];
+extern Gfx gDigitaHumanGildedHiltDL[];
+
+#endif

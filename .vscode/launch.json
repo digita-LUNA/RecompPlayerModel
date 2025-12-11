@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/home/moriyaluna/Modding/Recomp/RecompPlayerModel/src",
+      "program": "/home/moriyaluna/Modding/Recomp/RecompPlayerModel/src/build/Debug/outDebug"
+    }
+  ]
+}

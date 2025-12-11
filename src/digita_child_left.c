@@ -1,0 +1,128 @@
+#include "digita_child_left.h"
+
+u64 gDigitaChildLeftFist_link_hand_rgba16[] = {
+	0xb44bb44bb44bb44b, 0xb44ddd55ffa7d553, 0xbc8dff63ddd7b44b, 0xb44bb44bb44bb44b, 0xb44bb44bc48fc4cf, 0xbc8df7adfff7ff23, 0xdd53fff3fff5fe5b, 0xb44bb44bb44bb44b, 
+	0xb44bdd95fff3fff1, 0xcd11ffe7ffe9fedf, 0xe595ffe5ffe7f659, 0xb44db44bb44bb44b, 0xc48ffe5dfff3fff3, 0xcd11ffa3ff63fedd, 0xe5d5ff61ff21ee5b, 0xc48fccd1c4cfb44b, 
+	0xc4cff65bff65ffa3, 0xbccfffa3ff63fedd, 0xdd93ff61ff63fee1, 0xd553ffedffabb44b, 0xcccff659ff63ff61, 0xc4cfff1fff21f69d, 0xd555ff21ff21f6e1, 0xd595ffebffefbc8d, 
+	0xcccff659ff1fff1d, 0xcd11f6dff6dff6df, 0xd553f6dff6dff6e1, 0xd555ffa3ffa7c48f, 0xcd11f65bf69df6db, 0xd553ff21ff23ff23, 0xd595ff21ff23ff21, 0xd595ff61ffa5c4cf, 
+	0xd551f69dff21ff1f, 0xdd95ff63ff25ff65, 0xd555ff23ff25ff21, 0xdd95f6ddff63cd11, 0xd551f69dff23ff1f, 0xe5d7ff63ff25ff65, 0xdd95ff23ff25ff23, 0xddd7ff23ff63d553, 
+	0xcd11f69dff21ff21, 0xee59ff63ff25ff65, 0xe619ff23ff25ff23, 0xe619ff23ff63d553, 0xc48fee59fedfff21, 0xfeddff23fee3ff65, 0xfedffee3fee3ff23, 0xee5dff23ff23dd95, 
+	0xc48dee59f69df69f, 0xfee1fee3f69fff23, 0xff23f69ff69fff23, 0xfedfee9dff23ddd5, 0xc4cff69dff25ff25, 0xff25ff25ff23ff25, 0xff25ff23ff23ff23, 0xff23fee1ff23e5d7, 
+	0xccd1fedfff25ff25, 0xff25ff25ff25ff25, 0xff25ff25ff25ff25, 0xff25ff25ff23ee17, 0xd553fee1ff25ff25, 0xff25ff25ff25ff25, 0xff25ff25ff25ff25, 0xff25ff25ff25ee19, 
+	
+};
+
+Vtx gDigitaChildLeftFist_gDigitaChildLeftFist_mesh_layer_Opaque_vtx_cull[8] = {
+	{{ {-254, -9, -184}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {-254, -9, 216}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {-254, 396, 216}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {-254, 396, -184}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {189, -9, -184}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {189, -9, 216}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {189, 396, 216}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {189, 396, -184}, 0, {0, 0}, {0, 0, 0, 0} }},
+};
+
+Vtx gDigitaChildLeftFist_gDigitaChildLeftFist_mesh_layer_Opaque_vtx_0[37] = {
+	{{ {18, -8, -97}, 0, {136, 592}, {23, 148, 193, 255} }},
+	{{ {50, -9, 26}, 0, {149, 606}, {67, 150, 20, 255} }},
+	{{ {-174, -5, -45}, 0, {364, 583}, {176, 170, 207, 255} }},
+	{{ {-131, -6, 70}, 0, {364, 596}, {203, 151, 47, 255} }},
+	{{ {91, 131, 216}, 0, {90, 473}, {63, 225, 106, 255} }},
+	{{ {116, 195, 10}, 0, {5, 407}, {127, 6, 247, 255} }},
+	{{ {136, 385, 132}, 0, {52, 223}, {73, 77, 70, 255} }},
+	{{ {149, 310, 5}, 0, {4, 242}, {115, 219, 216, 255} }},
+	{{ {-254, 184, 1}, 0, {503, 398}, {138, 1, 209, 255} }},
+	{{ {68, 125, -184}, 0, {119, 453}, {229, 233, 134, 255} }},
+	{{ {-202, 142, 128}, 0, {437, 450}, {168, 236, 89, 255} }},
+	{{ {-195, 379, 67}, 0, {442, 249}, {184, 86, 59, 255} }},
+	{{ {-176, 391, -121}, 0, {425, 172}, {192, 86, 188, 255} }},
+	{{ {115, 396, -113}, 0, {87, 150}, {65, 84, 187, 255} }},
+	{{ {145, 329, -38}, 0, {42, 144}, {120, 216, 248, 255} }},
+	{{ {115, 191, -106}, 0, {79, 46}, {71, 151, 3, 255} }},
+	{{ {85, 264, -147}, 0, {122, 76}, {52, 242, 141, 255} }},
+	{{ {-163, 202, -115}, 0, {404, 77}, {191, 147, 1, 255} }},
+	{{ {-161, 262, -155}, 0, {408, 95}, {194, 237, 147, 255} }},
+	{{ {-198, 335, -62}, 0, {442, 169}, {137, 213, 246, 255} }},
+	{{ {-226, 326, -18}, 0, {480, 261}, {143, 2, 197, 255} }},
+	{{ {68, 125, -184}, 0, {207, 459}, {229, 233, 134, 255} }},
+	{{ {18, -8, -97}, 0, {203, 539}, {23, 148, 193, 255} }},
+	{{ {-174, -5, -45}, 0, {165, 677}, {176, 170, 207, 255} }},
+	{{ {189, 184, -180}, 0, {226, 399}, {106, 246, 187, 255} }},
+	{{ {31, 326, -175}, 0, {159, 243}, {192, 68, 170, 255} }},
+	{{ {20, 303, -104}, 0, {130, 281}, {149, 40, 55, 255} }},
+	{{ {116, 195, 10}, 0, {125, 381}, {127, 6, 247, 255} }},
+	{{ {66, 348, -135}, 0, {148, 231}, {15, 126, 255, 255} }},
+	{{ {149, 287, -120}, 0, {166, 276}, {97, 82, 4, 255} }},
+	{{ {50, -9, 26}, 0, {124, 567}, {67, 150, 20, 255} }},
+	{{ {-198, 335, -62}, 0, {442, 256}, {137, 213, 246, 255} }},
+	{{ {-163, 202, -115}, 0, {404, 163}, {191, 147, 1, 255} }},
+	{{ {115, 191, -106}, 0, {79, 133}, {71, 151, 3, 255} }},
+	{{ {145, 329, -38}, 0, {42, 231}, {120, 216, 248, 255} }},
+	{{ {-226, 326, -18}, 0, {480, 348}, {143, 2, 197, 255} }},
+	{{ {149, 310, 5}, 0, {4, 329}, {115, 219, 216, 255} }},
+};
+
+Gfx gDigitaChildLeftFist_gDigitaChildLeftFist_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gDigitaChildLeftFist_gDigitaChildLeftFist_mesh_layer_Opaque_vtx_0 + 0, 31, 0),
+	gsSP2Triangles(0, 1, 2, 0, 2, 1, 3, 0),
+	gsSP2Triangles(3, 1, 4, 0, 1, 5, 4, 0),
+	gsSP2Triangles(5, 6, 4, 0, 6, 5, 7, 0),
+	gsSP2Triangles(7, 5, 8, 0, 8, 5, 9, 0),
+	gsSP2Triangles(2, 8, 9, 0, 3, 8, 2, 0),
+	gsSP2Triangles(8, 3, 10, 0, 3, 4, 10, 0),
+	gsSP2Triangles(4, 11, 10, 0, 6, 11, 4, 0),
+	gsSP2Triangles(12, 11, 6, 0, 12, 6, 13, 0),
+	gsSP2Triangles(14, 13, 6, 0, 14, 6, 7, 0),
+	gsSP2Triangles(15, 13, 14, 0, 15, 16, 13, 0),
+	gsSP2Triangles(17, 16, 15, 0, 16, 17, 18, 0),
+	gsSP2Triangles(18, 17, 19, 0, 18, 19, 12, 0),
+	gsSP2Triangles(12, 19, 20, 0, 12, 20, 11, 0),
+	gsSP2Triangles(11, 20, 8, 0, 7, 8, 20, 0),
+	gsSP2Triangles(11, 8, 10, 0, 18, 12, 13, 0),
+	gsSP2Triangles(18, 13, 16, 0, 21, 22, 23, 0),
+	gsSP2Triangles(21, 24, 22, 0, 25, 24, 21, 0),
+	gsSP2Triangles(25, 21, 26, 0, 27, 26, 21, 0),
+	gsSP2Triangles(27, 28, 26, 0, 28, 27, 29, 0),
+	gsSP2Triangles(29, 27, 24, 0, 27, 30, 24, 0),
+	gsSP2Triangles(24, 30, 22, 0, 24, 25, 29, 0),
+	gsSP2Triangles(29, 25, 28, 0, 26, 28, 25, 0),
+	gsSPVertex(gDigitaChildLeftFist_gDigitaChildLeftFist_mesh_layer_Opaque_vtx_0 + 31, 6, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
+	gsSP2Triangles(4, 0, 3, 0, 4, 3, 5, 0),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_gDigitaChildLeftFist_hand_human_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaChildLeftFist_link_hand_rgba16),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 255, 512),
+	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 4, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 4, 0, G_TX_CLAMP | G_TX_NOMIRROR, 4, 0),
+	gsDPSetTileSize(0, 0, 0, 60, 60),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_gDigitaChildLeftFist_hand_human_layerOpaque[] = {
+	gsDPPipeSync(),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPEndDisplayList(),
+};
+
+Gfx gDigitaChildLeftFist[] = {
+	gsSPClearGeometryMode(G_LIGHTING),
+	gsSPVertex(gDigitaChildLeftFist_gDigitaChildLeftFist_mesh_layer_Opaque_vtx_cull + 0, 8, 0),
+	gsSPSetGeometryMode(G_LIGHTING),
+	gsSPCullDisplayList(0, 7),
+	gsSPDisplayList(mat_gDigitaChildLeftFist_hand_human_layerOpaque),
+	gsSPDisplayList(gDigitaChildLeftFist_gDigitaChildLeftFist_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaChildLeftFist_hand_human_layerOpaque),
+	gsSPEndDisplayList(),
+};
+

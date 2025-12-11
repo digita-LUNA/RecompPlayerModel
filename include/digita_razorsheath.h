@@ -1,0 +1,22 @@
+#ifndef DIGITA_RAZORSHEATH_H
+#define DIGITA_RAZORSHEATH_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaHumanRazorSheathDL_sheath_ci8[];
+extern u64 gDigitaHumanRazorSheathDL_sheath_pal_rgba16[];
+extern u64 gDigitaHumanRazorSheathDL_razor_grip_ci8[];
+extern u64 gDigitaHumanRazorSheathDL_razor_grip_pal_rgba16[];
+extern Vtx gDigitaHumanRazorSheathDL_gDigitaHumanRazorSheathDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaHumanRazorSheathDL_gDigitaHumanRazorSheathDL_mesh_layer_Opaque_vtx_0[18];
+extern Gfx gDigitaHumanRazorSheathDL_gDigitaHumanRazorSheathDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaHumanRazorSheathDL_gDigitaHumanRazorSheathDL_mesh_layer_Opaque_vtx_1[30];
+extern Gfx gDigitaHumanRazorSheathDL_gDigitaHumanRazorSheathDL_mesh_layer_Opaque_tri_1[];
+extern Gfx mat_gDigitaHumanRazorSheathDL_razor_pommel_layerOpaque[];
+extern Gfx mat_revert_gDigitaHumanRazorSheathDL_razor_pommel_layerOpaque[];
+extern Gfx mat_gDigitaHumanRazorSheathDL_razor_hilt_layerOpaque[];
+extern Gfx mat_revert_gDigitaHumanRazorSheathDL_razor_hilt_layerOpaque[];
+extern Gfx gDigitaHumanRazorSheathDL[];
+
+#endif

@@ -1,0 +1,20 @@
+#ifndef DIGITA_GILDEDBLADEALT_H
+#define DIGITA_GILDEDBLADEALT_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaHumanGildedBladeAltDL_metal_termina_rgba16[];
+extern u64 gDigitaHumanGildedBladeAltDL_metal_grey_i8[];
+extern Vtx gDigitaHumanGildedBladeAltDL_gDigitaHumanGildedBladeAltDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaHumanGildedBladeAltDL_gDigitaHumanGildedBladeAltDL_mesh_layer_Opaque_vtx_0[28];
+extern Gfx gDigitaHumanGildedBladeAltDL_gDigitaHumanGildedBladeAltDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaHumanGildedBladeAltDL_gDigitaHumanGildedBladeAltDL_mesh_layer_Opaque_vtx_1[28];
+extern Gfx gDigitaHumanGildedBladeAltDL_gDigitaHumanGildedBladeAltDL_mesh_layer_Opaque_tri_1[];
+extern Gfx mat_gDigitaHumanGildedBladeAltDL_metal_termina_layerOpaque[];
+extern Gfx mat_revert_gDigitaHumanGildedBladeAltDL_metal_termina_layerOpaque[];
+extern Gfx mat_gDigitaHumanGildedBladeAltDL_metal_001_layerOpaque[];
+extern Gfx mat_revert_gDigitaHumanGildedBladeAltDL_metal_001_layerOpaque[];
+extern Gfx gDigitaHumanGildedBladeAltDL[];
+
+#endif

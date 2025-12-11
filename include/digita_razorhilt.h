@@ -1,0 +1,27 @@
+#ifndef DIGITA_RAZORHILT_H
+#define DIGITA_RAZORHILT_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaHumanRazorHiltDL_kokiri_termina_grip_i8[];
+extern u64 gDigitaHumanRazorHiltDL_razor_grip_ci8[];
+extern u64 gDigitaHumanRazorHiltDL_razor_grip_pal_rgba16[];
+extern u64 gDigitaHumanRazorHiltDL_sheath_ci8[];
+extern u64 gDigitaHumanRazorHiltDL_sheath_pal_rgba16[];
+extern Vtx gDigitaHumanRazorHiltDL_gDigitaHumanRazorHiltDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaHumanRazorHiltDL_gDigitaHumanRazorHiltDL_mesh_layer_Opaque_vtx_0[31];
+extern Gfx gDigitaHumanRazorHiltDL_gDigitaHumanRazorHiltDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaHumanRazorHiltDL_gDigitaHumanRazorHiltDL_mesh_layer_Opaque_vtx_1[44];
+extern Gfx gDigitaHumanRazorHiltDL_gDigitaHumanRazorHiltDL_mesh_layer_Opaque_tri_1[];
+extern Vtx gDigitaHumanRazorHiltDL_gDigitaHumanRazorHiltDL_mesh_layer_Opaque_vtx_2[6];
+extern Gfx gDigitaHumanRazorHiltDL_gDigitaHumanRazorHiltDL_mesh_layer_Opaque_tri_2[];
+extern Gfx mat_gDigitaHumanRazorHiltDL_kokiri_grip_layerOpaque[];
+extern Gfx mat_revert_gDigitaHumanRazorHiltDL_kokiri_grip_layerOpaque[];
+extern Gfx mat_gDigitaHumanRazorHiltDL_razor_hilt_layerOpaque[];
+extern Gfx mat_revert_gDigitaHumanRazorHiltDL_razor_hilt_layerOpaque[];
+extern Gfx mat_gDigitaHumanRazorHiltDL_razor_pommel_layerOpaque[];
+extern Gfx mat_revert_gDigitaHumanRazorHiltDL_razor_pommel_layerOpaque[];
+extern Gfx gDigitaHumanRazorHiltDL[];
+
+#endif

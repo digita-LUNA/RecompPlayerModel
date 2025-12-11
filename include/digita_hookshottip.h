@@ -1,0 +1,22 @@
+#ifndef DIGITA_HOOKSHOTTIP_H
+#define DIGITA_HOOKSHOTTIP_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaHumanHookshotTipDL_metal_gilded_ci8[];
+extern u64 gDigitaHumanHookshotTipDL_metal_gilded_pal_rgba16[];
+extern u64 gDigitaHumanHookshotTipDL_metal_gold_ci8[];
+extern u64 gDigitaHumanHookshotTipDL_metal_gold_pal_rgba16[];
+extern Vtx gDigitaHumanHookshotTipDL_gDigitaHumanHookshotTipDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaHumanHookshotTipDL_gDigitaHumanHookshotTipDL_mesh_layer_Opaque_vtx_0[14];
+extern Gfx gDigitaHumanHookshotTipDL_gDigitaHumanHookshotTipDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaHumanHookshotTipDL_gDigitaHumanHookshotTipDL_mesh_layer_Opaque_vtx_1[27];
+extern Gfx gDigitaHumanHookshotTipDL_gDigitaHumanHookshotTipDL_mesh_layer_Opaque_tri_1[];
+extern Gfx mat_gDigitaHumanHookshotTipDL_metal_gilded_layerOpaque[];
+extern Gfx mat_revert_gDigitaHumanHookshotTipDL_metal_gilded_layerOpaque[];
+extern Gfx mat_gDigitaHumanHookshotTipDL_metal_hook_layerOpaque[];
+extern Gfx mat_revert_gDigitaHumanHookshotTipDL_metal_hook_layerOpaque[];
+extern Gfx gDigitaHumanHookshotTipDL[];
+
+#endif
