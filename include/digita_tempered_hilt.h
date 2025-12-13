@@ -1,0 +1,27 @@
+#ifndef DIGITA_TEMPERED_HILT_H
+#define DIGITA_TEMPERED_HILT_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaTemperedHiltDL_kokiri_termina_grip_i8[];
+extern u64 gDigitaTemperedHiltDL_razor_grip_ci8[];
+extern u64 gDigitaTemperedHiltDL_razor_grip_pal_rgba16[];
+extern u64 gDigitaTemperedHiltDL_sheath_ci8[];
+extern u64 gDigitaTemperedHiltDL_sheath_pal_rgba16[];
+extern Vtx gDigitaTemperedHiltDL_gDigitaTemperedHiltDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaTemperedHiltDL_gDigitaTemperedHiltDL_mesh_layer_Opaque_vtx_0[31];
+extern Gfx gDigitaTemperedHiltDL_gDigitaTemperedHiltDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaTemperedHiltDL_gDigitaTemperedHiltDL_mesh_layer_Opaque_vtx_1[50];
+extern Gfx gDigitaTemperedHiltDL_gDigitaTemperedHiltDL_mesh_layer_Opaque_tri_1[];
+extern Vtx gDigitaTemperedHiltDL_gDigitaTemperedHiltDL_mesh_layer_Opaque_vtx_2[6];
+extern Gfx gDigitaTemperedHiltDL_gDigitaTemperedHiltDL_mesh_layer_Opaque_tri_2[];
+extern Gfx mat_gDigitaTemperedHiltDL_kokiri_grip_layerOpaque[];
+extern Gfx mat_revert_gDigitaTemperedHiltDL_kokiri_grip_layerOpaque[];
+extern Gfx mat_gDigitaTemperedHiltDL_razor_hilt_layerOpaque[];
+extern Gfx mat_revert_gDigitaTemperedHiltDL_razor_hilt_layerOpaque[];
+extern Gfx mat_gDigitaTemperedHiltDL_razor_sheath_layerOpaque[];
+extern Gfx mat_revert_gDigitaTemperedHiltDL_razor_sheath_layerOpaque[];
+extern Gfx gDigitaTemperedHiltDL[];
+
+#endif

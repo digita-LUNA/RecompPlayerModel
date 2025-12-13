@@ -1,0 +1,36 @@
+#ifndef DIGITA_HOOKSHOT_OOT_H
+#define DIGITA_HOOKSHOT_OOT_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaOOTHookshotDL__0600B228_rgba16[];
+extern u64 gDigitaOOTHookshotDL_oot_improved_eq_metal_rgba16[];
+extern u64 gDigitaOOTHookshotDL__0600B1A8_rgba16[];
+extern u64 gDigitaOOTHookshotDL_oot_improved_eq_hookshot_chain_rgba16[];
+extern u64 gDigitaOOTHookshotDL_oot_improved_eq_metal_ci8[];
+extern u64 gDigitaOOTHookshotDL_oot_improved_eq_metal_pal_rgba16[];
+extern Vtx gDigitaOOTHookshotDL_gDigitaOOTHookshotDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaOOTHookshotDL_gDigitaOOTHookshotDL_mesh_layer_Opaque_vtx_0[12];
+extern Gfx gDigitaOOTHookshotDL_gDigitaOOTHookshotDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaOOTHookshotDL_gDigitaOOTHookshotDL_mesh_layer_Opaque_vtx_1[112];
+extern Gfx gDigitaOOTHookshotDL_gDigitaOOTHookshotDL_mesh_layer_Opaque_tri_1[];
+extern Vtx gDigitaOOTHookshotDL_gDigitaOOTHookshotDL_mesh_layer_Opaque_vtx_2[60];
+extern Gfx gDigitaOOTHookshotDL_gDigitaOOTHookshotDL_mesh_layer_Opaque_tri_2[];
+extern Vtx gDigitaOOTHookshotDL_gDigitaOOTHookshotDL_mesh_layer_Opaque_vtx_3[27];
+extern Gfx gDigitaOOTHookshotDL_gDigitaOOTHookshotDL_mesh_layer_Opaque_tri_3[];
+extern Vtx gDigitaOOTHookshotDL_gDigitaOOTHookshotDL_mesh_layer_Opaque_vtx_4[99];
+extern Gfx gDigitaOOTHookshotDL_gDigitaOOTHookshotDL_mesh_layer_Opaque_tri_4[];
+extern Gfx mat_gDigitaOOTHookshotDL_hookshot_grip_layerOpaque[];
+extern Gfx mat_revert_gDigitaOOTHookshotDL_hookshot_grip_layerOpaque[];
+extern Gfx mat_gDigitaOOTHookshotDL_hookshot_top_layerOpaque[];
+extern Gfx mat_revert_gDigitaOOTHookshotDL_hookshot_top_layerOpaque[];
+extern Gfx mat_gDigitaOOTHookshotDL_hookshot_bottom_layerOpaque[];
+extern Gfx mat_revert_gDigitaOOTHookshotDL_hookshot_bottom_layerOpaque[];
+extern Gfx mat_gDigitaOOTHookshotDL_chain_layerOpaque[];
+extern Gfx mat_revert_gDigitaOOTHookshotDL_chain_layerOpaque[];
+extern Gfx mat_gDigitaOOTHookshotDL_metal_layerOpaque[];
+extern Gfx mat_revert_gDigitaOOTHookshotDL_metal_layerOpaque[];
+extern Gfx gDigitaOOTHookshotDL[];
+
+#endif

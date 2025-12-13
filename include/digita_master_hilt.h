@@ -1,0 +1,26 @@
+#ifndef DIGITA_MASTER_HILT_H
+#define DIGITA_MASTER_HILT_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaMasterHiltDL_oot_improved_eq_master_grip_rgba16[];
+extern u64 gDigitaMasterHiltDL_oot_improved_eq_master_guard_rgba16[];
+extern u64 gDigitaMasterHiltDL_metal_gold_ci8[];
+extern u64 gDigitaMasterHiltDL_metal_gold_pal_rgba16[];
+extern Vtx gDigitaMasterHiltDL_gDigitaMasterHiltDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaMasterHiltDL_gDigitaMasterHiltDL_mesh_layer_Opaque_vtx_0[16];
+extern Gfx gDigitaMasterHiltDL_gDigitaMasterHiltDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaMasterHiltDL_gDigitaMasterHiltDL_mesh_layer_Opaque_vtx_1[148];
+extern Gfx gDigitaMasterHiltDL_gDigitaMasterHiltDL_mesh_layer_Opaque_tri_1[];
+extern Vtx gDigitaMasterHiltDL_gDigitaMasterHiltDL_mesh_layer_Opaque_vtx_2[40];
+extern Gfx gDigitaMasterHiltDL_gDigitaMasterHiltDL_mesh_layer_Opaque_tri_2[];
+extern Gfx mat_gDigitaMasterHiltDL_master_handle_layerOpaque[];
+extern Gfx mat_revert_gDigitaMasterHiltDL_master_handle_layerOpaque[];
+extern Gfx mat_gDigitaMasterHiltDL_master_guard_layerOpaque[];
+extern Gfx mat_revert_gDigitaMasterHiltDL_master_guard_layerOpaque[];
+extern Gfx mat_gDigitaMasterHiltDL_metal_hook_layerOpaque[];
+extern Gfx mat_revert_gDigitaMasterHiltDL_metal_hook_layerOpaque[];
+extern Gfx gDigitaMasterHiltDL[];
+
+#endif

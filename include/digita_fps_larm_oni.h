@@ -1,0 +1,21 @@
+#ifndef DIGITA_FPS_LARM_ONI_H
+#define DIGITA_FPS_LARM_ONI_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaOniFPSLeftArmDL_arm_out_sleeve_ci8_rgba16[];
+extern u64 gDigitaOniFPSLeftArmDL_glove_arm_ci8[];
+extern u64 gDigitaOniFPSLeftArmDL_glove_arm_pal_rgba16[];
+extern Vtx gDigitaOniFPSLeftArmDL_gDigitaOniFPSLeftArmDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaOniFPSLeftArmDL_gDigitaOniFPSLeftArmDL_mesh_layer_Opaque_vtx_0[98];
+extern Gfx gDigitaOniFPSLeftArmDL_gDigitaOniFPSLeftArmDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaOniFPSLeftArmDL_gDigitaOniFPSLeftArmDL_mesh_layer_Opaque_vtx_1[148];
+extern Gfx gDigitaOniFPSLeftArmDL_gDigitaOniFPSLeftArmDL_mesh_layer_Opaque_tri_1[];
+extern Gfx mat_gDigitaOniFPSLeftArmDL_sleeve_oni_layerOpaque[];
+extern Gfx mat_revert_gDigitaOniFPSLeftArmDL_sleeve_oni_layerOpaque[];
+extern Gfx mat_gDigitaOniFPSLeftArmDL_gauntlet_oni_layerOpaque[];
+extern Gfx mat_revert_gDigitaOniFPSLeftArmDL_gauntlet_oni_layerOpaque[];
+extern Gfx gDigitaOniFPSLeftArmDL[];
+
+#endif

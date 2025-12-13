@@ -1,5 +1,5 @@
-#ifndef DIGITA_ONI_H
-#define DIGITA_ONI_H
+#ifndef DIGITA_LINK_ONI_H
+#define DIGITA_LINK_ONI_H
 
 #include "ultra64.h"
 #include "global.h"
@@ -144,8 +144,8 @@ extern Gfx mat_gDigitaOniSkel_belt_oni_layerOpaque[];
 extern Gfx mat_revert_gDigitaOniSkel_belt_oni_layerOpaque[];
 extern Gfx mat_gDigitaOniSkel_oni_skirt_layerOpaque[];
 extern Gfx mat_revert_gDigitaOniSkel_oni_skirt_layerOpaque[];
-extern Gfx mat_gDigitaOniSkel_tights_layerOpaque[];
-extern Gfx mat_revert_gDigitaOniSkel_tights_layerOpaque[];
+extern Gfx mat_gDigitaOniSkel_tights_004_layerOpaque[];
+extern Gfx mat_revert_gDigitaOniSkel_tights_004_layerOpaque[];
 extern Gfx mat_gDigitaOniSkel_boot_cuff_layerOpaque[];
 extern Gfx mat_revert_gDigitaOniSkel_boot_cuff_layerOpaque[];
 extern Gfx mat_gDigitaOniSkel_boot_shin_layerOpaque[];
@@ -158,8 +158,8 @@ extern Gfx mat_gDigitaOniSkel_ear_oni_layerOpaque[];
 extern Gfx mat_revert_gDigitaOniSkel_ear_oni_layerOpaque[];
 extern Gfx mat_gDigitaOniSkel_hair_oni_layerOpaque[];
 extern Gfx mat_revert_gDigitaOniSkel_hair_oni_layerOpaque[];
-extern Gfx mat_gDigitaOniSkel_earring_layerOpaque[];
-extern Gfx mat_revert_gDigitaOniSkel_earring_layerOpaque[];
+extern Gfx mat_gDigitaOniSkel_earring_001_layerOpaque[];
+extern Gfx mat_revert_gDigitaOniSkel_earring_001_layerOpaque[];
 extern Gfx mat_gDigitaOniSkel_oni_hat_layerOpaque[];
 extern Gfx mat_revert_gDigitaOniSkel_oni_hat_layerOpaque[];
 extern Gfx mat_gDigitaOniSkel_hair1_oni_layerOpaque[];

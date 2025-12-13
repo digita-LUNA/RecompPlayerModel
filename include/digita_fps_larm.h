@@ -1,0 +1,20 @@
+#ifndef DIGITA_FPS_LARM_H
+#define DIGITA_FPS_LARM_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaAdultFPSLeftArmDL_arm_out_sleeve_ci8_rgba16[];
+extern u64 gDigitaAdultFPSLeftArmDL_glove_arm_rgba16[];
+extern Vtx gDigitaAdultFPSLeftArmDL_gDigitaAdultFPSLeftArmDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaAdultFPSLeftArmDL_gDigitaAdultFPSLeftArmDL_mesh_layer_Opaque_vtx_0[98];
+extern Gfx gDigitaAdultFPSLeftArmDL_gDigitaAdultFPSLeftArmDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaAdultFPSLeftArmDL_gDigitaAdultFPSLeftArmDL_mesh_layer_Opaque_vtx_1[148];
+extern Gfx gDigitaAdultFPSLeftArmDL_gDigitaAdultFPSLeftArmDL_mesh_layer_Opaque_tri_1[];
+extern Gfx mat_gDigitaAdultFPSLeftArmDL_sleeve_layerOpaque[];
+extern Gfx mat_revert_gDigitaAdultFPSLeftArmDL_sleeve_layerOpaque[];
+extern Gfx mat_gDigitaAdultFPSLeftArmDL_glove_arm_layerOpaque[];
+extern Gfx mat_revert_gDigitaAdultFPSLeftArmDL_glove_arm_layerOpaque[];
+extern Gfx gDigitaAdultFPSLeftArmDL[];
+
+#endif

@@ -2981,7 +2981,7 @@ Gfx mat_revert_gDigitaChildSkel_belt_layerOpaque[] = {
 };
 
 Gfx mat_gDigitaChildSkel_human_skirt_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
+	gsSPLoadGeometryMode(G_SHADE | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, ENVIRONMENT, 0, 0, 0, 0, COMBINED),
 	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),

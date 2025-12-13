@@ -1,0 +1,33 @@
+#ifndef DIGITA_GILDED_SHEATH_H
+#define DIGITA_GILDED_SHEATH_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaGildedSheathDL_sheath_ci8[];
+extern u64 gDigitaGildedSheathDL_sheath_pal_rgba16[];
+extern u64 gDigitaGildedSheathDL_sheath_top_i8[];
+extern u64 gDigitaGildedSheathDL_sheath_side_ci8[];
+extern u64 gDigitaGildedSheathDL_sheath_side_pal_rgba16[];
+extern u64 gDigitaGildedSheathDL_metal_gilded_ci8[];
+extern u64 gDigitaGildedSheathDL_metal_gilded_pal_rgba16[];
+extern Vtx gDigitaGildedSheathDL_gDigitaGildedSheathDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaGildedSheathDL_gDigitaGildedSheathDL_mesh_layer_Opaque_vtx_0[16];
+extern Gfx gDigitaGildedSheathDL_gDigitaGildedSheathDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaGildedSheathDL_gDigitaGildedSheathDL_mesh_layer_Opaque_vtx_1[12];
+extern Gfx gDigitaGildedSheathDL_gDigitaGildedSheathDL_mesh_layer_Opaque_tri_1[];
+extern Vtx gDigitaGildedSheathDL_gDigitaGildedSheathDL_mesh_layer_Opaque_vtx_2[61];
+extern Gfx gDigitaGildedSheathDL_gDigitaGildedSheathDL_mesh_layer_Opaque_tri_2[];
+extern Vtx gDigitaGildedSheathDL_gDigitaGildedSheathDL_mesh_layer_Opaque_vtx_3[12];
+extern Gfx gDigitaGildedSheathDL_gDigitaGildedSheathDL_mesh_layer_Opaque_tri_3[];
+extern Gfx mat_gDigitaGildedSheathDL_razor_sheath_layerOpaque[];
+extern Gfx mat_revert_gDigitaGildedSheathDL_razor_sheath_layerOpaque[];
+extern Gfx mat_gDigitaGildedSheathDL_gilded_hole_layerOpaque[];
+extern Gfx mat_revert_gDigitaGildedSheathDL_gilded_hole_layerOpaque[];
+extern Gfx mat_gDigitaGildedSheathDL_gilded_sheath_layerOpaque[];
+extern Gfx mat_revert_gDigitaGildedSheathDL_gilded_sheath_layerOpaque[];
+extern Gfx mat_gDigitaGildedSheathDL_metal_gold_layerOpaque[];
+extern Gfx mat_revert_gDigitaGildedSheathDL_metal_gold_layerOpaque[];
+extern Gfx gDigitaGildedSheathDL[];
+
+#endif

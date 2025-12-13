@@ -1,0 +1,20 @@
+#ifndef DIGITA_FPS_RARM_H
+#define DIGITA_FPS_RARM_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaAdultFPSRightArmDL_arm_out_sleeve_ci8_rgba16[];
+extern u64 gDigitaAdultFPSRightArmDL_glove_arm_rgba16[];
+extern Vtx gDigitaAdultFPSRightArmDL_gDigitaAdultFPSRightArmDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaAdultFPSRightArmDL_gDigitaAdultFPSRightArmDL_mesh_layer_Opaque_vtx_0[116];
+extern Gfx gDigitaAdultFPSRightArmDL_gDigitaAdultFPSRightArmDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaAdultFPSRightArmDL_gDigitaAdultFPSRightArmDL_mesh_layer_Opaque_vtx_1[195];
+extern Gfx gDigitaAdultFPSRightArmDL_gDigitaAdultFPSRightArmDL_mesh_layer_Opaque_tri_1[];
+extern Gfx mat_gDigitaAdultFPSRightArmDL_sleeve_layerOpaque[];
+extern Gfx mat_revert_gDigitaAdultFPSRightArmDL_sleeve_layerOpaque[];
+extern Gfx mat_gDigitaAdultFPSRightArmDL_glove_arm_layerOpaque[];
+extern Gfx mat_revert_gDigitaAdultFPSRightArmDL_glove_arm_layerOpaque[];
+extern Gfx gDigitaAdultFPSRightArmDL[];
+
+#endif

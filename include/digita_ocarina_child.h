@@ -1,0 +1,25 @@
+#ifndef DIGITA_OCARINA_CHILD_H
+#define DIGITA_OCARINA_CHILD_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaChildOcarinaOfTimeDL_oot_improved_eq_oot_rgba16[];
+extern u64 gDigitaChildOcarinaOfTimeDL_oot_improved_eq_metal_rgba16[];
+extern u64 gDigitaChildOcarinaOfTimeDL_oot_improved_eq_metal_gold_rgba16[];
+extern Vtx gDigitaChildOcarinaOfTimeDL_gDigitaChildOcarinaOfTimeDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaChildOcarinaOfTimeDL_gDigitaChildOcarinaOfTimeDL_mesh_layer_Opaque_vtx_0[118];
+extern Gfx gDigitaChildOcarinaOfTimeDL_gDigitaChildOcarinaOfTimeDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaChildOcarinaOfTimeDL_gDigitaChildOcarinaOfTimeDL_mesh_layer_Opaque_vtx_1[16];
+extern Gfx gDigitaChildOcarinaOfTimeDL_gDigitaChildOcarinaOfTimeDL_mesh_layer_Opaque_tri_1[];
+extern Vtx gDigitaChildOcarinaOfTimeDL_gDigitaChildOcarinaOfTimeDL_mesh_layer_Opaque_vtx_2[9];
+extern Gfx gDigitaChildOcarinaOfTimeDL_gDigitaChildOcarinaOfTimeDL_mesh_layer_Opaque_tri_2[];
+extern Gfx mat_gDigitaChildOcarinaOfTimeDL_oncarina_time_001_layerOpaque[];
+extern Gfx mat_revert_gDigitaChildOcarinaOfTimeDL_oncarina_time_001_layerOpaque[];
+extern Gfx mat_gDigitaChildOcarinaOfTimeDL_metal_003_layerOpaque[];
+extern Gfx mat_revert_gDigitaChildOcarinaOfTimeDL_metal_003_layerOpaque[];
+extern Gfx mat_gDigitaChildOcarinaOfTimeDL_metal_gold_001_layerOpaque[];
+extern Gfx mat_revert_gDigitaChildOcarinaOfTimeDL_metal_gold_001_layerOpaque[];
+extern Gfx gDigitaChildOcarinaOfTimeDL[];
+
+#endif

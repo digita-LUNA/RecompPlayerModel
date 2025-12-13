@@ -1,0 +1,22 @@
+#ifndef DIGITA_FPS_RIGHT_ONI_H
+#define DIGITA_FPS_RIGHT_ONI_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaOniFPSRightHandDL_glove_ci8[];
+extern u64 gDigitaOniFPSRightHandDL_glove_pal_rgba16[];
+extern u64 gDigitaOniFPSRightHandDL_hand_ci4_ci4[];
+extern u64 gDigitaOniFPSRightHandDL_hand_ci4_pal_rgba16[];
+extern Vtx gDigitaOniFPSRightHandDL_gDigitaOniFPSRightHandDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaOniFPSRightHandDL_gDigitaOniFPSRightHandDL_mesh_layer_Opaque_vtx_0[62];
+extern Gfx gDigitaOniFPSRightHandDL_gDigitaOniFPSRightHandDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaOniFPSRightHandDL_gDigitaOniFPSRightHandDL_mesh_layer_Opaque_vtx_1[40];
+extern Gfx gDigitaOniFPSRightHandDL_gDigitaOniFPSRightHandDL_mesh_layer_Opaque_tri_1[];
+extern Gfx mat_gDigitaOniFPSRightHandDL_glove_oni_layerOpaque[];
+extern Gfx mat_revert_gDigitaOniFPSRightHandDL_glove_oni_layerOpaque[];
+extern Gfx mat_gDigitaOniFPSRightHandDL_hand_oni_layerOpaque[];
+extern Gfx mat_revert_gDigitaOniFPSRightHandDL_hand_oni_layerOpaque[];
+extern Gfx gDigitaOniFPSRightHandDL[];
+
+#endif

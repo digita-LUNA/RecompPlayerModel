@@ -1,4 +1,4 @@
-#include "digita_oni.h"
+#include "digita_link_oni.h"
 
 u64 gDigitaOniSkel_buckle_ci4[] = {
 	0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0001223311141132, 0x5567778888888000, 
@@ -3192,7 +3192,7 @@ Gfx mat_revert_gDigitaOniSkel_belt_oni_layerOpaque[] = {
 };
 
 Gfx mat_gDigitaOniSkel_oni_skirt_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
+	gsSPLoadGeometryMode(G_SHADE | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
 	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
@@ -3213,7 +3213,7 @@ Gfx mat_revert_gDigitaOniSkel_oni_skirt_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gDigitaOniSkel_tights_layerOpaque[] = {
+Gfx mat_gDigitaOniSkel_tights_004_layerOpaque[] = {
 	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
@@ -3232,7 +3232,7 @@ Gfx mat_gDigitaOniSkel_tights_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gDigitaOniSkel_tights_layerOpaque[] = {
+Gfx mat_revert_gDigitaOniSkel_tights_004_layerOpaque[] = {
 	gsDPPipeSync(),
 	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
@@ -3379,7 +3379,7 @@ Gfx mat_revert_gDigitaOniSkel_hair_oni_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gDigitaOniSkel_earring_layerOpaque[] = {
+Gfx mat_gDigitaOniSkel_earring_001_layerOpaque[] = {
 	gsSPLoadGeometryMode(G_SHADE | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, TEXEL0, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
@@ -3395,7 +3395,7 @@ Gfx mat_gDigitaOniSkel_earring_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gDigitaOniSkel_earring_layerOpaque[] = {
+Gfx mat_revert_gDigitaOniSkel_earring_001_layerOpaque[] = {
 	gsDPPipeSync(),
 	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
@@ -3680,16 +3680,16 @@ Gfx gDigitaOniSkel_bone003_gLinkAdultRightThighLimb_mesh_layer_Opaque[] = {
 	gsSPDisplayList(mat_gDigitaOniSkel_oni_skirt_layerOpaque),
 	gsSPDisplayList(gDigitaOniSkel_bone003_gLinkAdultRightThighLimb_mesh_layer_Opaque_tri_0),
 	gsSPDisplayList(mat_revert_gDigitaOniSkel_oni_skirt_layerOpaque),
-	gsSPDisplayList(mat_gDigitaOniSkel_tights_layerOpaque),
+	gsSPDisplayList(mat_gDigitaOniSkel_tights_004_layerOpaque),
 	gsSPDisplayList(gDigitaOniSkel_bone003_gLinkAdultRightThighLimb_mesh_layer_Opaque_tri_1),
-	gsSPDisplayList(mat_revert_gDigitaOniSkel_tights_layerOpaque),
+	gsSPDisplayList(mat_revert_gDigitaOniSkel_tights_004_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
 Gfx gDigitaOniSkel_bone004_gLinkAdultRightLegLimb_mesh_layer_Opaque[] = {
-	gsSPDisplayList(mat_gDigitaOniSkel_tights_layerOpaque),
+	gsSPDisplayList(mat_gDigitaOniSkel_tights_004_layerOpaque),
 	gsSPDisplayList(gDigitaOniSkel_bone004_gLinkAdultRightLegLimb_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gDigitaOniSkel_tights_layerOpaque),
+	gsSPDisplayList(mat_revert_gDigitaOniSkel_tights_004_layerOpaque),
 	gsSPDisplayList(mat_gDigitaOniSkel_boot_cuff_layerOpaque),
 	gsSPDisplayList(gDigitaOniSkel_bone004_gLinkAdultRightLegLimb_mesh_layer_Opaque_tri_1),
 	gsSPDisplayList(mat_revert_gDigitaOniSkel_boot_cuff_layerOpaque),
@@ -3713,16 +3713,16 @@ Gfx gDigitaOniSkel_bone006_gLinkAdultLeftThighLimb_mesh_layer_Opaque[] = {
 	gsSPDisplayList(mat_gDigitaOniSkel_oni_skirt_layerOpaque),
 	gsSPDisplayList(gDigitaOniSkel_bone006_gLinkAdultLeftThighLimb_mesh_layer_Opaque_tri_0),
 	gsSPDisplayList(mat_revert_gDigitaOniSkel_oni_skirt_layerOpaque),
-	gsSPDisplayList(mat_gDigitaOniSkel_tights_layerOpaque),
+	gsSPDisplayList(mat_gDigitaOniSkel_tights_004_layerOpaque),
 	gsSPDisplayList(gDigitaOniSkel_bone006_gLinkAdultLeftThighLimb_mesh_layer_Opaque_tri_1),
-	gsSPDisplayList(mat_revert_gDigitaOniSkel_tights_layerOpaque),
+	gsSPDisplayList(mat_revert_gDigitaOniSkel_tights_004_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
 Gfx gDigitaOniSkel_bone007_gLinkAdultLeftLegLimb_mesh_layer_Opaque[] = {
-	gsSPDisplayList(mat_gDigitaOniSkel_tights_layerOpaque),
+	gsSPDisplayList(mat_gDigitaOniSkel_tights_004_layerOpaque),
 	gsSPDisplayList(gDigitaOniSkel_bone007_gLinkAdultLeftLegLimb_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gDigitaOniSkel_tights_layerOpaque),
+	gsSPDisplayList(mat_revert_gDigitaOniSkel_tights_004_layerOpaque),
 	gsSPDisplayList(mat_gDigitaOniSkel_boot_cuff_layerOpaque),
 	gsSPDisplayList(gDigitaOniSkel_bone007_gLinkAdultLeftLegLimb_mesh_layer_Opaque_tri_1),
 	gsSPDisplayList(mat_revert_gDigitaOniSkel_boot_cuff_layerOpaque),
@@ -3749,9 +3749,9 @@ Gfx gDigitaOniSkel_bone010_gLinkAdultHeadLimb_mesh_layer_Opaque[] = {
 	gsSPDisplayList(mat_gDigitaOniSkel_hair_oni_layerOpaque),
 	gsSPDisplayList(gDigitaOniSkel_bone010_gLinkAdultHeadLimb_mesh_layer_Opaque_tri_2),
 	gsSPDisplayList(mat_revert_gDigitaOniSkel_hair_oni_layerOpaque),
-	gsSPDisplayList(mat_gDigitaOniSkel_earring_layerOpaque),
+	gsSPDisplayList(mat_gDigitaOniSkel_earring_001_layerOpaque),
 	gsSPDisplayList(gDigitaOniSkel_bone010_gLinkAdultHeadLimb_mesh_layer_Opaque_tri_3),
-	gsSPDisplayList(mat_revert_gDigitaOniSkel_earring_layerOpaque),
+	gsSPDisplayList(mat_revert_gDigitaOniSkel_earring_001_layerOpaque),
 	gsSPDisplayList(mat_gDigitaOniSkel_oni_hat_layerOpaque),
 	gsSPDisplayList(gDigitaOniSkel_bone010_gLinkAdultHeadLimb_mesh_layer_Opaque_tri_4),
 	gsSPDisplayList(mat_revert_gDigitaOniSkel_oni_hat_layerOpaque),
@@ -3781,9 +3781,9 @@ Gfx gDigitaOniSkel_bone013_gLinkAdultLeftShoulderLimb_mesh_layer_Opaque[] = {
 	gsSPDisplayList(mat_gDigitaOniSkel_oni_shoulder_layerOpaque),
 	gsSPDisplayList(gDigitaOniSkel_bone013_gLinkAdultLeftShoulderLimb_mesh_layer_Opaque_tri_0),
 	gsSPDisplayList(mat_revert_gDigitaOniSkel_oni_shoulder_layerOpaque),
-	gsSPDisplayList(mat_gDigitaOniSkel_tights_layerOpaque),
+	gsSPDisplayList(mat_gDigitaOniSkel_tights_004_layerOpaque),
 	gsSPDisplayList(gDigitaOniSkel_bone013_gLinkAdultLeftShoulderLimb_mesh_layer_Opaque_tri_1),
-	gsSPDisplayList(mat_revert_gDigitaOniSkel_tights_layerOpaque),
+	gsSPDisplayList(mat_revert_gDigitaOniSkel_tights_004_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
@@ -3791,9 +3791,9 @@ Gfx gDigitaOniSkel_bone014_gLinkAdultLeftArmLimb_mesh_layer_Opaque[] = {
 	gsSPDisplayList(mat_gDigitaOniSkel_gauntlet_oni_layerOpaque),
 	gsSPDisplayList(gDigitaOniSkel_bone014_gLinkAdultLeftArmLimb_mesh_layer_Opaque_tri_0),
 	gsSPDisplayList(mat_revert_gDigitaOniSkel_gauntlet_oni_layerOpaque),
-	gsSPDisplayList(mat_gDigitaOniSkel_tights_layerOpaque),
+	gsSPDisplayList(mat_gDigitaOniSkel_tights_004_layerOpaque),
 	gsSPDisplayList(gDigitaOniSkel_bone014_gLinkAdultLeftArmLimb_mesh_layer_Opaque_tri_1),
-	gsSPDisplayList(mat_revert_gDigitaOniSkel_tights_layerOpaque),
+	gsSPDisplayList(mat_revert_gDigitaOniSkel_tights_004_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
@@ -3811,9 +3811,9 @@ Gfx gDigitaOniSkel_bone016_gLinkAdultRightShoulderLimb_mesh_layer_Opaque[] = {
 	gsSPDisplayList(mat_gDigitaOniSkel_oni_shoulder_layerOpaque),
 	gsSPDisplayList(gDigitaOniSkel_bone016_gLinkAdultRightShoulderLimb_mesh_layer_Opaque_tri_0),
 	gsSPDisplayList(mat_revert_gDigitaOniSkel_oni_shoulder_layerOpaque),
-	gsSPDisplayList(mat_gDigitaOniSkel_tights_layerOpaque),
+	gsSPDisplayList(mat_gDigitaOniSkel_tights_004_layerOpaque),
 	gsSPDisplayList(gDigitaOniSkel_bone016_gLinkAdultRightShoulderLimb_mesh_layer_Opaque_tri_1),
-	gsSPDisplayList(mat_revert_gDigitaOniSkel_tights_layerOpaque),
+	gsSPDisplayList(mat_revert_gDigitaOniSkel_tights_004_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
@@ -3821,9 +3821,9 @@ Gfx gDigitaOniSkel_bone017_gLinkAdultRightArmLimb_mesh_layer_Opaque[] = {
 	gsSPDisplayList(mat_gDigitaOniSkel_gauntlet_oni_layerOpaque),
 	gsSPDisplayList(gDigitaOniSkel_bone017_gLinkAdultRightArmLimb_mesh_layer_Opaque_tri_0),
 	gsSPDisplayList(mat_revert_gDigitaOniSkel_gauntlet_oni_layerOpaque),
-	gsSPDisplayList(mat_gDigitaOniSkel_tights_layerOpaque),
+	gsSPDisplayList(mat_gDigitaOniSkel_tights_004_layerOpaque),
 	gsSPDisplayList(gDigitaOniSkel_bone017_gLinkAdultRightArmLimb_mesh_layer_Opaque_tri_1),
-	gsSPDisplayList(mat_revert_gDigitaOniSkel_tights_layerOpaque),
+	gsSPDisplayList(mat_revert_gDigitaOniSkel_tights_004_layerOpaque),
 	gsSPEndDisplayList(),
 };
 

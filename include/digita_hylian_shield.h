@@ -1,0 +1,30 @@
+#ifndef DIGITA_HYLIAN_SHIELD_H
+#define DIGITA_HYLIAN_SHIELD_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaHylianShieldDL_oot_improved_eq_leather_rgba32[];
+extern u64 gDigitaHylianShieldDL_oot_improved_eq_hylian_back_rgba16[];
+extern u64 gDigitaHylianShieldDL_oot_improved_eq_hylian_front_rgba16[];
+extern u64 gDigitaHylianShieldDL_oot_improved_eq_metal_rgba16[];
+extern Vtx gDigitaHylianShieldDL_gDigitaHylianShieldDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaHylianShieldDL_gDigitaHylianShieldDL_mesh_layer_Opaque_vtx_0[12];
+extern Gfx gDigitaHylianShieldDL_gDigitaHylianShieldDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaHylianShieldDL_gDigitaHylianShieldDL_mesh_layer_Opaque_vtx_1[10];
+extern Gfx gDigitaHylianShieldDL_gDigitaHylianShieldDL_mesh_layer_Opaque_tri_1[];
+extern Vtx gDigitaHylianShieldDL_gDigitaHylianShieldDL_mesh_layer_Opaque_vtx_2[39];
+extern Gfx gDigitaHylianShieldDL_gDigitaHylianShieldDL_mesh_layer_Opaque_tri_2[];
+extern Vtx gDigitaHylianShieldDL_gDigitaHylianShieldDL_mesh_layer_Opaque_vtx_3[48];
+extern Gfx gDigitaHylianShieldDL_gDigitaHylianShieldDL_mesh_layer_Opaque_tri_3[];
+extern Gfx mat_gDigitaHylianShieldDL_shield_string_layerOpaque[];
+extern Gfx mat_revert_gDigitaHylianShieldDL_shield_string_layerOpaque[];
+extern Gfx mat_gDigitaHylianShieldDL_hylian_back_layerOpaque[];
+extern Gfx mat_revert_gDigitaHylianShieldDL_hylian_back_layerOpaque[];
+extern Gfx mat_gDigitaHylianShieldDL_hylian_front_layerOpaque[];
+extern Gfx mat_revert_gDigitaHylianShieldDL_hylian_front_layerOpaque[];
+extern Gfx mat_gDigitaHylianShieldDL_metal_001_layerOpaque[];
+extern Gfx mat_revert_gDigitaHylianShieldDL_metal_001_layerOpaque[];
+extern Gfx gDigitaHylianShieldDL[];
+
+#endif

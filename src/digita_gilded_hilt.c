@@ -1,6 +1,6 @@
-#include "digita_gildedhilt.h"
+#include "digita_gilded_hilt.h"
 
-u64 gDigitaHumanGildedHiltDL_sheath_ci8[] = {
+u64 gDigitaGildedHiltDL_sheath_ci8[] = {
 	0x0001020304050606, 0x0606040307010800, 0x03090a0b0c0d0d0e, 0x0e0e0e0e0e0e0e0e, 0x080f10061112130a, 0x140b150c0d0e0e0e, 0x1600081708181818, 0x0000000008080801, 
 	0x0606100702071910, 0x04061a1109091b1b, 0x0e0a1b1a06061a11, 0x090909091b1c1c1c, 0x0e150b0b1c1b091b, 0x1b1b1b121c1c1c0a, 0x0d140a0a0a1c1212, 0x1c1c13130a0a1314, 
 	0x0d140a13131c1c12, 0x121c140a0a0a0a0a, 0x0d1413131c121212, 0x121c0a1515150b14, 0x0f191005061a1109, 0x1111111111111111, 0x03130b0c0e0e0e0e, 0x0e0e0e0e0e0e0e0e, 
@@ -8,12 +8,12 @@ u64 gDigitaHumanGildedHiltDL_sheath_ci8[] = {
 	
 };
 
-u64 gDigitaHumanGildedHiltDL_sheath_pal_rgba16[] = {
+u64 gDigitaGildedHiltDL_sheath_pal_rgba16[] = {
 	0x294b421152956b5b, 0x7bdf84218c635ad7, 0x318da529ce73def7, 0xef7bf7bdffff4a53, 0x739d9ce7b5adc631, 0xd6b5e73918c739cf, 0x2109631994a5ad6b, 0xbdef00010801c001, 
 	0x7801580150016801, 0xa801280198016001, 0x70019001a001b001, 0xb801000000000000
 };
 
-u64 gDigitaHumanGildedHiltDL_metal_gilded_ci8[] = {
+u64 gDigitaGildedHiltDL_metal_gilded_ci8[] = {
 	0x0000000000000000, 0x0000010203040405, 0x0607080709050505, 0x0505050505050505, 0x0000000000000000, 0x01020404060a080b, 0x0c0d0e0e0e0d0f06, 0x0505050505050505, 
 	0x0000000000000010, 0x04041107080f0b12, 0x0e13141314140e0d, 0x0805050505050505, 0x0000000000011504, 0x0607080706040416, 0x11060a080e14130d, 0x120c060505050505, 
 	0x0000000001170409, 0x0711040402181519, 0x19040405080e130d, 0x0c12120605050505, 0x000000011a16090a, 0x04031b1b1c030303, 0x1a0511110f0d1d0e, 0x0b0b121206050505, 
@@ -33,12 +33,12 @@ u64 gDigitaHumanGildedHiltDL_metal_gilded_ci8[] = {
 	
 };
 
-u64 gDigitaHumanGildedHiltDL_metal_gilded_pal_rgba16[] = {
+u64 gDigitaGildedHiltDL_metal_gilded_pal_rgba16[] = {
 	0xffefffedffe3ffd9, 0xffcfff8df74dee8b, 0xee49f70beecbe5c9, 0xdd87dd05d4c5e609, 0xffe5f70ddd47d485, 0xcc43ffdbff8fffd5, 0xffddffd7ffd3ffdf, 0xffe1cc03f6cbffe7, 
 	0xffebdd07fff3fff5, 0xe5c7fffbfff7d505, 0xfff9ffe9cc83e587, 0xee89ee09ffd1c403, 0xc3c1c3c3c3810000
 };
 
-u64 gDigitaHumanGildedHiltDL_metal_i8[] = {
+u64 gDigitaGildedHiltDL_metal_grey_i8[] = {
 	0xe6e6e6e6e6e6e6e6, 0xe6e6e2d2c0b4a69c, 0x93847f838b989a9a, 0x9a9a9a9a9a9a9a9a, 0xe6e6e6e6e6e6e6e6, 0xe2d0b6a595877d75, 0x6f67646262677a94, 0x9a9a9a9a9a9a9a9a, 
 	0xe6e6e6e6e6e6e6d4, 0xb4a28f817d79746c, 0x615d5c5d5b5c6266, 0x7c989a9a9a9a9a9a, 0xe6e6e6e6e6e2c3a6, 0x9384808496b4b59f, 0x9091877d645b6066, 0x696f949a9a9a9a9a, 
 	0xe6e6e6e6e1baa18d, 0x8490a9b5d1c8c3bc, 0xbbb6a89a7c615d67, 0x706d6c929a9a9a9a, 0xe6e6e6e2ba9e8e87, 0xa5c2cbcccdc2bec0, 0xb998908f79675864, 0x74746c6c949a9a9a, 
@@ -58,43 +58,32 @@ u64 gDigitaHumanGildedHiltDL_metal_i8[] = {
 	
 };
 
-u64 gDigitaHumanGildedHiltDL_oot_improved_eq_metal_bombchu_rgba16[] = {
-	0xaefdaefdaefdaefd, 0xaefdaefdaefdaefd, 0xaefdaefda6bb8df7, 0x74f15c2b4ba94b67, 0x432532a132a132a1, 0x3ae3436543654365, 0x4365436543654365, 0x4365436543654365, 
-	0xaefdaefdaefdaefd, 0xaefdaefdaefdaefd, 0xaefb8df7646d4ba7, 0x43253ae332a12a5f, 0x2a1f221d21dd21dd, 0x21dd221d32614325, 0x4365436543654365, 0x4365436543654365, 
-	0xaefdaefdaefdaefd, 0xaefdaefdaefd9637, 0x5c2b4ba73b2332a1, 0x32a132612a5f2a1f, 0x21dd21db21db21db, 0x21db21db21dd221d, 0x32a1436543654365, 0x4365436543654365, 
-	0xaefdaefdaefdaefd, 0xaefdaefb75314ba9, 0x432532a132a132a1, 0x43255c2b646d4b67, 0x3b2543253ae332a1, 0x221d21db21dd221d, 0x221d2a1f43254365, 0x4365436543654365, 
-	0xaefdaefdaefdaefd, 0xa6bb6caf4ba73ae3, 0x32a13b2553e9646d, 0x8df77d7375316caf, 0x6caf646d53e94365, 0x32a121dd21db221d, 0x2a5f2a1f2a1f4325, 0x4365436543654365, 
-	0xaefdaefdaefdaefb, 0x6cad4b673ae33ae3, 0x4ba9753185b585b5, 0x85b575316cef74f1, 0x64ad43653b253b23, 0x3261221d19db21dd, 0x2a5f2a5f2a1f2a1f, 0x4325436543654365, 
-	0xaefdaefdaefd7531, 0x4ba73b253ae353a9, 0x74f1963796399e79, 0x8db585b585b55c6d, 0x53a953e9436532a1, 0x221d21dd21db21db, 0x2a1f2a5f2a5f2a1f, 0x2a1f436543654365, 
-	0xaefdaefd963753a9, 0x3ae33ae34ba774f1, 0x95f7aefba6bb95f7, 0x8df785b56cef646d, 0x4ba732a12a1f221d, 0x21dd21dd21db21db, 0x21dd2a5f2a5f2a5f, 0x221d32a143654365, 
-	0xaefdaefb5c2b3ae3, 0x32a143656cef9637, 0xbf3dcfbfa6bb9637, 0x85b575315c2b53a9, 0x3ae3221d21dd21dd, 0x21dd21dd21db19db, 0x199b221d2a5f2a5f, 0x2a1f221d43254365, 
-	0xaefd8df74325221d, 0x32a1646d85b5c77f, 0xe7ffd7bfaefd9637, 0x85735c2b4ba73ae3, 0x221d221d221d221d, 0x221d21dd21db21db, 0x21db21dd2a1f2a1f, 0x2a5f2a1f32614365, 
-	0xaefb6caf32a121dd, 0x432575318df5dfff, 0xdfffdfffcfbf9637, 0x6caf43653261221d, 0x221d221d221d221d, 0x21dd21dd21db21db, 0x21db21dd2a1f2a1f, 0x2a5f2a5f2a1f4325, 
-	0x9e795c2b2a5f221d, 0x5c2b6cad9e79d7bf, 0xd7bfdfbfb73d74f1, 0x43653ae32a1d221d, 0x221d221d221d221d, 0x21dd21dd21db21db, 0x21db21dd2a1f2a1f, 0x2a5f2a5f2a5f3ae3, 
-	0x963753e92a5f2a5f, 0x6caf6caf7d73a6bb, 0xc77faefd85b53ae3, 0x3b252a5f2a5f2a5f, 0x2a1d221d221d221d, 0x21dd21dd21dd21db, 0x21db21dd2a1f2a5f, 0x2a5f32a132a13ae3, 
-	0x8db54ba72a5f32a1, 0x75316caf6caf9637, 0x7d737d314ba74b67, 0x32a32a5f2a5f2a5f, 0x2a5f2a5f2a5f2a1d, 0x221d2a1d221d21dd, 0x21dd2a1f2a5f32a1, 0x32a13ae33ae33ae3, 
-	0x74f14b672a5f3ae3, 0x753174ef6cef7531, 0x6caf6cef5c2b4ba7, 0x32a132a132a132a1, 0x32a132a132a12a5f, 0x2a5f2a5f2a5f2a5f, 0x2a5f32a13ae33b23, 0x3ae33b253ae33ae3, 
-	0x64ad43652a613b23, 0x75316cef74ef7531, 0x6cef74ef74ef53a9, 0x43253b253ae33ae3, 0x3ae33ae33ae33ae3, 0x3ae33ae33ae332a1, 0x32a13ae343254b67, 0x4325432532a13ae3, 
-	0x646d436532614365, 0x74f16cad6cef7531, 0x64ad6cad7d7353e9, 0x43253ae33ae33ae3, 0x3ae33ae33ae33ae3, 0x3ae33b253b2332a1, 0x3ae343254b674365, 0x4365432532a14325, 
-	0x53e9436532a14365, 0x6caf646d646d74ef, 0x5c2b53eb6cef5c2b, 0x3ae33ae33ae33ae3, 0x32a132a132a132a1, 0x3ae33ae332a132a3, 0x3ae343254b674365, 0x43653b253ae34325, 
-	0x53e94b6732a13ae3, 0x53e953e953e953e9, 0x3b2543654b6753e9, 0x3ae332612a5f2a5f, 0x2a5f2a5f2a5f3261, 0x32a132a132a132a1, 0x3ae33b233b234325, 0x43253ae33ae33ae3, 
-	0x53a94b6732a12a5f, 0x3ae34ba743654325, 0x2a5f32a13b233b23, 0x3b252a5f221d221d, 0x21dd221d2a1f2a5f, 0x2a5f2a1f2a5f2a5f, 0x32a132a132a13ae3, 0x32a132a143252a61, 
-	0x4b674b6732a121dd, 0x21dd3b253ae33ae3, 0x2a1f221d2a5f3ae3, 0x3ae332e3221d21dd, 0x21dd221d221d221d, 0x221d221d221d2a1f, 0x2a5f2a5f2a5f2a5f, 0x221d2a5f436721dd, 
-	0x43674325326121db, 0x199b2a5f32a13261, 0x221d21dd21dd2a1f, 0x32a132a12a5f21dd, 0x21dd221d221d221d, 0x221d221d2a1f2a1d, 0x221d2a1f21dd21db, 0x21db2a5f4325199b, 
-	0x436543252a5f21dd, 0x199b19db221d221d, 0x21db21dd221d21dd, 0x21dd221d21dd21dd, 0x21dd21dd221d221d, 0x221d2a1f2a1d221d, 0x221d21db199b19db, 0x21dd32a12a1d199b, 
-	0x4365436532612a1f, 0x19db199b199b2a1f, 0x199b199b21db21dd, 0x21dd21dd21dd221d, 0x221d221d2a1f2a5f, 0x2a5f2a1f21dd21db, 0x199b199b19db21db, 0x2a5f32a1199b199b, 
-	0x436543653ae32a5f, 0x221d199b199b199b, 0x199b19db199b21db, 0x21db221d221d2a1f, 0x2a5f2a5f2a5f221d, 0x21dd19db199b199b, 0x199b19db21db2a1f, 0x32a1221d199b199b, 
-	0x43654365436532a1, 0x2a1f21dd199b199b, 0x199b199b199b199b, 0x199b199b21db21db, 0x21db199b199b199b, 0x199b199b199b199b, 0x19db21dd2a1f2a5f, 0x32a1199b199b199b, 
-	0x4365436543654365, 0x32a12a5f21dd199b, 0x199b199b199b199b, 0x199b199b199b199b, 0x199b199b199b199b, 0x199b199b199b19db, 0x21dd2a1f2a5f3ae3, 0x199b199b199b199b, 
-	0x4365436543654365, 0x436532a12a5f21dd, 0x199b199b199b199b, 0x199b199b199b199b, 0x199b199b199b199b, 0x199b21db21dd221d, 0x2a1f2a5f3ae3199b, 0x199b199b199b199b, 
-	0x4365436543654365, 0x436543253ae33261, 0x2a1f21dd21db199b, 0x199b199b199b199b, 0x199b199b21db21dd, 0x221d221d2a1f2a5f, 0x32a13ae3199b199b, 0x199b199b199b199b, 
-	0x4365436543654365, 0x4365436543654325, 0x32a12a5f2a1f2a1f, 0x2a1f221d221d221d, 0x221d221d2a1d2a1f, 0x2a5f2a5f32a13b23, 0x2a5f199b199b199b, 0x199b199b199b199b, 
-	0x4365436543654365, 0x4365436543654365, 0x436543253ae332a1, 0x326132612a5f2a5f, 0x2a5f326132a13ae3, 0x3ae343253261199b, 0x199b199b199b199b, 0x199b199b199b199b, 
-	0x4365436543654365, 0x4365436543654365, 0x4365436543654b67, 0x4b67436543254325, 0x43253ae33ae32a5f, 0x21dd199b199b199b, 0x199b199b199b199b, 0x199b199b199b199b, 
+u64 gDigitaGildedHiltDL_oot_improved_eq_metal_bombchu_ci8[] = {
+	0x0000000000000000, 0x0000010203040506, 0x07080808090a0a0a, 0x0a0a0a0a0a0a0a0a, 0x0000000000000000, 0x0b020c0d0709080e, 0x0f10111111101207, 0x0a0a0a0a0a0a0a0a, 
+	0x0000000000000013, 0x040d140808120e0f, 0x1115151515151110, 0x080a0a0a0a0a0a0a, 0x00000000000b1605, 0x0708080807040c06, 0x1707090810151110, 0x100f070a0a0a0a0a, 
+	0x0000000001180d09, 0x0817190c021a1618, 0x180c190a08111510, 0x0e0f0f070a0a0a0a, 0x0000000b1b060909, 0x05161c1c1c161d03, 0x1e0a171412101f11, 0x0e0e0f0f070a0a0a, 
+	0x000000160d170920, 0x03132122231c1c24, 0x20190a0810111515, 0x0f0e0e0f0f0a0a0a, 0x0000132009090d03, 0x250b0125021c1d0c, 0x0d080f1011111515, 0x110e0e0e10080a0a, 
+	0x000b0409080a1d13, 0x262701131c160420, 0x091011111111151f, 0x28100e0e0f10070a, 0x00020710080c1c29, 0x2a2b00132c040d09, 0x1010101010111515, 0x15110f0f0e0f120a, 
+	0x0b18081107162d2e, 0x2e2e2713180a1210, 0x1010101011111515, 0x15110f0f0e0e0f07, 0x22040e10041b222b, 0x2b2f30030a093110, 0x1010101011111515, 0x15110f0f0e0e0e09, 
+	0x13190e0e18181a01, 0x29001c09170e0e0e, 0x3110101011111115, 0x15110f0e0e080809, 0x230d0e0816181813, 0x1a320d06330e0e0e, 0x0e0e0e3110311011, 0x110f0e0808090909, 
+	0x03060e0916341d16, 0x181d040d08080808, 0x0808080e0e0e0e0e, 0x0e08091409170909, 0x1e0a3514161d3416, 0x1d34342007170909, 0x0909090909090908, 0x0809070607070809, 
+	0x0c0a120a031b1d16, 0x1e1b1a1907090909, 0x0909090909171408, 0x0907060a0a070807, 0x190a080a180c0c34, 0x04361d0409090909, 0x0808080809090833, 0x0907060a0a170907, 
+	0x1906080919191919, 0x170a061909120e0e, 0x0e0e0e1208080808, 0x0914140707090909, 0x2006080e090d0a07, 0x0e081414170e1010, 0x11100f0e0e0f0e0e, 0x0808080908080735, 
+	0x0606081111170909, 0x0f100e0909371011, 0x111010101010100f, 0x0e0e0e0e100e3811, 0x38071215280e0812, 0x1011110f08080e11, 0x1110101010100f31, 0x100f1115150e0728, 
+	0x0a070e11281f1010, 0x1511101111101111, 0x11111010100f3110, 0x1015281f11083128, 0x0a0a120f1f28280f, 0x2828151111111110, 0x10100f0e0e0f1115, 0x28281f150e082828, 
+	0x0a0a090e10282828, 0x281f28151510100f, 0x0e0e0e10111f2828, 0x281f150f08102828, 0x0a0a0a080f112828, 0x2828282828281515, 0x1528282828282828, 0x1f110f0e08282828, 
+	0x0a0a0a0a080e1128, 0x2828282828282828, 0x282828282828281f, 0x110f0e0928282828, 0x0a0a0a0a0a080e11, 0x2828282828282828, 0x2828282828151110, 0x0f0e092828282828, 
+	0x0a0a0a0a0a070912, 0x0f11152828282828, 0x2828151110100f0e, 0x0809282828282828, 0x0a0a0a0a0a0a0a07, 0x080e0f0f0f101010, 0x1010310f0e0e0814, 0x0e28282828282828, 
+	0x0a0a0a0a0a0a0a0a, 0x0a07090812120e0e, 0x0e12080909071228, 0x2828282828282828, 0x0a0a0a0a0a0a0a0a, 0x0a0a0a06060a0707, 0x0709090e11282828, 0x2828282828282828, 
 	
 };
 
-Vtx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_cull[8] = {
+u64 gDigitaGildedHiltDL_oot_improved_eq_metal_bombchu_pal_rgba16[] = {
+	0xaefda6bb8df774f1, 0x5c2b4ba94b674325, 0x32a13ae34365aefb, 0x646d4ba72a5f2a1f, 0x221d21dd32619637, 0x3b2321db75313b25, 0x6caf53e97d736cad, 0x85b56cef64ad19db, 
+	0x53a996399e798db5, 0x5c6d95f7bf3dcfbf, 0x199bc77fe7ffd7bf, 0x85738df5dfffdfbf, 0xb73d2a1d7d3132a3, 0x74ef2a6153eb32e3, 0x4367000000000000
+};
+
+Vtx gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_vtx_cull[8] = {
 	{{ {-411, -373, -102}, 0, {0, 0}, {0, 0, 0, 0} }},
 	{{ {-411, -373, 106}, 0, {0, 0}, {0, 0, 0, 0} }},
 	{{ {-411, 807, 106}, 0, {0, 0}, {0, 0, 0, 0} }},
@@ -105,7 +94,7 @@ Vtx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_cull
 	{{ {633, 807, -102}, 0, {0, 0}, {0, 0, 0, 0} }},
 };
 
-Vtx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_0[51] = {
+Vtx gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_vtx_0[51] = {
 	{{ {321, 372, -43}, 0, {256, 756}, {1, 24, 131, 255} }},
 	{{ {275, 214, -49}, 0, {-45, 130}, {210, 0, 138, 255} }},
 	{{ {274, 297, 2}, 0, {-16, 496}, {148, 34, 198, 255} }},
@@ -159,8 +148,8 @@ Vtx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_0[51
 	{{ {425, 249, 43}, 0, {-1, 409}, {127, 0, 0, 255} }},
 };
 
-Gfx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_tri_0[] = {
-	gsSPVertex(gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_0 + 0, 31, 0),
+Gfx gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_vtx_0 + 0, 31, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 4, 3, 0, 7, 8, 9, 0),
 	gsSP2Triangles(10, 8, 7, 0, 11, 12, 13, 0),
@@ -171,7 +160,7 @@ Gfx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_tri_0[] 
 	gsSP2Triangles(26, 1, 27, 0, 28, 27, 1, 0),
 	gsSP2Triangles(1, 29, 28, 0, 29, 24, 28, 0),
 	gsSP1Triangle(30, 24, 29, 0),
-	gsSPVertex(gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_0 + 31, 20, 0),
+	gsSPVertex(gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_vtx_0 + 31, 20, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(3, 2, 4, 0, 5, 6, 7, 0),
 	gsSP2Triangles(8, 6, 5, 0, 2, 9, 10, 0),
@@ -181,7 +170,7 @@ Gfx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_tri_0[] 
 	gsSPEndDisplayList(),
 };
 
-Vtx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_1[12] = {
+Vtx gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_vtx_1[12] = {
 	{{ {25, 297, 2}, 0, {-516, -506}, {3, 74, 104, 255} }},
 	{{ {-193, 214, 67}, 0, {-497, -394}, {3, 74, 104, 255} }},
 	{{ {275, 214, 53}, 0, {-498, -639}, {3, 74, 104, 255} }},
@@ -196,14 +185,14 @@ Vtx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_1[12
 	{{ {275, 214, -49}, 0, {-467, -637}, {3, 183, 152, 255} }},
 };
 
-Gfx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_tri_1[] = {
-	gsSPVertex(gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_1 + 0, 12, 0),
+Gfx gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_tri_1[] = {
+	gsSPVertex(gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_vtx_1 + 0, 12, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 7, 8, 0, 9, 10, 11, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_2[192] = {
+Vtx gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_vtx_2[192] = {
 	{{ {274, 297, 2}, 0, {-380, -1989}, {139, 205, 0, 255} }},
 	{{ {158, 563, 47}, 0, {-280, -1071}, {139, 205, 0, 255} }},
 	{{ {158, 563, -43}, 0, {-487, -1079}, {139, 205, 0, 255} }},
@@ -398,15 +387,15 @@ Vtx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_2[19
 	{{ {-177, 132, 2}, 0, {-286, -396}, {0, 177, 156, 255} }},
 };
 
-Gfx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_tri_2[] = {
-	gsSPVertex(gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_2 + 0, 31, 0),
+Gfx gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_tri_2[] = {
+	gsSPVertex(gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_vtx_2 + 0, 31, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 4, 7, 0, 8, 9, 10, 0),
 	gsSP2Triangles(11, 12, 13, 0, 14, 15, 16, 0),
 	gsSP2Triangles(17, 18, 19, 0, 20, 21, 22, 0),
 	gsSP2Triangles(23, 24, 25, 0, 26, 27, 28, 0),
 	gsSP1Triangle(29, 13, 30, 0),
-	gsSPVertex(gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_2 + 31, 32, 0),
+	gsSPVertex(gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_vtx_2 + 31, 32, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 7, 8, 0, 6, 9, 7, 0),
 	gsSP2Triangles(10, 11, 12, 0, 10, 13, 11, 0),
@@ -417,7 +406,7 @@ Gfx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_tri_2[] 
 	gsSP2Triangles(24, 25, 23, 0, 25, 26, 23, 0),
 	gsSP2Triangles(27, 28, 29, 0, 28, 30, 29, 0),
 	gsSP1Triangle(28, 31, 30, 0),
-	gsSPVertex(gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_2 + 63, 31, 0),
+	gsSPVertex(gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_vtx_2 + 63, 31, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(3, 5, 6, 0, 3, 6, 7, 0),
 	gsSP2Triangles(3, 7, 8, 0, 9, 10, 11, 0),
@@ -428,7 +417,7 @@ Gfx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_tri_2[] 
 	gsSP2Triangles(19, 22, 24, 0, 25, 26, 27, 0),
 	gsSP2Triangles(25, 27, 28, 0, 25, 28, 29, 0),
 	gsSP1Triangle(30, 25, 29, 0),
-	gsSPVertex(gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_2 + 94, 32, 0),
+	gsSPVertex(gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_vtx_2 + 94, 32, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(4, 5, 6, 0, 4, 7, 5, 0),
 	gsSP2Triangles(7, 4, 8, 0, 9, 10, 11, 0),
@@ -438,7 +427,7 @@ Gfx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_tri_2[] 
 	gsSP2Triangles(22, 21, 18, 0, 23, 24, 25, 0),
 	gsSP2Triangles(23, 26, 24, 0, 27, 26, 23, 0),
 	gsSP2Triangles(28, 29, 30, 0, 28, 31, 29, 0),
-	gsSPVertex(gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_2 + 126, 32, 0),
+	gsSPVertex(gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_vtx_2 + 126, 32, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSP2Triangles(0, 4, 3, 0, 5, 6, 7, 0),
 	gsSP2Triangles(5, 7, 8, 0, 9, 10, 11, 0),
@@ -450,7 +439,7 @@ Gfx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_tri_2[] 
 	gsSP2Triangles(25, 23, 24, 0, 25, 24, 26, 0),
 	gsSP2Triangles(27, 28, 29, 0, 30, 29, 28, 0),
 	gsSP1Triangle(30, 28, 31, 0),
-	gsSPVertex(gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_2 + 158, 30, 0),
+	gsSPVertex(gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_vtx_2 + 158, 30, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
 	gsSP2Triangles(4, 5, 6, 0, 4, 6, 7, 0),
 	gsSP2Triangles(8, 9, 10, 0, 8, 10, 6, 0),
@@ -459,12 +448,12 @@ Gfx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_tri_2[] 
 	gsSP2Triangles(18, 19, 20, 0, 18, 20, 21, 0),
 	gsSP2Triangles(22, 23, 24, 0, 25, 22, 24, 0),
 	gsSP2Triangles(26, 27, 28, 0, 26, 28, 29, 0),
-	gsSPVertex(gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_2 + 188, 4, 0),
+	gsSPVertex(gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_vtx_2 + 188, 4, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 1, 0),
 	gsSPEndDisplayList(),
 };
 
-Vtx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_3[16] = {
+Vtx gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_vtx_3[16] = {
 	{{ {-411, 217, -102}, 0, {-302, -274}, {178, 0, 156, 255} }},
 	{{ {-411, 217, 106}, 0, {-310, -515}, {178, 0, 100, 255} }},
 	{{ {-411, 298, 2}, 0, {-302, -274}, {153, 74, 0, 255} }},
@@ -483,8 +472,8 @@ Vtx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_3[16
 	{{ {-411, 298, 2}, 0, {-497, -504}, {153, 74, 0, 255} }},
 };
 
-Gfx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_tri_3[] = {
-	gsSPVertex(gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_3 + 0, 16, 0),
+Gfx gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_tri_3[] = {
+	gsSPVertex(gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_vtx_3 + 0, 16, 0),
 	gsSP2Triangles(0, 1, 2, 0, 1, 0, 3, 0),
 	gsSP2Triangles(4, 1, 5, 0, 6, 1, 4, 0),
 	gsSP2Triangles(6, 4, 7, 0, 8, 7, 4, 0),
@@ -495,18 +484,18 @@ Gfx gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_tri_3[] 
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gDigitaHumanGildedHiltDL_razor_pommel_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_SHADE | G_LIGHTING | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
+Gfx mat_gDigitaGildedHiltDL_razor_sheath_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADING_SMOOTH | G_FOG | G_SHADE | G_ZBUFFER | G_LIGHTING | G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TT_RGBA16 | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_PM_NPRIMITIVE | G_TL_TILE | G_TF_BILERP | G_TD_CLAMP | G_TT_RGBA16 | G_TP_PERSP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TC_FILT | G_CD_MAGICSQ),
 	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, gDigitaHumanGildedHiltDL_sheath_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, gDigitaGildedHiltDL_sheath_pal_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 44),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, gDigitaHumanGildedHiltDL_sheath_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, gDigitaGildedHiltDL_sheath_ci8),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 127, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 2, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 4, 0, G_TX_CLAMP | G_TX_NOMIRROR, 4, 0),
@@ -514,24 +503,24 @@ Gfx mat_gDigitaHumanGildedHiltDL_razor_pommel_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gDigitaHumanGildedHiltDL_razor_pommel_layerOpaque[] = {
+Gfx mat_revert_gDigitaGildedHiltDL_razor_sheath_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gDigitaHumanGildedHiltDL_metal_gilded_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_TEXTURE_GEN | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
+Gfx mat_gDigitaGildedHiltDL_metal_gold_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADING_SMOOTH | G_TEXTURE_GEN | G_FOG | G_SHADE | G_ZBUFFER | G_LIGHTING | G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TT_RGBA16 | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_PM_NPRIMITIVE | G_TL_TILE | G_TF_BILERP | G_TD_CLAMP | G_TT_RGBA16 | G_TP_PERSP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TC_FILT | G_CD_MAGICSQ),
 	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(1984, 1984, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, gDigitaHumanGildedHiltDL_metal_gilded_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, gDigitaGildedHiltDL_metal_gilded_pal_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 50),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, gDigitaHumanGildedHiltDL_metal_gilded_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, gDigitaGildedHiltDL_metal_gilded_ci8),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -539,21 +528,21 @@ Gfx mat_gDigitaHumanGildedHiltDL_metal_gilded_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gDigitaHumanGildedHiltDL_metal_gilded_layerOpaque[] = {
+Gfx mat_revert_gDigitaGildedHiltDL_metal_gold_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gDigitaHumanGildedHiltDL_metal_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_TEXTURE_GEN | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
+Gfx mat_gDigitaGildedHiltDL_metal_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADING_SMOOTH | G_TEXTURE_GEN | G_FOG | G_SHADE | G_ZBUFFER | G_LIGHTING | G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_PM_NPRIMITIVE | G_TL_TILE | G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TT_NONE | G_TC_FILT | G_CD_MAGICSQ),
 	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(1984, 1984, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, gDigitaHumanGildedHiltDL_metal_i8),
+	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, gDigitaGildedHiltDL_metal_grey_i8),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -561,51 +550,54 @@ Gfx mat_gDigitaHumanGildedHiltDL_metal_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gDigitaHumanGildedHiltDL_metal_layerOpaque[] = {
+Gfx mat_revert_gDigitaGildedHiltDL_metal_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gDigitaHumanGildedHiltDL_metal_blue_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_TEXTURE_GEN | G_ZBUFFER | G_FOG | G_TEXTURE_GEN_LINEAR | G_SHADING_SMOOTH),
+Gfx mat_gDigitaGildedHiltDL_metal_blue_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADING_SMOOTH | G_TEXTURE_GEN | G_FOG | G_SHADE | G_ZBUFFER | G_LIGHTING | G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_PM_NPRIMITIVE | G_TL_TILE | G_TF_BILERP | G_TD_CLAMP | G_TT_RGBA16 | G_TP_PERSP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TC_FILT | G_CD_MAGICSQ),
 	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(1984, 1984, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaHumanGildedHiltDL_oot_improved_eq_metal_bombchu_rgba16),
-	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
-	gsDPLoadBlock(7, 0, 0, 1023, 256),
-	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, gDigitaGildedHiltDL_oot_improved_eq_metal_bombchu_pal_rgba16),
+	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadTLUTCmd(5, 56),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, gDigitaGildedHiltDL_oot_improved_eq_metal_bombchu_ci8),
+	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 511, 512),
+	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
 	gsDPSetTileSize(0, 0, 0, 124, 124),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gDigitaHumanGildedHiltDL_metal_blue_layerOpaque[] = {
+Gfx mat_revert_gDigitaGildedHiltDL_metal_blue_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
 	gsSPEndDisplayList(),
 };
 
-Gfx gDigitaHumanGildedHiltDL[] = {
+Gfx gDigitaGildedHiltDL[] = {
 	gsSPClearGeometryMode(G_LIGHTING),
-	gsSPVertex(gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_vtx_cull + 0, 8, 0),
+	gsSPVertex(gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_vtx_cull + 0, 8, 0),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPCullDisplayList(0, 7),
-	gsSPDisplayList(mat_gDigitaHumanGildedHiltDL_razor_pommel_layerOpaque),
-	gsSPDisplayList(gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gDigitaHumanGildedHiltDL_razor_pommel_layerOpaque),
-	gsSPDisplayList(mat_gDigitaHumanGildedHiltDL_metal_gilded_layerOpaque),
-	gsSPDisplayList(gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_tri_1),
-	gsSPDisplayList(mat_revert_gDigitaHumanGildedHiltDL_metal_gilded_layerOpaque),
-	gsSPDisplayList(mat_gDigitaHumanGildedHiltDL_metal_layerOpaque),
-	gsSPDisplayList(gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_tri_2),
-	gsSPDisplayList(mat_revert_gDigitaHumanGildedHiltDL_metal_layerOpaque),
-	gsSPDisplayList(mat_gDigitaHumanGildedHiltDL_metal_blue_layerOpaque),
-	gsSPDisplayList(gDigitaHumanGildedHiltDL_gDigitaHumanGildedHiltDL_mesh_layer_Opaque_tri_3),
-	gsSPDisplayList(mat_revert_gDigitaHumanGildedHiltDL_metal_blue_layerOpaque),
+	gsSPDisplayList(mat_gDigitaGildedHiltDL_razor_sheath_layerOpaque),
+	gsSPDisplayList(gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaGildedHiltDL_razor_sheath_layerOpaque),
+	gsSPDisplayList(mat_gDigitaGildedHiltDL_metal_gold_layerOpaque),
+	gsSPDisplayList(gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_tri_1),
+	gsSPDisplayList(mat_revert_gDigitaGildedHiltDL_metal_gold_layerOpaque),
+	gsSPDisplayList(mat_gDigitaGildedHiltDL_metal_layerOpaque),
+	gsSPDisplayList(gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_tri_2),
+	gsSPDisplayList(mat_revert_gDigitaGildedHiltDL_metal_layerOpaque),
+	gsSPDisplayList(mat_gDigitaGildedHiltDL_metal_blue_layerOpaque),
+	gsSPDisplayList(gDigitaGildedHiltDL_gDigitaGildedHiltDL_mesh_layer_Opaque_tri_3),
+	gsSPDisplayList(mat_revert_gDigitaGildedHiltDL_metal_blue_layerOpaque),
 	gsSPEndDisplayList(),
 };
 

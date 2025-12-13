@@ -1,0 +1,38 @@
+#ifndef DIGITA_MIRROR_OOT_H
+#define DIGITA_MIRROR_OOT_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaOoTMirrorShieldDL_oot_improved_eq_metal_red_rgba16[];
+extern u64 gDigitaOoTMirrorShieldDL_oot_improved_eq_mirror_rgba16[];
+extern u64 gDigitaOoTMirrorShieldDL_oot_improved_eq_gerudo_sign_ia8[];
+extern u64 gDigitaOoTMirrorShieldDL_oot_improved_eq_mirror_sign_ia8[];
+extern u64 gDigitaOoTMirrorShieldDL_metal_grey_i8[];
+extern Vtx gDigitaOoTMirrorShieldDL_gDigitaOoTMirrorShieldDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaOoTMirrorShieldDL_gDigitaOoTMirrorShieldDL_mesh_layer_Opaque_vtx_0[54];
+extern Gfx gDigitaOoTMirrorShieldDL_gDigitaOoTMirrorShieldDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaOoTMirrorShieldDL_gDigitaOoTMirrorShieldDL_mesh_layer_Opaque_vtx_1[7];
+extern Gfx gDigitaOoTMirrorShieldDL_gDigitaOoTMirrorShieldDL_mesh_layer_Opaque_tri_1[];
+extern Vtx gDigitaOoTMirrorShieldDL_gDigitaOoTMirrorShieldDL_mesh_layer_Opaque_vtx_2[48];
+extern Gfx gDigitaOoTMirrorShieldDL_gDigitaOoTMirrorShieldDL_mesh_layer_Opaque_tri_2[];
+extern Vtx gDigitaOoTMirrorShieldDL_gDigitaOoTMirrorShieldDL_mesh_layer_Transparent_vtx_cull[8];
+extern Vtx gDigitaOoTMirrorShieldDL_gDigitaOoTMirrorShieldDL_mesh_layer_Transparent_vtx_0[6];
+extern Gfx gDigitaOoTMirrorShieldDL_gDigitaOoTMirrorShieldDL_mesh_layer_Transparent_tri_0[];
+extern Vtx gDigitaOoTMirrorShieldDL_gDigitaOoTMirrorShieldDL_mesh_layer_Transparent_vtx_1[4];
+extern Gfx gDigitaOoTMirrorShieldDL_gDigitaOoTMirrorShieldDL_mesh_layer_Transparent_tri_1[];
+extern Gfx mat_gDigitaOoTMirrorShieldDL_metal_red_layerOpaque[];
+extern Gfx mat_revert_gDigitaOoTMirrorShieldDL_metal_red_layerOpaque[];
+extern Gfx mat_gDigitaOoTMirrorShieldDL_mirror_render_layerOpaque[];
+extern Gfx mat_revert_gDigitaOoTMirrorShieldDL_mirror_render_layerOpaque[];
+extern Gfx mat_gDigitaOoTMirrorShieldDL_insignia_top_layerTransparent[];
+extern Gfx mat_revert_gDigitaOoTMirrorShieldDL_insignia_top_layerTransparent[];
+extern Gfx mat_gDigitaOoTMirrorShieldDL_insignia_bottom_layerTransparent[];
+extern Gfx mat_revert_gDigitaOoTMirrorShieldDL_insignia_bottom_layerTransparent[];
+extern Gfx mat_gDigitaOoTMirrorShieldDL_metal_layerOpaque[];
+extern Gfx mat_revert_gDigitaOoTMirrorShieldDL_metal_layerOpaque[];
+extern Gfx gDigitaOoTMirrorShieldSolidDL[];
+extern Gfx gDigitaOoTMirrorShieldTransparentDL[];
+extern Gfx gDigitaOoTMirrorShieldDL[];
+
+#endif

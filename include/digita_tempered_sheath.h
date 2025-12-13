@@ -1,0 +1,22 @@
+#ifndef DIGITA_TEMPERED_SHEATH_H
+#define DIGITA_TEMPERED_SHEATH_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaTemperedSheathDL_sheath_ci8[];
+extern u64 gDigitaTemperedSheathDL_sheath_pal_rgba16[];
+extern u64 gDigitaTemperedSheathDL_razor_grip_ci8[];
+extern u64 gDigitaTemperedSheathDL_razor_grip_pal_rgba16[];
+extern Vtx gDigitaTemperedSheathDL_gDigitaTemperedSheathDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaTemperedSheathDL_gDigitaTemperedSheathDL_mesh_layer_Opaque_vtx_0[18];
+extern Gfx gDigitaTemperedSheathDL_gDigitaTemperedSheathDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaTemperedSheathDL_gDigitaTemperedSheathDL_mesh_layer_Opaque_vtx_1[30];
+extern Gfx gDigitaTemperedSheathDL_gDigitaTemperedSheathDL_mesh_layer_Opaque_tri_1[];
+extern Gfx mat_gDigitaTemperedSheathDL_razor_sheath_layerOpaque[];
+extern Gfx mat_revert_gDigitaTemperedSheathDL_razor_sheath_layerOpaque[];
+extern Gfx mat_gDigitaTemperedSheathDL_razor_hilt_layerOpaque[];
+extern Gfx mat_revert_gDigitaTemperedSheathDL_razor_hilt_layerOpaque[];
+extern Gfx gDigitaTemperedSheathDL[];
+
+#endif

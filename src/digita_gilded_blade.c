@@ -1,42 +1,31 @@
-#include "digita_gildedblade.h"
+#include "digita_gilded_blade.h"
 
-u64 gDigitaHumanGildedBladeDL_metal_termina_rgba16[] = {
-	0xffefffefffefffef, 0xffefffefffefffef, 0xffefffefffedffe3, 0xffd9ffcfffcfff8d, 0xf74dee8bee49ee8b, 0xf70bff8dff8dff8d, 0xff8dff8dff8dff8d, 0xff8dff8dff8dff8d, 
-	0xffefffefffefffef, 0xffefffefffefffef, 0xffedffe3ffcfffcf, 0xf74deecbee49e5c9, 0xdd87dd05d4c5d4c5, 0xd4c5dd05e609f74d, 0xff8dff8dff8dff8d, 0xff8dff8dff8dff8d, 
-	0xffefffefffefffef, 0xffefffefffefffe5, 0xffcfffcff70dee8b, 0xee49e609e5c9dd47, 0xd4c5d485cc43d485, 0xcc43cc43d4c5dd05, 0xee49ff8dff8dff8d, 0xff8dff8dff8dff8d, 
-	0xffefffefffefffef, 0xffefffedffdbffcf, 0xf74dee8bee49ee8b, 0xf74dffcfffcfff8f, 0xf70df74deecbee49, 0xd4c5cc43d485dd05, 0xdd47dd87f74dff8d, 0xff8dff8dff8dff8d, 
-	0xffefffefffefffef, 0xffedffd5ffcff70b, 0xee8bf70dffcfffcf, 0xffe3ffddffdbffd7, 0xffd7ffcfffcfff8d, 0xee49d4c5d485dd05, 0xdd87dd47dd47f74d, 0xff8dff8dff8dff8d, 
-	0xffefffefffefffed, 0xffd3ff8ff70beecb, 0xffcfffd9ffdfffdf, 0xffe1ffd9ffd9ffd9, 0xffd3ff8df70df70d, 0xe609dd05cc03d4c5, 0xe5c9e5c9dd47dd47, 0xf74dff8dff8dff8d, 
-	0xffefffefffefffdb, 0xffcff70df6cbffcf, 0xffd9ffe5ffe7ffe7, 0xffe1ffdfffdfffcf, 0xffcfffcfff8dee8b, 0xdd47d485cc43cc43, 0xdd47e5c9e5c9dd47, 0xdd87ff8dff8dff8d, 
-	0xffefffefffe5ffcf, 0xf70bf6cbffcfffd9, 0xffe3ffedffebffe3, 0xffe3ffe1ffd7ffcf, 0xffcfe609dd87dd07, 0xd4c5d4c5cc43cc43, 0xd485e5c9e5c9e5c9, 0xdd47ee49ff8dff8d, 
-	0xffefffefffcfeecb, 0xee49ff8dffd7ffe5, 0xfff3fff5ffedffe5, 0xffdfffdbffcfffcf, 0xeecbd4c5d4c5d485, 0xd4c5d485d485cc03, 0xcc03dd07e5c9e5c7, 0xdd47dd07f74dff8d, 
-	0xffefffe3f74ddd47, 0xee49ffcfffdffff5, 0xfffbfff7ffefffe7, 0xffdfffcfffcff70b, 0xdd47dd05dd05dd07, 0xd505d485cc43cc43, 0xcc43d485dd47dd47, 0xdd87dd47e609ff8d, 
-	0xffefffd5ee49d4c5, 0xf74dffd9ffe1fff9, 0xfff9fff9fff5ffe5, 0xffd7ff8de609d505, 0xdd05dd05d4c5dd07, 0xd4c5d485cc43cc43, 0xd485d4c5dd47dd87, 0xdd87dd87dd47f74d, 
-	0xffe9ffcfe5c9dd07, 0xffcfffd3ffe9fff7, 0xfff7fff9fff3ffd9, 0xff8df6cbdd47dd47, 0xdd47d505d4c5dd05, 0xd4c5d485cc43cc43, 0xcc83d4c5dd87dd87, 0xe5c9e5c7e5c9f6cb, 
-	0xffe5ffcfe5c9e5c9, 0xffd7ffd7ffddffed, 0xfff3ffefffdff6cb, 0xf70de5c9dd87dd87, 0xdd47dd07d4c5d4c5, 0xd4c5d4c5d485cc43, 0xcc43d4c5dd87e587, 0xe609ee49ee8bf6cb, 
-	0xffe1ffcfe5c9ee89, 0xffdbffd7ffd5ffe5, 0xffddffdbffcfff8d, 0xee8be587e5c9e5c9, 0xe5c9e5c9e587dd47, 0xdd47dd47dd47d4c5, 0xd4c5dd47e5c9ee49, 0xee8beecbf70bf6cb, 
-	0xffd9ff8fe609f6cb, 0xffdbffd9ffd7ffdb, 0xffd5ffd9ffcfffcf, 0xee8bee8bee8bee49, 0xee49e609ee09e609, 0xe609e609e609dd87, 0xdd87ee49f6cbf70d, 0xf70bf70df6cbf6cb, 
-	0xffd1ff8de609f70b, 0xffdbffd9ffd9ffdb, 0xffd7ffd9ffd9ffcf, 0xf74df70df6cbf6cb, 0xeecbeecbeecbeecb, 0xeecbeecbf6cbee49, 0xee49f70bf74dff8d, 0xf74df74dee8bf6cb, 
-	0xffcfff8de609ff8d, 0xffd9ffd3ffd7ffdb, 0xffd3ffd3ffddffcf, 0xf74df6cbf6cbf70b, 0xf70bf70bf6cbf6cb, 0xf6cbf70df70dee49, 0xf6cbf74dffcfff8d, 0xff8df74dee8bf74d, 
-	0xffcfff8dee49ff8d, 0xffd5ffcfffcfffd9, 0xffcfffcfffd9ffcf, 0xf70beecbeecbeecb, 0xee8bee49ee49ee89, 0xeecbeecbee89ee8b, 0xf6cbf74dff8dff8d, 0xff8df70deecbf74d, 
-	0xffcfff8dee49f6cb, 0xffcfffcfffcfffcf, 0xf70dff8dff8fffcf, 0xf6cbe609e5c9e587, 0xe587e587e5c9e609, 0xee49ee09ee49ee49, 0xeecbf70df70df74d, 0xf74deecbf70bf70b, 
-	0xffcfff8fee49dd87, 0xeecbffcfff8df74d, 0xe5c9ee49f70df70d, 0xf70ddd87dd07d505, 0xd4c5d505dd47dd87, 0xe587dd47dd87e5c9, 0xee49ee49ee8bf6cb, 0xee8bee49f74de609, 
-	0xffcfff8fee49d485, 0xd4c5f70df70beecb, 0xdd47dd05e609f70b, 0xeecbee8bdd47d485, 0xd4c5d505dd05dd07, 0xdd47dd05dd07dd87, 0xe587e5c7e609e5c9, 0xdd47e5c7ff8dd485, 
-	0xff8df74de609d485, 0xc403e587ee49e609, 0xdd07d4c5d4c5dd87, 0xee8bee49e5c9d4c5, 0xd4c5d4c5dd47dd47, 0xdd05dd47dd47dd47, 0xdd47dd47d4c5cc43, 0xcc43e609f74dc3c1, 
-	0xff8df74de609d4c5, 0xc3c3cc43dd07dd47, 0xcc43d4c5d4c5d4c5, 0xd4c5d4c5d4c5d485, 0xd4c5d4c5dd05dd05, 0xdd47dd47dd47dd07, 0xd4c5cc83cc03cc03, 0xd485ee49dd47c381, 
-	0xff8dff8de609dd47, 0xcc43c3c3cc03dd47, 0xcc03cc03cc43d4c5, 0xd4c5d4c5d4c5d4c5, 0xd4c5dd47dd47dd87, 0xdd87dd47d4c5cc83, 0xcc03c3c3cc43cc43, 0xe587ee8bc3c1c381, 
-	0xff8dff8df70be5c7, 0xd4c5cc03c3c1c3c1, 0xcc03cc43cc03cc43, 0xd485d4c5dd07dd87, 0xe5c9e5c7e587dd05, 0xd485cc03c403cc03, 0xc3c3cc43cc43dd47, 0xee49dd07c381c381, 
-	0xff8dff8dff8dee8b, 0xdd47d485c3c3c3c3, 0xc3c1c3c3c3c3c3c3, 0xcc03cc03cc43cc43, 0xcc43cc03cc03cc03, 0xc3c3c3c3cc03c3c3, 0xcc43d485dd47e609, 0xee49c3c1c381c381, 
-	0xff8dff8dff8dff8d, 0xee49e587d485c403, 0xc3c3c3c3c3c1c3c1, 0xc3c1c3c1c3c1c3c1, 0xc3c1c3c1c3c1c3c1, 0xc3c1c3c3c3c3cc43, 0xd4c5dd47e5c9eecb, 0xc3c3c381c381c381, 
-	0xff8dff8dff8dff8d, 0xff8dee8be5c9d4c5, 0xcc03c3c3c3c3c3c3, 0xc3c1c3c1c3c1c3c1, 0xc3c1c3c1c3c1c3c3, 0xc3c3cc43d4c5dd07, 0xdd87e5c9f6cbcc03, 0xc381c381c381c381, 
-	0xff8dff8dff8dff8d, 0xff8df74df6cbe609, 0xdd47d4c5cc43cc03, 0xcc03cc03cc03cc03, 0xc3c3cc03cc43d4c5, 0xdd05dd47dd47dd87, 0xee8bf6cbcc03c381, 0xc381c381c381c381, 
-	0xff8dff8dff8dff8d, 0xff8dff8dff8df74d, 0xee8be5c9dd87dd47, 0xdd47dd47dd05dd07, 0xdd07dd47dd47dd47, 0xdd87e5c9ee49f70d, 0xe587c3c1c381c381, 0xc381c381c381c381, 
-	0xff8dff8dff8dff8d, 0xff8dff8dff8dff8d, 0xff8df74df6cbee49, 0xe609e609e5c9e5c9, 0xe5c9e609ee49eecb, 0xf70bf74de609c3c3, 0xc381c381c381c381, 0xc381c381c381c381, 
-	0xff8dff8dff8dff8d, 0xff8dff8dff8dff8d, 0xff8dff8dff8dff8f, 0xff8fff8df74df74d, 0xf74df70beecbe609, 0xd4c5c3c1c381c381, 0xc381c381c381c381, 0xc381c381c381c381, 
+u64 gDigitaGildedBladeDL_metal_gilded_ci8[] = {
+	0x0000000000000000, 0x0000010203040405, 0x0607080709050505, 0x0505050505050505, 0x0000000000000000, 0x01020404060a080b, 0x0c0d0e0e0e0d0f06, 0x0505050505050505, 
+	0x0000000000000010, 0x04041107080f0b12, 0x0e13141314140e0d, 0x0805050505050505, 0x0000000000011504, 0x0607080706040416, 0x11060a080e14130d, 0x120c060505050505, 
+	0x0000000001170409, 0x0711040402181519, 0x19040405080e130d, 0x0c12120605050505, 0x000000011a16090a, 0x04031b1b1c030303, 0x1a0511110f0d1d0e, 0x0b0b121206050505, 
+	0x0000001504111e04, 0x03101f1f1c1b1b04, 0x0404050712131414, 0x120b0b120c050505, 0x00001004091e0403, 0x02012002021c1904, 0x040f0c210e0e1414, 0x130b0b0b12080505, 
+	0x0000040a08051910, 0x222301101b150404, 0x0a0e0e130e13131d, 0x1d210b2412210605, 0x0002061208041b23, 0x2526001f1b040409, 0x120d0d2127131414, 0x141312120c120f05, 
+	0x0017080e06031c28, 0x2828231019050f27, 0x0d0d0e210e131414, 0x130e120c0c0c1206, 0x29040b21041a2926, 0x26282203051e1212, 0x12270e0d0e131414, 0x2a0e0c0c0b240b1e, 
+	0x10040b0b19191801, 0x22001b1e110b0c0c, 0x12210e0e0e0e1314, 0x140e0c2b0f08071e, 0x1c040b2c15191710, 0x18150405072b0b0b, 0x0b0b2b121212120e, 0x0e120b08070a091e, 
+	0x03160f1e15031915, 0x1703040407070708, 0x080f2d0f0f0f0f0c, 0x0c081e1109111e1e, 0x2e050f0915030315, 0x1903030406111e1e, 0x0a0a0a0a0a0a1e08, 0x080906050606071e, 
+	0x04050f05031a1915, 0x1a1a1804061e1e09, 0x09091e1e1e111108, 0x1e06040505060706, 0x0405080517040403, 0x04040304090a0a0a, 0x0708082c0a0a2c07, 0x1e06050505110a06, 
+	0x0405081e04040404, 0x110516041e0f0b2b, 0x2b2b0b0f082d0808, 0x0a111106060a0909, 0x0416080c0a040506, 0x0b081111110c2127, 0x0e27120c2b120c0b, 0x0808071e0708060f, 
+	0x041608130e11090a, 0x120d0f090a071213, 0x0e270d21120d210c, 0x2b240f0b12240513, 0x05060f132f2b080f, 0x210e0e0c07080b0e, 0x0e0e12120d121212, 0x12120e14140f0630, 
+	0x05060f0e31142112, 0x140e0e0e0e0e0e13, 0x0e0e0d0d12121221, 0x0e2a1d1d13081232, 0x05050f1214311d12, 0x1d1d140e0e0e0e0e, 0x0e12120c0c120e2a, 0x1d3114142b073032, 
+	0x050509240e1d3030, 0x1d141d14130e210c, 0x0b242b0d131d2f1d, 0x3114141208213232, 0x0505050712133131, 0x303131311d1d1414, 0x141d1d1d31311d31, 0x1413120f08303232, 
+	0x05050505082b132f, 0x3131303030303030, 0x3030303030313114, 0x0e120b0a31323232, 0x0505050505070b0e, 0x1d31313130303030, 0x3030303131140e21, 0x0c0b1e1d32323232, 
+	0x0505050505061e0f, 0x120e141d1d1d1d1d, 0x311d140e0d12120c, 0x071e1d3232323232, 0x0505050505050506, 0x070b0c1212120d21, 0x211212120c0b0811, 0x2b30323232323232, 
+	0x0505050505050505, 0x05061e080f0f0b0b, 0x0b0f080a09060f31, 0x3232323232323232, 0x0505050505050505, 0x0505051616050606, 0x06090a0f0e303232, 0x3232323232323232, 
 	
 };
 
-u64 gDigitaHumanGildedBladeDL_metal_grey_i8[] = {
+u64 gDigitaGildedBladeDL_metal_gilded_pal_rgba16[] = {
+	0xffefffedffe3ffd9, 0xffcfff8df74dee8b, 0xee49f70beecbe5c9, 0xdd87dd05d4c5e609, 0xffe5f70ddd47d485, 0xcc43ffdbff8fffd5, 0xffddffd7ffd3ffdf, 0xffe1cc03f6cbffe7, 
+	0xffebdd07fff3fff5, 0xe5c7fffbfff7d505, 0xfff9ffe9cc83e587, 0xee89ee09ffd1c403, 0xc3c1c3c3c3810000
+};
+
+u64 gDigitaGildedBladeDL_metal_grey_i8[] = {
 	0xe6e6e6e6e6e6e6e6, 0xe6e6e2d2c0b4a69c, 0x93847f838b989a9a, 0x9a9a9a9a9a9a9a9a, 0xe6e6e6e6e6e6e6e6, 0xe2d0b6a595877d75, 0x6f67646262677a94, 0x9a9a9a9a9a9a9a9a, 
 	0xe6e6e6e6e6e6e6d4, 0xb4a28f817d79746c, 0x615d5c5d5b5c6266, 0x7c989a9a9a9a9a9a, 0xe6e6e6e6e6e2c3a6, 0x9384808496b4b59f, 0x9091877d645b6066, 0x696f949a9a9a9a9a, 
 	0xe6e6e6e6e1baa18d, 0x8490a9b5d1c8c3bc, 0xbbb6a89a7c615d67, 0x706d6c929a9a9a9a, 0xe6e6e6e2ba9e8e87, 0xa5c2cbcccdc2bec0, 0xb998908f79675864, 0x74746c6c949a9a9a, 
@@ -56,7 +45,7 @@ u64 gDigitaHumanGildedBladeDL_metal_grey_i8[] = {
 	
 };
 
-Vtx gDigitaHumanGildedBladeDL_gDigitaHumanGildedBladeDL_mesh_layer_Opaque_vtx_cull[8] = {
+Vtx gDigitaGildedBladeDL_gDigitaGildedBladeDL_mesh_layer_Opaque_vtx_cull[8] = {
 	{{ {425, 66, -40}, 0, {0, 0}, {0, 0, 0, 0} }},
 	{{ {425, 66, 44}, 0, {0, 0}, {0, 0, 0, 0} }},
 	{{ {425, 356, 44}, 0, {0, 0}, {0, 0, 0, 0} }},
@@ -67,7 +56,7 @@ Vtx gDigitaHumanGildedBladeDL_gDigitaHumanGildedBladeDL_mesh_layer_Opaque_vtx_cu
 	{{ {3125, 356, -40}, 0, {0, 0}, {0, 0, 0, 0} }},
 };
 
-Vtx gDigitaHumanGildedBladeDL_gDigitaHumanGildedBladeDL_mesh_layer_Opaque_vtx_0[84] = {
+Vtx gDigitaGildedBladeDL_gDigitaGildedBladeDL_mesh_layer_Opaque_vtx_0[84] = {
 	{{ {425, 356, 2}, 0, {-415, 408}, {0, 46, 138, 255} }},
 	{{ {2496, 249, -40}, 0, {-465, 20}, {5, 32, 133, 255} }},
 	{{ {425, 249, -40}, 0, {-483, 739}, {0, 46, 138, 255} }},
@@ -154,21 +143,21 @@ Vtx gDigitaHumanGildedBladeDL_gDigitaHumanGildedBladeDL_mesh_layer_Opaque_vtx_0[
 	{{ {425, 249, -40}, 0, {-483, 739}, {0, 129, 0, 255} }},
 };
 
-Gfx gDigitaHumanGildedBladeDL_gDigitaHumanGildedBladeDL_mesh_layer_Opaque_tri_0[] = {
-	gsSPVertex(gDigitaHumanGildedBladeDL_gDigitaHumanGildedBladeDL_mesh_layer_Opaque_vtx_0 + 0, 32, 0),
+Gfx gDigitaGildedBladeDL_gDigitaGildedBladeDL_mesh_layer_Opaque_tri_0[] = {
+	gsSPVertex(gDigitaGildedBladeDL_gDigitaGildedBladeDL_mesh_layer_Opaque_vtx_0 + 0, 32, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 7, 3, 0, 8, 9, 10, 0),
 	gsSP2Triangles(11, 12, 13, 0, 14, 15, 16, 0),
 	gsSP2Triangles(17, 18, 19, 0, 20, 21, 22, 0),
 	gsSP2Triangles(23, 24, 25, 0, 26, 27, 28, 0),
 	gsSP1Triangle(29, 30, 31, 0),
-	gsSPVertex(gDigitaHumanGildedBladeDL_gDigitaHumanGildedBladeDL_mesh_layer_Opaque_vtx_0 + 32, 30, 0),
+	gsSPVertex(gDigitaGildedBladeDL_gDigitaGildedBladeDL_mesh_layer_Opaque_vtx_0 + 32, 30, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 7, 8, 0, 9, 10, 11, 0),
 	gsSP2Triangles(12, 13, 14, 0, 15, 16, 17, 0),
 	gsSP2Triangles(18, 19, 20, 0, 21, 22, 23, 0),
 	gsSP2Triangles(24, 25, 26, 0, 27, 28, 29, 0),
-	gsSPVertex(gDigitaHumanGildedBladeDL_gDigitaHumanGildedBladeDL_mesh_layer_Opaque_vtx_0 + 62, 22, 0),
+	gsSPVertex(gDigitaGildedBladeDL_gDigitaGildedBladeDL_mesh_layer_Opaque_vtx_0 + 62, 22, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP2Triangles(6, 7, 8, 0, 9, 10, 11, 0),
 	gsSP2Triangles(10, 12, 11, 0, 10, 13, 12, 0),
@@ -177,7 +166,7 @@ Gfx gDigitaHumanGildedBladeDL_gDigitaHumanGildedBladeDL_mesh_layer_Opaque_tri_0[
 	gsSPEndDisplayList(),
 };
 
-Vtx gDigitaHumanGildedBladeDL_gDigitaHumanGildedBladeDL_mesh_layer_Opaque_vtx_1[39] = {
+Vtx gDigitaGildedBladeDL_gDigitaGildedBladeDL_mesh_layer_Opaque_vtx_1[39] = {
 	{{ {1820, 164, 44}, 0, {-465, 20}, {5, 209, 118, 255} }},
 	{{ {1992, 76, 2}, 0, {-507, -216}, {8, 214, 119, 255} }},
 	{{ {2165, 164, 2}, 0, {-446, -788}, {15, 227, 123, 255} }},
@@ -219,8 +208,8 @@ Vtx gDigitaHumanGildedBladeDL_gDigitaHumanGildedBladeDL_mesh_layer_Opaque_vtx_1[
 	{{ {1071, 257, 14}, 0, {111, -529}, {0, 0, 127, 255} }},
 };
 
-Gfx gDigitaHumanGildedBladeDL_gDigitaHumanGildedBladeDL_mesh_layer_Opaque_tri_1[] = {
-	gsSPVertex(gDigitaHumanGildedBladeDL_gDigitaHumanGildedBladeDL_mesh_layer_Opaque_vtx_1 + 0, 32, 0),
+Gfx gDigitaGildedBladeDL_gDigitaGildedBladeDL_mesh_layer_Opaque_tri_1[] = {
+	gsSPVertex(gDigitaGildedBladeDL_gDigitaGildedBladeDL_mesh_layer_Opaque_vtx_1 + 0, 32, 0),
 	gsSP2Triangles(0, 1, 2, 0, 0, 3, 4, 0),
 	gsSP2Triangles(5, 6, 7, 0, 8, 9, 7, 0),
 	gsSP2Triangles(10, 11, 12, 0, 13, 14, 15, 0),
@@ -228,43 +217,46 @@ Gfx gDigitaHumanGildedBladeDL_gDigitaHumanGildedBladeDL_mesh_layer_Opaque_tri_1[
 	gsSP2Triangles(17, 20, 19, 0, 21, 22, 23, 0),
 	gsSP2Triangles(21, 24, 22, 0, 25, 26, 27, 0),
 	gsSP2Triangles(25, 28, 26, 0, 29, 30, 31, 0),
-	gsSPVertex(gDigitaHumanGildedBladeDL_gDigitaHumanGildedBladeDL_mesh_layer_Opaque_vtx_1 + 32, 7, 0),
+	gsSPVertex(gDigitaGildedBladeDL_gDigitaGildedBladeDL_mesh_layer_Opaque_vtx_1 + 32, 7, 0),
 	gsSP2Triangles(0, 1, 2, 0, 3, 4, 5, 0),
 	gsSP1Triangle(3, 6, 4, 0),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gDigitaHumanGildedBladeDL_metal_termina_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_TEXTURE_GEN | G_ZBUFFER | G_FOG | G_TEXTURE_GEN_LINEAR | G_SHADING_SMOOTH),
+Gfx mat_gDigitaGildedBladeDL_metal_gold_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADING_SMOOTH | G_TEXTURE_GEN | G_FOG | G_SHADE | G_ZBUFFER | G_LIGHTING | G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_PM_NPRIMITIVE | G_TL_TILE | G_TF_BILERP | G_TD_CLAMP | G_TT_RGBA16 | G_TP_PERSP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TC_FILT | G_CD_MAGICSQ),
 	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(1984, 1984, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaHumanGildedBladeDL_metal_termina_rgba16),
-	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
-	gsDPLoadBlock(7, 0, 0, 1023, 256),
-	gsDPSetTile(G_IM_FMT_RGBA, G_IM_SIZ_16b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, gDigitaGildedBladeDL_metal_gilded_pal_rgba16),
+	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadTLUTCmd(5, 50),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, gDigitaGildedBladeDL_metal_gilded_ci8),
+	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 511, 512),
+	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
 	gsDPSetTileSize(0, 0, 0, 124, 124),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gDigitaHumanGildedBladeDL_metal_termina_layerOpaque[] = {
+Gfx mat_revert_gDigitaGildedBladeDL_metal_gold_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gDigitaHumanGildedBladeDL_metal_001_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_TEXTURE_GEN | G_ZBUFFER | G_FOG | G_SHADING_SMOOTH),
+Gfx mat_gDigitaGildedBladeDL_metal_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_SHADING_SMOOTH | G_TEXTURE_GEN | G_FOG | G_SHADE | G_ZBUFFER | G_LIGHTING | G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_PM_NPRIMITIVE | G_TL_TILE | G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TT_NONE | G_TC_FILT | G_CD_MAGICSQ),
 	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
 	gsSPTexture(1984, 1984, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, gDigitaHumanGildedBladeDL_metal_grey_i8),
+	gsDPSetTextureImage(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 1, gDigitaGildedBladeDL_metal_grey_i8),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_I, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -272,23 +264,23 @@ Gfx mat_gDigitaHumanGildedBladeDL_metal_001_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gDigitaHumanGildedBladeDL_metal_001_layerOpaque[] = {
+Gfx mat_revert_gDigitaGildedBladeDL_metal_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF),
 	gsSPEndDisplayList(),
 };
 
-Gfx gDigitaHumanGildedBladeDL[] = {
+Gfx gDigitaGildedBladeDL[] = {
 	gsSPClearGeometryMode(G_LIGHTING),
-	gsSPVertex(gDigitaHumanGildedBladeDL_gDigitaHumanGildedBladeDL_mesh_layer_Opaque_vtx_cull + 0, 8, 0),
+	gsSPVertex(gDigitaGildedBladeDL_gDigitaGildedBladeDL_mesh_layer_Opaque_vtx_cull + 0, 8, 0),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPCullDisplayList(0, 7),
-	gsSPDisplayList(mat_gDigitaHumanGildedBladeDL_metal_termina_layerOpaque),
-	gsSPDisplayList(gDigitaHumanGildedBladeDL_gDigitaHumanGildedBladeDL_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gDigitaHumanGildedBladeDL_metal_termina_layerOpaque),
-	gsSPDisplayList(mat_gDigitaHumanGildedBladeDL_metal_001_layerOpaque),
-	gsSPDisplayList(gDigitaHumanGildedBladeDL_gDigitaHumanGildedBladeDL_mesh_layer_Opaque_tri_1),
-	gsSPDisplayList(mat_revert_gDigitaHumanGildedBladeDL_metal_001_layerOpaque),
+	gsSPDisplayList(mat_gDigitaGildedBladeDL_metal_gold_layerOpaque),
+	gsSPDisplayList(gDigitaGildedBladeDL_gDigitaGildedBladeDL_mesh_layer_Opaque_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaGildedBladeDL_metal_gold_layerOpaque),
+	gsSPDisplayList(mat_gDigitaGildedBladeDL_metal_layerOpaque),
+	gsSPDisplayList(gDigitaGildedBladeDL_gDigitaGildedBladeDL_mesh_layer_Opaque_tri_1),
+	gsSPDisplayList(mat_revert_gDigitaGildedBladeDL_metal_layerOpaque),
 	gsSPEndDisplayList(),
 };
 

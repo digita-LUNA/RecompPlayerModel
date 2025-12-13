@@ -1,0 +1,20 @@
+#ifndef DIGITA_FPS_RIGHT_H
+#define DIGITA_FPS_RIGHT_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaAdultFPSRightHandDL_glove_rgba16[];
+extern u64 gDigitaAdultFPSRightHandDL_hand_adult_rgba16[];
+extern Vtx gDigitaAdultFPSRightHandDL_gDigitaAdultFPSRightHandDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaAdultFPSRightHandDL_gDigitaAdultFPSRightHandDL_mesh_layer_Opaque_vtx_0[62];
+extern Gfx gDigitaAdultFPSRightHandDL_gDigitaAdultFPSRightHandDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaAdultFPSRightHandDL_gDigitaAdultFPSRightHandDL_mesh_layer_Opaque_vtx_1[40];
+extern Gfx gDigitaAdultFPSRightHandDL_gDigitaAdultFPSRightHandDL_mesh_layer_Opaque_tri_1[];
+extern Gfx mat_gDigitaAdultFPSRightHandDL_glove_002_layerOpaque[];
+extern Gfx mat_revert_gDigitaAdultFPSRightHandDL_glove_002_layerOpaque[];
+extern Gfx mat_gDigitaAdultFPSRightHandDL_hand_002_layerOpaque[];
+extern Gfx mat_revert_gDigitaAdultFPSRightHandDL_hand_002_layerOpaque[];
+extern Gfx gDigitaAdultFPSRightHandDL[];
+
+#endif
