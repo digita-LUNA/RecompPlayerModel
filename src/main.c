@@ -126,6 +126,13 @@ void registerDigitaLinkAdult() {
     PlayerModelManager_setDisplayList(h, PMM_DL_SWORD3_HILT, gDigitaMasterHiltDL);
     PlayerModelManager_setDisplayList(h, PMM_DL_SWORD3_BLADE, gDigitaMasterBladeDL);
 
+    PlayerModelManager_setDisplayList(h, PMM_DL_SWORD4_SHEATH, gDigitaGoronSheathDL);
+    PlayerModelManager_setDisplayList(h, PMM_DL_SWORD4_HILT, gDigitaGoronHiltDL);
+    PlayerModelManager_setDisplayList(h, PMM_DL_SWORD4_BLADE, gDigitaGoronBladeDL);
+    PlayerModelManager_setDisplayList(h, PMM_DL_SWORD5_SHEATH, gDigitaGoronSheathDL);
+    PlayerModelManager_setDisplayList(h, PMM_DL_SWORD5_HILT, gDigitaGoronHiltDL);
+    PlayerModelManager_setDisplayList(h, PMM_DL_SWORD5_BLADE, gDigitaGoronBladeDL);
+
     PlayerModelManager_setDisplayList(h, PMM_DL_SHIELD2, gDigitaHylianShieldDL);
     PlayerModelManager_setDisplayList(h, PMM_DL_SHIELD3, gDigitaOoTMirrorShieldDL);
 

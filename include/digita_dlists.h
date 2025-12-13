@@ -27,6 +27,10 @@
 #include "digita_master_hilt.h"
 #include "digita_master_sheath.h"
 
+#include "digita_goron_blade.h"
+#include "digita_goron_hilt.h"
+#include "digita_goron_sheath.h"
+
 #include "digita_hylian_shield.h"
 #include "digita_mirror_oot.h"
 

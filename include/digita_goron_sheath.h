@@ -1,0 +1,24 @@
+#ifndef DIGITA_GORON_SHEATH_H
+#define DIGITA_GORON_SHEATH_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaGoronSheathDL_oot_improved_eq_metal_rgba16[];
+extern u64 gDigitaGoronSheathDL_oot_improved_eq_sheath_longsword_rgba16[];
+extern Vtx gDigitaGoronSheathDL_gDigitaGoronSheathDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaGoronSheathDL_gDigitaGoronSheathDL_mesh_layer_Opaque_vtx_0[26];
+extern Gfx gDigitaGoronSheathDL_gDigitaGoronSheathDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaGoronSheathDL_gDigitaGoronSheathDL_mesh_layer_Opaque_vtx_1[51];
+extern Gfx gDigitaGoronSheathDL_gDigitaGoronSheathDL_mesh_layer_Opaque_tri_1[];
+extern Vtx gDigitaGoronSheathDL_gDigitaGoronSheathDL_mesh_layer_Opaque_vtx_2[4];
+extern Gfx gDigitaGoronSheathDL_gDigitaGoronSheathDL_mesh_layer_Opaque_tri_2[];
+extern Gfx mat_gDigitaGoronSheathDL_metal_002_layerOpaque[];
+extern Gfx mat_revert_gDigitaGoronSheathDL_metal_002_layerOpaque[];
+extern Gfx mat_gDigitaGoronSheathDL_sheath_biggoron_layerOpaque[];
+extern Gfx mat_revert_gDigitaGoronSheathDL_sheath_biggoron_layerOpaque[];
+extern Gfx mat_gDigitaGoronSheathDL_sheath_hole_001_layerOpaque[];
+extern Gfx mat_revert_gDigitaGoronSheathDL_sheath_hole_001_layerOpaque[];
+extern Gfx gDigitaGoronSheathDL[];
+
+#endif
