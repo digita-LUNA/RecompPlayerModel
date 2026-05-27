@@ -246,7 +246,7 @@ Gfx mat_revert_gDigitaHumanRazorHiltDL_razor_pommel_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx gDigitaHumanRazorHiltDL[] = {
+Gfx gDigitaRazorHiltDL[] = {
 	gsSPClearGeometryMode(G_LIGHTING),
 	gsSPVertex(gDigitaHumanRazorHiltDL_gDigitaHumanRazorHiltDL_mesh_layer_Opaque_vtx_cull + 0, 8, 0),
 	gsSPSetGeometryMode(G_LIGHTING),

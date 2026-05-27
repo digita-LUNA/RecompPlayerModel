@@ -31,6 +31,6 @@ extern Gfx mat_gDigitaOOTHookshotDL_chain_layerOpaque[];
 extern Gfx mat_revert_gDigitaOOTHookshotDL_chain_layerOpaque[];
 extern Gfx mat_gDigitaOOTHookshotDL_metal_layerOpaque[];
 extern Gfx mat_revert_gDigitaOOTHookshotDL_metal_layerOpaque[];
-extern Gfx gDigitaOOTHookshotDL[];
+extern Gfx gDampeHookshotDL[];
 
 #endif

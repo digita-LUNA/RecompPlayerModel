@@ -160,7 +160,7 @@ Gfx mat_revert_gDigitaHumanRazorSheathDL_razor_hilt_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx gDigitaHumanRazorSheathDL[] = {
+Gfx gDigitaRazorSheathDL[] = {
 	gsSPClearGeometryMode(G_LIGHTING),
 	gsSPVertex(gDigitaHumanRazorSheathDL_gDigitaHumanRazorSheathDL_mesh_layer_Opaque_vtx_cull + 0, 8, 0),
 	gsSPSetGeometryMode(G_LIGHTING),

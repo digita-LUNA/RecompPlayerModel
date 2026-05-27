@@ -1,0 +1,20 @@
+#ifndef DIGITA_CLASSIC_BLADE_H
+#define DIGITA_CLASSIC_BLADE_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaClassicBladeDL_oot_improved_eq_metal_gold_rgba16[];
+extern u64 gDigitaClassicBladeDL_oot_improved_eq_metal_greyscale_i8[];
+extern Vtx gDigitaClassicBladeDL_gDigitaClassicBladeDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaClassicBladeDL_gDigitaClassicBladeDL_mesh_layer_Opaque_vtx_0[28];
+extern Gfx gDigitaClassicBladeDL_gDigitaClassicBladeDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaClassicBladeDL_gDigitaClassicBladeDL_mesh_layer_Opaque_vtx_1[28];
+extern Gfx gDigitaClassicBladeDL_gDigitaClassicBladeDL_mesh_layer_Opaque_tri_1[];
+extern Gfx mat_gDigitaClassicBladeDL_metal_gold_layerOpaque[];
+extern Gfx mat_revert_gDigitaClassicBladeDL_metal_gold_layerOpaque[];
+extern Gfx mat_gDigitaClassicBladeDL_metal_layerOpaque[];
+extern Gfx mat_revert_gDigitaClassicBladeDL_metal_layerOpaque[];
+extern Gfx gDigitaClassicBladeDL[];
+
+#endif

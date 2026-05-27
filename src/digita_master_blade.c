@@ -36,15 +36,51 @@ u64 gDigitaMasterBladeDL_oot_improved_eq_metal_silver_rgba16[] = {
 	
 };
 
+u64 gDigitaMasterBladeDL_oot_improved_eq_ms_insignia_ia8[] = {
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0303b3e, 0x3f3c30f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0383f3e, 0x3e3f39f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0353f3f34, 0x333f3f36f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0333e3f36f0, 0xf0363f3f33f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0333e3f36f0, 0xf0363f3f33f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0313d3f39f0f0, 0xf0f0393f3e31f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0303b3f3c30f0f0, 0xf0f0303b3f3c30f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f03938383838, 0x3838383838383838, 0x383b3f3e38383838, 0x383838383e3f3c38, 0x3838383838383838, 0x3838383839f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0323f3f3f3f3f, 0x3f3f3f3f3f3f3f3f, 0x3f3f3f3f3f3f3f3f, 0x3f3f3f3f3f3f3f3f, 0x3f3f3f3f3f3f3f3f, 0x3f3f3f3f3f32f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0323d3f3f3b38, 0x3838383838383839, 0x3f3f3e3838383838, 0x383838373d3f3f3f, 0x3938383838383838, 0x383b3f3f3d32f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0373f3f35, 0xf0f0f0f0f0f0313d, 0x3f3e3f3b31f0f0f0, 0xf0f0f0393f3e3d3f, 0x3d31f0f0f0f0f0f0, 0x353f3f37f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0373f3f35, 0xf0f0f0f0f0f0313d, 0x3f3e3f3b31f0f0f0, 0xf0f0f0393f3e3d3f, 0x3d31f0f0f0f0f0f0, 0x353f3f37f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0363f3c, 0xf0f0f0f0f0303b3f, 0x3c323d3f3b31f0f0, 0xf0f0373f3f38333b, 0x3f3b30f0f0f0f0f0, 0x3c3f36f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0323f3f, 0xf0f0f0f0f0383f3e, 0x32f0313d3f3b31f0, 0xf0343f3f3833f031, 0x3d3f39f0f0f0f0f0, 0x3f3f32f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0313d3f39, 0xf0f0f0f0353f3f34, 0xf0f0f0313d3f3b31, 0x323e3f3933f0f0f0, 0x333f3f36f0f0f0f0, 0x393f3d31f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f0313d3f3d31, 0xf0f0f0333e3f37f0, 0xf0f0f0f0313d3f3c, 0x3d3f3b32f0f0f0f0, 0xf0363f3f33f0f0f0, 0x313d3f3d31f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0313d3f3d31f0, 0xf0f0313e3f3c3838, 0x3838383838383e3f, 0x3f3e353537383838, 0x38383c3f3e31f0f0, 0xf0313d3f3d31f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0383f3d31f0f0, 0xf0f0343f3f3f3f3f, 0x3f3f3f3f3f3f3f3f, 0x3f3f3f3f3f3f3f3f, 0x3f3f3f3f3f34f0f0, 0xf0f0313d3f38f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f03d3f33f0f0f0, 0xf0f0f03938383838, 0x3838383838383b3f, 0x3f3c383838383838, 0x3838383839f0f0f0, 0xf0f0f0333f3df0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f03d3f33f0f0f0, 0xf0f0f03938383838, 0x3838383838383b3f, 0x3f3c383838383838, 0x3838383839f0f0f0, 0xf0f0f0333f3df0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f03f3f31f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0383f, 0x3f38f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0313f3ff0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f03c3f3a383838, 0x3838383838383838, 0x383838383838383f, 0x3f38383838383838, 0x3838383838383838, 0x3838383a3f3cf0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0383f3f3f3f3f, 0x3f3f3f3f3f3f3f3f, 0x3f3f3f3f3f3f3b3f, 0x3f3b3f3f3f3f3f3f, 0x3f3f3f3f3f3f3f3f, 0x3f3f3f3f3f38f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0313838383838, 0x3838383838383838, 0x383838383b3f3b3f, 0x3f3b3f3b38383838, 0x3838383838383838, 0x383838383831f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0383f3b3f, 0x3f3b3f38f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0383f3b3f, 0x3f3b3f38f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0383f3b3f, 0x3f3b3f38f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0383f3d3f, 0x3f3d3f38f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f03f3f3f, 0x3f3f3f38f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0383838, 0x383838f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 0xf0f0f0f0f0f0f0f0, 
+	
+};
+
 Vtx gDigitaMasterBladeDL_gDigitaMasterBladeDL_mesh_layer_Opaque_vtx_cull[8] = {
-	{{ {503, 172, -83}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {503, 172, 25}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {503, 570, 25}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {503, 570, -83}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {3619, 172, -83}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {3619, 172, 25}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {3619, 570, 25}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {3619, 570, -83}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {503, 172, -92}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {503, 172, 30}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {503, 570, 30}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {503, 570, -92}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {3619, 172, -92}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {3619, 172, 30}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {3619, 570, 30}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {3619, 570, -92}, 0, {0, 0}, {0, 0, 0, 0} }},
 };
 
 Vtx gDigitaMasterBladeDL_gDigitaMasterBladeDL_mesh_layer_Opaque_vtx_0[120] = {
@@ -227,12 +263,41 @@ Gfx gDigitaMasterBladeDL_gDigitaMasterBladeDL_mesh_layer_Opaque_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gDigitaMasterBladeDL_metal_silver_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_SHADE | G_CULL_BACK | G_LIGHTING | G_TEXTURE_GEN | G_ZBUFFER | G_FOG | G_TEXTURE_GEN_LINEAR | G_SHADING_SMOOTH),
+Vtx gDigitaMasterBladeDL_gDigitaMasterBladeDL_mesh_layer_Transparent_vtx_cull[8] = {
+	{{ {503, 172, -92}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {503, 172, 30}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {503, 570, 30}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {503, 570, -92}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {3619, 172, -92}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {3619, 172, 30}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {3619, 570, 30}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {3619, 570, -92}, 0, {0, 0}, {0, 0, 0, 0} }},
+};
+
+Vtx gDigitaMasterBladeDL_gDigitaMasterBladeDL_mesh_layer_Transparent_vtx_0[8] = {
+	{{ {834, 557, -89}, 0, {267, 1008}, {255, 1, 129, 255} }},
+	{{ {1054, 557, -89}, 0, {267, -16}, {0, 1, 129, 255} }},
+	{{ {1054, 185, -92}, 0, {1749, -16}, {254, 0, 129, 255} }},
+	{{ {834, 185, -88}, 0, {1749, 1008}, {254, 0, 129, 255} }},
+	{{ {1055, 186, 26}, 0, {1749, -16}, {2, 0, 127, 255} }},
+	{{ {1055, 557, 29}, 0, {267, -16}, {0, 255, 127, 255} }},
+	{{ {834, 557, 29}, 0, {267, 1008}, {1, 255, 127, 255} }},
+	{{ {834, 186, 30}, 0, {1749, 1008}, {2, 0, 127, 255} }},
+};
+
+Gfx gDigitaMasterBladeDL_gDigitaMasterBladeDL_mesh_layer_Transparent_tri_0[] = {
+	gsSPVertex(gDigitaMasterBladeDL_gDigitaMasterBladeDL_mesh_layer_Transparent_vtx_0 + 0, 8, 0),
+	gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
+	gsSP2Triangles(4, 5, 6, 0, 4, 6, 7, 0),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_gDigitaMasterBladeDL_metal_master_layerOpaque[] = {
+	gsSPLoadGeometryMode(G_FOG | G_TEXTURE_GEN | G_TEXTURE_GEN_LINEAR | G_ZBUFFER | G_SHADE | G_CULL_BACK | G_LIGHTING | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TF_BILERP | G_TD_CLAMP | G_TP_PERSP | G_PM_NPRIMITIVE | G_CD_MAGICSQ | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_AD_NOISE | G_TL_TILE | G_CK_NONE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TD_CLAMP | G_AD_NOISE | G_TF_BILERP | G_TT_NONE | G_CK_NONE | G_PM_NPRIMITIVE | G_CYC_2CYCLE | G_TP_PERSP | G_TL_TILE | G_CD_MAGICSQ | G_TC_FILT),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_RM_FOG_SHADE_A | G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL),
 	gsSPTexture(1638, 1638, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
 	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, gDigitaMasterBladeDL_oot_improved_eq_metal_silver_rgba16),
@@ -244,20 +309,59 @@ Gfx mat_gDigitaMasterBladeDL_metal_silver_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gDigitaMasterBladeDL_metal_silver_layerOpaque[] = {
+Gfx mat_revert_gDigitaMasterBladeDL_metal_master_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL),
 	gsSPEndDisplayList(),
 };
 
-Gfx gDigitaMasterBladeDL[] = {
+Gfx mat_gDigitaMasterBladeDL_master_symbol_layerTransparent[] = {
+	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_SHADE | G_LIGHTING | G_SHADING_SMOOTH),
+	gsDPPipeSync(),
+	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, TEXEL0, COMBINED, 0, PRIMITIVE, 0, COMBINED, 0, PRIMITIVE, 0),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TD_CLAMP | G_AD_NOISE | G_TF_BILERP | G_TT_NONE | G_CK_NONE | G_PM_NPRIMITIVE | G_CYC_2CYCLE | G_TP_PERSP | G_TL_TILE | G_CD_MAGICSQ | G_TC_FILT),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_RM_FOG_SHADE_A | G_ZS_PIXEL | G_RM_AA_ZB_XLU_SURF2),
+	gsSPTexture(65535, 65535, 0, 0, 1),
+	gsDPSetPrimColor(0, 0, 255, 255, 255, 128),
+	gsDPSetTextureImage(G_IM_FMT_IA, G_IM_SIZ_8b_LOAD_BLOCK, 1, gDigitaMasterBladeDL_oot_improved_eq_ms_insignia_ia8),
+	gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
+	gsDPLoadBlock(7, 0, 0, 1023, 256),
+	gsDPSetTile(G_IM_FMT_IA, G_IM_SIZ_8b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
+	gsDPSetTileSize(0, 0, 0, 252, 124),
+	gsSPDisplayList(0xC000000),
+	gsSPEndDisplayList(),
+};
+
+Gfx mat_revert_gDigitaMasterBladeDL_master_symbol_layerTransparent[] = {
+	gsDPPipeSync(),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL),
+	gsSPEndDisplayList(),
+};
+
+Gfx gDigitaMasterBladeBodyDL[] = {
 	gsSPClearGeometryMode(G_LIGHTING),
 	gsSPVertex(gDigitaMasterBladeDL_gDigitaMasterBladeDL_mesh_layer_Opaque_vtx_cull + 0, 8, 0),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPCullDisplayList(0, 7),
-	gsSPDisplayList(mat_gDigitaMasterBladeDL_metal_silver_layerOpaque),
+	gsSPDisplayList(mat_gDigitaMasterBladeDL_metal_master_layerOpaque),
 	gsSPDisplayList(gDigitaMasterBladeDL_gDigitaMasterBladeDL_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gDigitaMasterBladeDL_metal_silver_layerOpaque),
+	gsSPDisplayList(mat_revert_gDigitaMasterBladeDL_metal_master_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
+Gfx gDigitaMasterBladeSigilDL[] = {
+	gsSPClearGeometryMode(G_LIGHTING),
+	gsSPVertex(gDigitaMasterBladeDL_gDigitaMasterBladeDL_mesh_layer_Transparent_vtx_cull + 0, 8, 0),
+	gsSPSetGeometryMode(G_LIGHTING),
+	gsSPCullDisplayList(0, 7),
+	gsSPDisplayList(mat_gDigitaMasterBladeDL_master_symbol_layerTransparent),
+	gsSPDisplayList(gDigitaMasterBladeDL_gDigitaMasterBladeDL_mesh_layer_Transparent_tri_0),
+	gsSPDisplayList(mat_revert_gDigitaMasterBladeDL_master_symbol_layerTransparent),
+	gsSPEndDisplayList(),
+};
+
+Gfx gDigitaMasterBladeDL[] = {
+	gsSPDisplayList(gDigitaMasterBladeBodyDL),
+	gsSPDisplayList(gDigitaMasterBladeSigilDL),
+	gsSPEndDisplayList()
+};

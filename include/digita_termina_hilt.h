@@ -21,6 +21,6 @@ extern Gfx mat_gDigitaHumanKokiriHiltDL_kokiri_pommel_layerOpaque[];
 extern Gfx mat_revert_gDigitaHumanKokiriHiltDL_kokiri_pommel_layerOpaque[];
 extern Gfx mat_gDigitaHumanKokiriHiltDL_kokiri_grip_layerOpaque[];
 extern Gfx mat_revert_gDigitaHumanKokiriHiltDL_kokiri_grip_layerOpaque[];
-extern Gfx gDigitaHumanKokiriHiltDL[];
+extern Gfx gDigitaTerminaHiltDL[];
 
 #endif

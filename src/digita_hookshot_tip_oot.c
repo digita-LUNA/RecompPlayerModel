@@ -114,7 +114,7 @@ Gfx mat_revert_gDigitaOOTHookshotTipDL_metal_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx gDigitaOOTHookshotTipDL[] = {
+Gfx gDampeHookshotTipDL[] = {
 	gsSPClearGeometryMode(G_LIGHTING),
 	gsSPVertex(gDigitaOOTHookshotTipDL_gDigitaOOTHookshotTipDL_mesh_layer_Opaque_vtx_cull + 0, 8, 0),
 	gsSPSetGeometryMode(G_LIGHTING),

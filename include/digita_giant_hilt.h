@@ -1,0 +1,38 @@
+#ifndef DIGITA_GIANT_HILT_H
+#define DIGITA_GIANT_HILT_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDigitaGiantHiltDL_oot_improved_eq_biggoron_bolt_i8[];
+extern u64 gDigitaGiantHiltDL_oot_improved_eq_biggoron_handle_rgba16[];
+extern u64 gDigitaGiantHiltDL_oot_improved_eq_metal_gold_rgba16[];
+extern u64 gDigitaGiantHiltDL_oot_improved_eq_bg_sigil_ia8[];
+extern Vtx gDigitaGiantHiltDL_gDigitaGiantHiltDL_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDigitaGiantHiltDL_gDigitaGiantHiltDL_mesh_layer_Opaque_vtx_0[18];
+extern Gfx gDigitaGiantHiltDL_gDigitaGiantHiltDL_mesh_layer_Opaque_tri_0[];
+extern Vtx gDigitaGiantHiltDL_gDigitaGiantHiltDL_mesh_layer_Opaque_vtx_1[8];
+extern Gfx gDigitaGiantHiltDL_gDigitaGiantHiltDL_mesh_layer_Opaque_tri_1[];
+extern Vtx gDigitaGiantHiltDL_gDigitaGiantHiltDL_mesh_layer_Opaque_vtx_2[12];
+extern Gfx gDigitaGiantHiltDL_gDigitaGiantHiltDL_mesh_layer_Opaque_tri_2[];
+extern Vtx gDigitaGiantHiltDL_gDigitaGiantHiltDL_mesh_layer_Opaque_vtx_3[16];
+extern Gfx gDigitaGiantHiltDL_gDigitaGiantHiltDL_mesh_layer_Opaque_tri_3[];
+extern Vtx gDigitaGiantHiltDL_gDigitaGiantHiltDL_mesh_layer_Opaque_vtx_4[118];
+extern Gfx gDigitaGiantHiltDL_gDigitaGiantHiltDL_mesh_layer_Opaque_tri_4[];
+extern Vtx gDigitaGiantHiltDL_gDigitaGiantHiltDL_mesh_layer_Opaque_vtx_5[16];
+extern Gfx gDigitaGiantHiltDL_gDigitaGiantHiltDL_mesh_layer_Opaque_tri_5[];
+extern Gfx mat_gDigitaGiantHiltDL_longsword_handguard_layerOpaque[];
+extern Gfx mat_revert_gDigitaGiantHiltDL_longsword_handguard_layerOpaque[];
+extern Gfx mat_gDigitaGiantHiltDL_longsword_grip_layerOpaque[];
+extern Gfx mat_revert_gDigitaGiantHiltDL_longsword_grip_layerOpaque[];
+extern Gfx mat_gDigitaGiantHiltDL_longsword_grey_layerOpaque[];
+extern Gfx mat_revert_gDigitaGiantHiltDL_longsword_grey_layerOpaque[];
+extern Gfx mat_gDigitaGiantHiltDL_longsword_blue_layerOpaque[];
+extern Gfx mat_revert_gDigitaGiantHiltDL_longsword_blue_layerOpaque[];
+extern Gfx mat_gDigitaGiantHiltDL_metal_gold_003_layerOpaque[];
+extern Gfx mat_revert_gDigitaGiantHiltDL_metal_gold_003_layerOpaque[];
+extern Gfx mat_gDigitaGiantHiltDL_goron_symbol_layerOpaque[];
+extern Gfx mat_revert_gDigitaGiantHiltDL_goron_symbol_layerOpaque[];
+extern Gfx gDigitaGiantHiltDL[];
+
+#endif

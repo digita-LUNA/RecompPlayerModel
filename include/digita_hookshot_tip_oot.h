@@ -11,6 +11,6 @@ extern Vtx gDigitaOOTHookshotTipDL_gDigitaOOTHookshotTipDL_mesh_layer_Opaque_vtx
 extern Gfx gDigitaOOTHookshotTipDL_gDigitaOOTHookshotTipDL_mesh_layer_Opaque_tri_0[];
 extern Gfx mat_gDigitaOOTHookshotTipDL_metal_layerOpaque[];
 extern Gfx mat_revert_gDigitaOOTHookshotTipDL_metal_layerOpaque[];
-extern Gfx gDigitaOOTHookshotTipDL[];
+extern Gfx gDampeHookshotTipDL[];
 
 #endif

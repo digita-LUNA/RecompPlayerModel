@@ -177,7 +177,7 @@ Gfx mat_revert_gDigitaHumanRazorBladeDL_metal_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx gDigitaHumanRazorBladeDL[] = {
+Gfx gDigitaRazorBladeDL[] = {
 	gsSPClearGeometryMode(G_LIGHTING),
 	gsSPVertex(gDigitaHumanRazorBladeDL_gDigitaHumanRazorBladeDL_mesh_layer_Opaque_vtx_cull + 0, 8, 0),
 	gsSPSetGeometryMode(G_LIGHTING),

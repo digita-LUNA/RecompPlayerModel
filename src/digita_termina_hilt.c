@@ -1,4 +1,4 @@
-#include "digita_kokirihilt.h"
+#include "digita_termina_hilt.h"
 
 u64 gDigitaHumanKokiriHiltDL_kokiri_termina_crossguard_ci4[] = {
 	0x0000000011111111, 0x2222222233344533, 0x3336673333322833, 0x5555555555555555, 
@@ -200,7 +200,7 @@ Gfx mat_revert_gDigitaHumanKokiriHiltDL_kokiri_grip_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx gDigitaHumanKokiriHiltDL[] = {
+Gfx gDigitaTerminaHiltDL[] = {
 	gsSPClearGeometryMode(G_LIGHTING),
 	gsSPVertex(gDigitaHumanKokiriHiltDL_gDigitaHumanKokiriHiltDL_mesh_layer_Opaque_vtx_cull + 0, 8, 0),
 	gsSPSetGeometryMode(G_LIGHTING),

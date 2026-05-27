@@ -1,4 +1,4 @@
-#include "digita_kokirisheath.h"
+#include "digita_kokiri_sheath.h"
 
 u64 gDigitaHumanKokiriSheathDL_sheath_kokiri_rgba16[] = {
 	0x20c3314341c55245, 0x62856ac76ac76ac7, 0x6ac76ac762855245, 0x49c53143290320c3, 0x52458347a409ac89, 0xbccbc50bc50bcd0b, 0xcd0bcd0bcd0bcd0b, 0xcd0bcd0bcd0bcd0b, 
@@ -178,7 +178,7 @@ Gfx mat_revert_gDigitaHumanKokiriSheathDL_kokiri_pommel_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx gDigitaHumanKokiriSheathDL[] = {
+Gfx gDigitaKokiriSheathDL[] = {
 	gsSPClearGeometryMode(G_LIGHTING),
 	gsSPVertex(gDigitaHumanKokiriSheathDL_gDigitaHumanKokiriSheathDL_mesh_layer_Opaque_vtx_cull + 0, 8, 0),
 	gsSPSetGeometryMode(G_LIGHTING),

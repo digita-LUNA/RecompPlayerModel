@@ -22,6 +22,6 @@ extern Gfx mat_gDigitaHumanRazorHiltDL_razor_hilt_layerOpaque[];
 extern Gfx mat_revert_gDigitaHumanRazorHiltDL_razor_hilt_layerOpaque[];
 extern Gfx mat_gDigitaHumanRazorHiltDL_razor_pommel_layerOpaque[];
 extern Gfx mat_revert_gDigitaHumanRazorHiltDL_razor_pommel_layerOpaque[];
-extern Gfx gDigitaHumanRazorHiltDL[];
+extern Gfx gDigitaRazorHiltDL[];
 
 #endif

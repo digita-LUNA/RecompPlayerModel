@@ -38,6 +38,6 @@ extern Gfx mat_gDigitaHumanMirrorShieldDL_belt_layerOpaque[];
 extern Gfx mat_revert_gDigitaHumanMirrorShieldDL_belt_layerOpaque[];
 extern Gfx gDigitaHumanMirrorShieldTransparentDL[];
 extern Gfx gDigitaHumanMirrorShieldOpaqueDL[];
-extern Gfx gDigitaHumanMirrorShieldDL[];
+extern Gfx gDigitaMMMirrorShieldDL[];
 
 #endif

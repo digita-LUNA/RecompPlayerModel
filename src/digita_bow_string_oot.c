@@ -48,7 +48,7 @@ Gfx mat_revert_gDigitaOOTBowStringDL_string_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx gDigitaOOTBowStringDL[] = {
+Gfx gFairyBowStringDL[] = {
 	gsSPClearGeometryMode(G_LIGHTING),
 	gsSPVertex(gDigitaOOTBowStringDL_gDigitaOOTBowStringDL_mesh_layer_Opaque_vtx_cull + 0, 8, 0),
 	gsSPSetGeometryMode(G_LIGHTING),

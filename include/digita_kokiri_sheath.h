@@ -15,6 +15,6 @@ extern Gfx mat_gDigitaHumanKokiriSheathDL_kokiri_sheath_layerOpaque[];
 extern Gfx mat_revert_gDigitaHumanKokiriSheathDL_kokiri_sheath_layerOpaque[];
 extern Gfx mat_gDigitaHumanKokiriSheathDL_kokiri_pommel_layerOpaque[];
 extern Gfx mat_revert_gDigitaHumanKokiriSheathDL_kokiri_pommel_layerOpaque[];
-extern Gfx gDigitaHumanKokiriSheathDL[];
+extern Gfx gDigitaKokiriSheathDL[];
 
 #endif

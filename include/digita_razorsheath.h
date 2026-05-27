@@ -17,6 +17,6 @@ extern Gfx mat_gDigitaHumanRazorSheathDL_razor_pommel_layerOpaque[];
 extern Gfx mat_revert_gDigitaHumanRazorSheathDL_razor_pommel_layerOpaque[];
 extern Gfx mat_gDigitaHumanRazorSheathDL_razor_hilt_layerOpaque[];
 extern Gfx mat_revert_gDigitaHumanRazorSheathDL_razor_hilt_layerOpaque[];
-extern Gfx gDigitaHumanRazorSheathDL[];
+extern Gfx gDigitaRazorSheathDL[];
 
 #endif

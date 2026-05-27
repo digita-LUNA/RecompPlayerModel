@@ -5,11 +5,17 @@
 #include "global.h"
 
 extern u64 gDigitaMasterBladeDL_oot_improved_eq_metal_silver_rgba16[];
+extern u64 gDigitaMasterBladeDL_oot_improved_eq_ms_insignia_ia8[];
 extern Vtx gDigitaMasterBladeDL_gDigitaMasterBladeDL_mesh_layer_Opaque_vtx_cull[8];
 extern Vtx gDigitaMasterBladeDL_gDigitaMasterBladeDL_mesh_layer_Opaque_vtx_0[120];
 extern Gfx gDigitaMasterBladeDL_gDigitaMasterBladeDL_mesh_layer_Opaque_tri_0[];
-extern Gfx mat_gDigitaMasterBladeDL_metal_silver_layerOpaque[];
-extern Gfx mat_revert_gDigitaMasterBladeDL_metal_silver_layerOpaque[];
+extern Vtx gDigitaMasterBladeDL_gDigitaMasterBladeDL_mesh_layer_Transparent_vtx_cull[8];
+extern Vtx gDigitaMasterBladeDL_gDigitaMasterBladeDL_mesh_layer_Transparent_vtx_0[8];
+extern Gfx gDigitaMasterBladeDL_gDigitaMasterBladeDL_mesh_layer_Transparent_tri_0[];
+extern Gfx mat_gDigitaMasterBladeDL_metal_master_layerOpaque[];
+extern Gfx mat_revert_gDigitaMasterBladeDL_metal_master_layerOpaque[];
+extern Gfx mat_gDigitaMasterBladeDL_master_symbol_layerTransparent[];
+extern Gfx mat_revert_gDigitaMasterBladeDL_master_symbol_layerTransparent[];
 extern Gfx gDigitaMasterBladeDL[];
 
 #endif

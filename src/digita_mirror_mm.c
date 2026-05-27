@@ -1,4 +1,4 @@
-#include "digita_mirrorshield.h"
+#include "digita_mirror_mm.h"
 
 u64 gDigitaHumanMirrorShieldDL_mirror_face_ia8[] = {
 	0x2222111111111111, 0x1111111111111111, 0x1111111111111111, 0x1111111111111111, 0x2222111111111111, 0x1111111111111111, 0x1111111111111111, 0x1111111111111111, 
@@ -643,7 +643,7 @@ Gfx gDigitaHumanMirrorShieldOpaqueDL[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx gDigitaHumanMirrorShieldDL[] = {
+Gfx gDigitaMMMirrorShieldDL[] = {
 	gsSPDisplayList(gDigitaHumanMirrorShieldOpaqueDL),
 	gsSPDisplayList(gDigitaHumanMirrorShieldTransparentDL),
 	gsSPEndDisplayList()

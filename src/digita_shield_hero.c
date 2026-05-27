@@ -1,4 +1,4 @@
-#include "digita_hero.h"
+#include "digita_shield_hero.h"
 
 u64 gDigitaHerosShieldDL_hero_bottom_ci8[] = {
 	0x0000000000000000, 0x0000000000000102, 0x0304050607080809, 0x0a0b0c0d0e0f0b10, 0x1112131415141617, 0x18191a1a1a1b181c, 0x181b1d1e1d1f2021, 0x2223242525262727, 

@@ -23,33 +23,47 @@
 #include "digita_hookshot_tip_oot.h"
 #include "digita_bow_oot.h"
 #include "digita_bow_string_oot.h"
+
+#include "digita_kokiri_blade.h"
+#include "digita_kokiri_hilt.h"
+#include "digita_kokiri_sheath.h"
+
 #include "digita_master_blade.h"
 #include "digita_master_hilt.h"
 #include "digita_master_sheath.h"
 
 #include "digita_goron_blade.h"
 #include "digita_goron_hilt.h"
+#include "digita_giant_hilt.h"
 #include "digita_goron_sheath.h"
 
+#include "digita_shield_deku.h"
 #include "digita_hylian_shield.h"
 #include "digita_mirror_oot.h"
 
+#include "digita_fairy_ocarina.h"
+
 //MM Gear Meshes
-#include "digita_hero.h"
-#include "digita_mirrorshield.h"
-#include "digita_kokiriblade.h"
-#include "digita_kokirihilt.h"
-#include "digita_kokirisheath.h"
-#include "digita_razorblade.h"
-#include "digita_razorhilt.h"
-#include "digita_razorsheath.h"
-#include "digita_gilded_sheath.h"
-#include "digita_gilded_hilt.h"
-#include "digita_gilded_blade.h"
 #include "digita_bow_mm.h"
 #include "digita_hookshot_mm.h"
 #include "digita_hookshot_tip_mm.h"
+
+#include "digita_termina_blade.h"
+#include "digita_termina_hilt.h"
+
+#include "digita_razorblade.h"
+#include "digita_razorhilt.h"
+#include "digita_razorsheath.h"
+
+#include "digita_gilded_sheath.h"
+#include "digita_gilded_hilt.h"
+#include "digita_gilded_blade.h"
+#include "digita_classic_blade.h"
+
 #include "digita_fdsword.h"
+
+#include "digita_shield_hero.h"
+#include "digita_mirror_mm.h"
 
 //Custom Gear Meshes
 #include "digita_knight_blade.h"
@@ -71,3 +85,7 @@
 #include "digita_fps_right_oni.h"
 #include "digita_fps_larm_oni.h"
 #include "digita_fps_rarm_oni.h"
+
+//Saria
+#include "digita_saria_child.h"
+#include "digita_saria_adult.h"

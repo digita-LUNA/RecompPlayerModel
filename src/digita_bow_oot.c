@@ -391,7 +391,7 @@ Gfx mat_revert_gDigitaOOTBowDL_bow_grip_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx gDigitaOOTBowDL[] = {
+Gfx gFairyBowDL[] = {
 	gsSPClearGeometryMode(G_LIGHTING),
 	gsSPVertex(gDigitaOOTBowDL_gDigitaOOTBowDL_mesh_layer_Opaque_vtx_cull + 0, 8, 0),
 	gsSPSetGeometryMode(G_LIGHTING),

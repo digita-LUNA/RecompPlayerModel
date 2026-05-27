@@ -1,4 +1,4 @@
-#include "digita_kokiriblade.h"
+#include "digita_termina_blade.h"
 
 u64 gDigitaHumanKokiriBladeDL_metal_i8[] = {
 	0xe6e6e6e6e6e6e6e6, 0xe6e6e2d2c0b4a69c, 0x93847f838b989a9a, 0x9a9a9a9a9a9a9a9a, 0xe6e6e6e6e6e6e6e6, 0xe2d0b6a595877d75, 0x6f67646262677a94, 0x9a9a9a9a9a9a9a9a, 
@@ -95,7 +95,7 @@ Gfx mat_revert_gDigitaHumanKokiriBladeDL_metal_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx gDigitaHumanKokiriBladeDL[] = {
+Gfx gDigitaTerminaBladeDL[] = {
 	gsSPClearGeometryMode(G_LIGHTING),
 	gsSPVertex(gDigitaHumanKokiriBladeDL_gDigitaHumanKokiriBladeDL_mesh_layer_Opaque_vtx_cull + 0, 8, 0),
 	gsSPSetGeometryMode(G_LIGHTING),

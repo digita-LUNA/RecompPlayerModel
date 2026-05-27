@@ -10,6 +10,6 @@ extern Vtx gDigitaHumanRazorBladeDL_gDigitaHumanRazorBladeDL_mesh_layer_Opaque_v
 extern Gfx gDigitaHumanRazorBladeDL_gDigitaHumanRazorBladeDL_mesh_layer_Opaque_tri_0[];
 extern Gfx mat_gDigitaHumanRazorBladeDL_metal_layerOpaque[];
 extern Gfx mat_revert_gDigitaHumanRazorBladeDL_metal_layerOpaque[];
-extern Gfx gDigitaHumanRazorBladeDL[];
+extern Gfx gDigitaRazorBladeDL[];
 
 #endif

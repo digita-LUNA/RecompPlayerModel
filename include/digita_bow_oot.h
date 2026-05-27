@@ -27,6 +27,6 @@ extern Gfx mat_gDigitaOOTBowDL_bow_red_layerOpaque[];
 extern Gfx mat_revert_gDigitaOOTBowDL_bow_red_layerOpaque[];
 extern Gfx mat_gDigitaOOTBowDL_bow_grip_layerOpaque[];
 extern Gfx mat_revert_gDigitaOOTBowDL_bow_grip_layerOpaque[];
-extern Gfx gDigitaOOTBowDL[];
+extern Gfx gFairyBowDL[];
 
 #endif

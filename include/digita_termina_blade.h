@@ -10,6 +10,6 @@ extern Vtx gDigitaHumanKokiriBladeDL_gDigitaHumanKokiriBladeDL_mesh_layer_Opaque
 extern Gfx gDigitaHumanKokiriBladeDL_gDigitaHumanKokiriBladeDL_mesh_layer_Opaque_tri_0[];
 extern Gfx mat_gDigitaHumanKokiriBladeDL_metal_layerOpaque[];
 extern Gfx mat_revert_gDigitaHumanKokiriBladeDL_metal_layerOpaque[];
-extern Gfx gDigitaHumanKokiriBladeDL[];
+extern Gfx gDigitaTerminaBladeDL[];
 
 #endif
