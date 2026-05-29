@@ -43,6 +43,7 @@ static Mtx gChildMasterSwordHiltMtx;
 static Mtx sAdultHookshotHookMtx;
 static Mtx sChildHookshotHookMtx;
 
+PlayerModelManagerHandle group_oot;
 
 void registerKokiriSword(){
     PlayerModelManagerHandle h = PLAYERMODELMANAGER_REGISTER_MODEL("digita_kokiriswordOOT", PMM_MODEL_TYPE_SWORD1);
@@ -59,6 +60,8 @@ void registerKokiriSword(){
     PlayerModelManager_setDisplayListForModelType(h, PMM_MODEL_TYPE_ADULT, PMM_DL_SWORD_KOKIRI_HILT, gAdultKokiriHiltDL);
     PlayerModelManager_setDisplayListForModelType(h, PMM_MODEL_TYPE_ADULT, PMM_DL_SWORD_KOKIRI_SHEATH, gAdultKokiriSheathDL);
     PlayerModelManager_setMatrixForModelType(h, PMM_MODEL_TYPE_ADULT, PMM_MTX_SWORD_GILDED_BACK, &gAdultKokiriSwordHiltMtx);
+    
+    PlayerModelManager_addHandleToPack(group_oot, h);
 
 }
 void registerMasterSword(){
@@ -76,6 +79,8 @@ void registerMasterSword(){
     PlayerModelManager_setDisplayListForModelType(h, PMM_MODEL_TYPE_ADULT, PMM_DL_SWORD_GILDED_HILT, gDigitaMasterHiltDL);
     PlayerModelManager_setDisplayListForModelType(h, PMM_MODEL_TYPE_ADULT, PMM_DL_SWORD_GILDED_SHEATH, gDigitaMasterSheathDL);
     PlayerModelManager_setMatrixForModelType(h, PMM_MODEL_TYPE_ADULT, PMM_MTX_SWORD_GILDED_BACK, &gMasterSwordHiltMtx);
+    
+    PlayerModelManager_addHandleToPack(group_oot, h);
 }
 void registerGiantsKnife(){
     PlayerModelManagerHandle h = PLAYERMODELMANAGER_REGISTER_MODEL("digita_giantsknife", PMM_MODEL_TYPE_SWORD4);
@@ -138,6 +143,8 @@ void registerBGS(){
     PlayerModelManager_setDisplayListForModelType(h2, PMM_MODEL_TYPE_ADULT, PMM_DL_SWORD5_BLADE, gDigitaGoronBladeDL);
     PlayerModelManager_setDisplayListForModelType(h2, PMM_MODEL_TYPE_ADULT, PMM_DL_SWORD5_HILT, gDigitaGoronHiltDL);
     PlayerModelManager_setDisplayListForModelType(h2, PMM_MODEL_TYPE_ADULT, PMM_DL_SWORD5_SHEATH, gDigitaGoronSheathDL);
+
+    PlayerModelManager_addHandleToPack(group_oot, h2);
 }
 void registerHylianShield(){
     PlayerModelManagerHandle h = PLAYERMODELMANAGER_REGISTER_MODEL("digita_dekuhylian", PMM_MODEL_TYPE_SHIELD2);
@@ -148,6 +155,8 @@ void registerHylianShield(){
     PlayerModelManager_setDisplayListForModelType(h, PMM_MODEL_TYPE_CHILD, PMM_DL_SHIELD_HERO, gDigitaDekuShieldDL);
 
     PlayerModelManager_setDisplayListForModelType(h, PMM_MODEL_TYPE_ADULT, PMM_DL_SHIELD_HERO, gDigitaHylianShieldDL);
+    
+    PlayerModelManager_addHandleToPack(group_oot, h);
 }
 void registerMirrorShield(){
     PlayerModelManagerHandle h = PLAYERMODELMANAGER_REGISTER_MODEL("digita_mirrorshield_oot", PMM_MODEL_TYPE_SHIELD3);
@@ -158,6 +167,8 @@ void registerMirrorShield(){
     PlayerModelManager_setDisplayListForModelType(h, PMM_MODEL_TYPE_CHILD, PMM_DL_SHIELD_MIRROR, gChildMirrorShieldDL);
 
     PlayerModelManager_setDisplayListForModelType(h, PMM_MODEL_TYPE_ADULT, PMM_DL_SHIELD_MIRROR, gDigitaOoTMirrorShieldDL);
+    
+    PlayerModelManager_addHandleToPack(group_oot, h);
 }
 void registerFairyBow(){
     PlayerModelManagerHandle h = PLAYERMODELMANAGER_REGISTER_MODEL("digita_fairybow", PMM_MODEL_TYPE_BOW);
@@ -170,6 +181,8 @@ void registerFairyBow(){
 
     PlayerModelManager_setDisplayListForModelType(h, PMM_MODEL_TYPE_ADULT, PMM_DL_BOW, gFairyBowDL);
     PlayerModelManager_setDisplayListForModelType(h, PMM_MODEL_TYPE_ADULT, PMM_DL_BOW_STRING, gFairyBowStringDL);
+    
+    PlayerModelManager_addHandleToPack(group_oot, h);
 }
 void registerDampeHookshot(){
     PlayerModelManagerHandle h = PLAYERMODELMANAGER_REGISTER_MODEL("digita_dampehookshot", PMM_MODEL_TYPE_HOOKSHOT);
@@ -184,6 +197,8 @@ void registerDampeHookshot(){
     PlayerModelManager_setDisplayListForModelType(h, PMM_MODEL_TYPE_ADULT, PMM_DL_HOOKSHOT, gDampeHookshotDL);
     PlayerModelManager_setDisplayListForModelType(h, PMM_MODEL_TYPE_ADULT, PMM_DL_HOOKSHOT_HOOK, gDampeHookshotTipDL);
     PlayerModelManager_setMatrixForModelType(h, PMM_MODEL_TYPE_ADULT, PMM_MTX_HOOKSHOT_CHAIN_AND_HOOK, &sAdultHookshotHookMtx);
+    
+    PlayerModelManager_addHandleToPack(group_oot, h);
 }
 //this goes at the bottom so i don't have to do implicits.
 void registerDigitaOoTEquipment(){
@@ -197,6 +212,12 @@ void registerDigitaOoTEquipment(){
     guPosition(&gChildMasterSwordHiltMtx, 0.f, 0.f, 0.f, 1.f, -700.f, -260.f, 30.f);
     guPosition(&sAdultHookshotHookMtx, 0.f, 0.f, 0.f, 1.f, 50.f, 840.f, 0.f);
     guPosition(&sChildHookshotHookMtx, 0.f, 0.f, 0.f, 1.f, 50.f * 0.7, 450.f, 0.f * 0.7);
+
+    group_oot = PLAYERMODELMANAGER_REGISTER_MODEL("digita_oot_gear", PMM_MODEL_TYPE_MODEL_PACK);
+
+    PlayerModelManager_setAuthor(group_oot, "digita-LUNA");
+    PlayerModelManager_setDisplayName(group_oot, "Hylian Gear");
+
     registerKokiriSword();
     registerMasterSword();
     registerGiantsKnife();

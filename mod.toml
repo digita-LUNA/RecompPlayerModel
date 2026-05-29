@@ -5,21 +5,21 @@
 
 # Unique ID of this mod. Pick something long enough that it'll never be the same as any other mod.
 # The name displayed in the mod management menu is separate from this so this doesn't need to be human readable.
-id = "digita_luna_playermodel"
+id = "digita_mm_modelpack"
 
 # Version of this mod.
-version = "1.0.3"
+version = "2.0.0"
 
 # The name that will show up for this mod in the mod menu. This should be human readable.
-display_name = "digita-LUNA's custom Link model"
+display_name = "digita-LUNA's Model Pack"
 
 # The description that will show up when this mod is displayed in the mod menu. This should be human readable.
 description =  """
-Adds digita-LUNA's PlayerModels into Majora's Mask recompiled"""
+Adds digita-LUNA's custom models into Majora's Mask Recompiled"""
 
 # A short description that will show up in this mod's entry in the mod list. This should be human readable and kept short
 # to prevent it from being cut off due to the limited space.
-short_description = "Alternate Link Model."
+short_description = "Custom Model Pack."
 
 # Authors of this mod.
 authors = [ "digita-LUNA" ]
@@ -32,9 +32,6 @@ minimum_recomp_version = "1.2.1"
 
 # Dependency mods. Each entry is the mod's ID and then an optional minimum version of the dependency mod.
 dependencies = [
-# Example dependency:
-#    "modname:1.0.0"
-    "yazmt_mm_global_objects",
     "yazmt_mm_playermodelmanager",
 ]
 
@@ -51,7 +48,7 @@ native_libraries = [
 elf_path = "build/mod.elf"
 
 # Output mod filename.
-mod_filename = "digita_luna_playermodel"
+mod_filename = "digita_mm_modelpack"
 
 # Reference symbol files.
 func_reference_syms_file = "Zelda64RecompSyms/mm.us.rev1.syms.toml"

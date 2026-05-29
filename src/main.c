@@ -22,6 +22,7 @@ DECLARE_MATRIX_WRAPPED_DL(gAdultMMHookshotTipDL, sAdultResizeMtx, gDigitaMMHooks
 void registerDigitaLinkChild();
 void registerDigitaLinkAdult();
 void registerDigitaLinkOni();
+void registerDigitaLinkOniMask();
 void registerDigitaLinkAdultOni();
 void registerDigitaSariaChild();
 void registerDigitaSariaAdult();
@@ -51,6 +52,7 @@ PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerDigitaMeshes() {
     registerDigitaLinkAdultOni();
     //FD Models
     registerDigitaLinkOni();
+    registerDigitaLinkOniMask();
     //Equipment
     registerDigitaOoTEquipment();
     registerDigitaMMEquipment();
@@ -139,7 +141,6 @@ void registerDigitaLinkAdultOni() {
 
     PlayerModelManager_setSkeleton(h, &gDigitaOniSkel);
 
-    PlayerModelManager_setDisplayList(h, PMM_DL_SWORD5_BLADE, gDigitaOniSwordDL ); //goes over GF sword
     PlayerModelManager_setDisplayList(h, PMM_DL_LFIST, gDigitaOniLeftHandDL);
     PlayerModelManager_setDisplayList(h, PMM_DL_RFIST, gDigitaOniRightHandDL);
     PlayerModelManager_setDisplayList(h, PMM_DL_LHAND_BOTTLE, gDigitaOniBottleHandDL);
@@ -160,13 +161,19 @@ void registerDigitaLinkOni() {
 
     PlayerModelManager_setSkeleton(h, &gDigitaOniSkel);
 
-    //Mask Meshes
-    PlayerModelManager_setDisplayList(h, PMM_DL_MASK_FIERCE_DEITY, gDigitaOniMaskDL);
-    PlayerModelManager_setDisplayList(h, PMM_DL_MASK_FIERCE_DEITY_SCREAM, gDigitaOniMaskScreamDL);
-
     PlayerModelManager_setDisplayList(h, PMM_DL_LFIST, gDigitaOniLeftHandDL);
     PlayerModelManager_setDisplayList(h, PMM_DL_RFIST, gDigitaOniRightHandDL);
     PlayerModelManager_setDisplayList(h, PMM_DL_LHAND_BOTTLE, gDigitaOniBottleHandDL);
+}
 
-    PlayerModelManager_setDisplayList(h, PMM_DL_SWORD4_BLADE, gDigitaOniSwordDL);
+void registerDigitaLinkOniMask() {
+    // PlayerModelManager stuff
+    PlayerModelManagerHandle h = PLAYERMODELMANAGER_REGISTER_MODEL("digita_onimask", PMM_MODEL_TYPE_MASK_FIERCE_DEITY);
+
+    PlayerModelManager_setAuthor(h, "digita-LUNA");
+    PlayerModelManager_setDisplayName(h, "Oni's Mask");
+
+    //Mask Meshes
+    PlayerModelManager_setDisplayList(h, PMM_DL_MASK_FIERCE_DEITY, gDigitaOniMaskDL);
+    PlayerModelManager_setDisplayList(h, PMM_DL_MASK_FIERCE_DEITY_SCREAM, gDigitaOniMaskScreamDL);
 }
